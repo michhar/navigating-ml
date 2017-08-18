@@ -34,11 +34,17 @@ I'll get back with more on this, but in general I like what Jake VanderPlas, a p
 
 ## Deep Learning Videos I Love
 
+## Just Starting Out
+
 Melanie Warrick's [Neural Networks for Newbies](https://www.youtube.com/watch?v=g-BJSl4zV_g)
 
 Brandon Rohrer's YouTube [channel](https://www.youtube.com/user/BrandonRohrer/videos) with tons of deep learning shorts.
 
 A great non-mathy series on YouTube called [Deep Learning SIMPLIFIED](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ)
+
+### Intermediate
+
+A great Computer Vision course out of Stanford in 2017: [videos here](https://m.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 
 ### Thanks for Reading and Give me a Shout on Twitter if You'd Like to Chat ML or Have Some Favorite Resources Yourself
 
