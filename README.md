@@ -5,11 +5,11 @@ My notes on navigating Machine Learning and Deep Learning.  Note, there are many
 ## Getting Started Blog Articles I Love
 
 Clearly stated and illustrated traditional machine learning, deep learning, and statistics crash course from ML @ Berkeley:
-https://ml.berkeley.edu/blog/tutorials/
+[course found here](https://ml.berkeley.edu/blog/tutorials/)
 
-The most basic deep learning network.  A network of one neuron by the author of [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/ref=sr_1_1?ie=UTF8&qid=1503038626&sr=8-1&keywords=python+machine+learning) (Sebastian Raschka):  https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html
+The most basic deep learning network.  A network of one neuron by the author of [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/ref=sr_1_1?ie=UTF8&qid=1503038626&sr=8-1&keywords=python+machine+learning) (Sebastian Raschka):  [blog post here](https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html)
 
-The 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:  https://brohrer.github.io/five_questions_data_science_answers.html
+The 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:  [blog post here](https://brohrer.github.io/five_questions_data_science_answers.html)
 
 ## Getting Started in Python and Python for Data Science
 
@@ -30,7 +30,7 @@ For a more in-depth Python course, this is a good one on edX out of UC San Diego
 
 ### Advanced
 
-I'll get back with more on this, but in general I like what Jake VanderPlas, a professor at the University of Washington, produces such as this one on Jupyter notebooks with Python, GitHub work, and how to make a Python package among other things with videos: https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
+I'll get back with more on this, but in general I like what Jake VanderPlas, a professor at the University of Washington, produces such as this one on Jupyter notebooks with Python, GitHub work, and how to make a Python package among other things with videos: [blog post here](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/)
 
 ## Deep Learning Videos I Love
 
@@ -50,7 +50,7 @@ A great Computer Vision course out of Stanford in 2017: [videos here](https://m.
 
 ### Kaggle Competitions
 
-A lot of folks have recommended [Kaggle Competitions](https://www.kaggle.com/competitions) to me as they are a great place to stretch your ML muscles and start coding on an fun and exciting challenge.  There are several "start here" problems to begin solving such as [prediction survival on the Titanic](https://www.kaggle.com/c/titanic).
+A lot of folks have recommended [Kaggle Competitions](https://www.kaggle.com/competitions) to me as they are a great place to stretch your ML muscles and start coding on an fun and exciting challenge.  There are several "start here" problems to begin solving such as [predicting survival on the Titanic](https://www.kaggle.com/c/titanic).
 
 If you're more advanced there's a nice Computer Vision masking challenge [here](https://www.kaggle.com/c/carvana-image-masking-challenge) which closes in September 2017, but the code and data will still be up to check out.
 
@@ -58,7 +58,7 @@ If you're more advanced there's a nice Computer Vision masking challenge [here](
 
 Twitter:  @rheartpython
 
-LinkedIn:  https://www.linkedin.com/in/micheleenharris
+LinkedIn:  [https://www.linkedin.com/in/micheleenharris](https://www.linkedin.com/in/micheleenharris)
 
 Issues or PRs welcome.
 
