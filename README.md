@@ -46,6 +46,8 @@ A great non-mathy series on YouTube called [Deep Learning SIMPLIFIED](https://ww
 
 A great Computer Vision course out of Stanford in 2017: [videos here](https://m.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 
+A good tutorial by Sayan Pathak at Microsoft on the CNTK deep learning Python library [here](https://www.youtube.com/watch?v=pl-kbFJ1KzU).
+
 ## Practice Makes Better
 
 ### Kaggle Competitions
