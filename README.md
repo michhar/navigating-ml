@@ -6,18 +6,23 @@ My notes on navigating Machine Learning and Deep Learning.  Note, there are many
 
 **Some Python required**
 
-[This](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103A_MNIST_DataLoader.ipynb) Jupyter notebook from the CNTK Tutorials along with [this](https://www.youtube.com/watch?v=V3bT7lvm_EQ) accompanying video by Microsoft around the MNIST digit classification example.
-* Use this notebook for free online:  [CNTK Tutorials on Azure Notebooks](https://notebooks.azure.com/cntk/libraries/tutorials)
-* Use this notebook locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):  
+Below are links to Jupyter notebooks from the CNTK Tutorials along with accompanying videos by Microsoft around the MNIST digit classification example.
+
+
+| Topic | Tutorial on Jupyter | Video Link |
+| --- | --- | --- |
+| Loading MNIST data | [Notebook 103A on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103A_MNIST_DataLoader.ipynb) | [Video](https://www.youtube.com/watch?v=V3bT7lvm_EQ) |
+| Reading MNIST data in CNTK | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video](https://www.youtube.com/watch?v=RbJh94AhHgw) |
+| Creating and training a logistic regression classifier | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video]() |
+* Use these notebooks for free online:  [CNTK Tutorials on Azure Notebooks](https://notebooks.azure.com/cntk/libraries/tutorials)
+* Use these notebooks locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):  
   1. Download the Jupyter notebook by right clicking "Raw" in the upper right-hand corner of the CNTK GitHub repo link above and "Save link as..."
   2.  On command line, navigate to the folder with the notebook, and run `jupyter notebook`, then open the notebook.
-  
-  
+
+
   > An aside, if you have other notebooks you'd like to include in a Docker workflow:  If using Docker (as on macOS and following [these](https://docs.microsoft.com/en-us/cognitive-toolkit/CNTK-Docker-Containers) instructions), make sure to mount any custom folders with your own notebooks when doing the `docker run` by add the `-v` flag during that command like in:
   
     `docker run -v /Users/micheleenharris/Documents/bin/ -d -p 8888:8888 --name cntk-jupyter-notebooks -t microsoft/cntk:2.0-cpu-python3.5`
-
-
 ## Additional Places to Go
 
 ### Getting Started Blog Articles I Love
