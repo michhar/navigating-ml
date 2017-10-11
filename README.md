@@ -13,7 +13,8 @@ Below are links to Jupyter notebooks from the CNTK Tutorials along with accompan
 | --- | --- | --- |
 | Loading MNIST data | [Notebook 103A on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103A_MNIST_DataLoader.ipynb) | [Video](https://www.youtube.com/watch?v=V3bT7lvm_EQ) |
 | Reading MNIST data in CNTK | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video](https://www.youtube.com/watch?v=RbJh94AhHgw) |
-| Creating and training a logistic regression classifier | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video]() |
+| Creating and training a logistic regression classifier | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video](https://www.youtube.com/watch?v=9hfsVAXe2fY) |
+| Predicting on data | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video](https://www.youtube.com/watch?v=JbhJv1OELlE) |
 * Use these notebooks for free online:  [CNTK Tutorials on Azure Notebooks](https://notebooks.azure.com/cntk/libraries/tutorials)
 * Use these notebooks locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):  
   1. Download the Jupyter notebook by right clicking "Raw" in the upper right-hand corner of the CNTK GitHub repo link above and "Save link as..."
