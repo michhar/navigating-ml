@@ -10,7 +10,7 @@ Below are links to Jupyter notebooks from the CNTK Tutorials along with accompan
 
 
 | Topic | Tutorial on Jupyter | Video Link |
-| --- | --- | --- |
+|:------|:------|:------|
 | Loading MNIST data | [Notebook 103A on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103A_MNIST_DataLoader.ipynb) | [Video](https://www.youtube.com/watch?v=V3bT7lvm_EQ) |
 | Reading MNIST data in CNTK | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video](https://www.youtube.com/watch?v=RbJh94AhHgw) |
 | Creating and training a logistic regression classifier | [Notebook 103B on CNTK GitHub](https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb) | [Video](https://www.youtube.com/watch?v=9hfsVAXe2fY) |
