@@ -2,58 +2,18 @@
     "docs": [
         {
             "location": "/",
-            "text": "navigating-ml\n\n\nMy notes on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.\n\n\nWorking with Images:  A CNTK Image Tutorial Path\n\n\nSome Python required\n\n\nBelow are links to Jupyter notebooks from the CNTK Tutorials along with accompanying videos by Microsoft around the MNIST digit classification example.\n\n\n\n\n\n\n\n\nTopic\n\n\nTutorial on Jupyter\n\n\nVideo Link\n\n\n\n\n\n\n\n\n\n\nLoading MNIST data\n\n\nNotebook 103A on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nReading MNIST data in CNTK\n\n\nNotebook 103B on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nCreating and training a logistic regression classifier\n\n\nNotebook 103B on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nPredicting on data\n\n\nNotebook 103B on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nTraining and testing a Multilayer Perceptron\n\n\nNotebook 103C on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\n\n\n\n\nUse these notebooks for free online:  \nCNTK Tutorials on Azure Notebooks\n\n\nUse these notebooks locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):  \n\n\nDownload the Jupyter notebook by right clicking \"Raw\" in the upper right-hand corner of the CNTK GitHub repo link above and \"Save link as...\"\n\n\nOn command line, navigate to the folder with the notebook, and run \njupyter notebook\n, then open the notebook.\n\n\n\n\n\n\nAn aside, if you have other notebooks you'd like to include in a Docker workflow:  If using Docker (as on macOS and following \nthese\n instructions), make sure to mount any custom folders with your own notebooks when doing the \ndocker run\n by add the \n-v\n flag during that command like in:\n\n\n\n\n`docker run -v /Users/micheleenharris/Documents/bin/ -d -p 8888:8888 --name cntk-jupyter-notebooks -t microsoft/cntk:2.0-cpu-python3.5`\n\n\n\nAdditional Places to Go\n\n\nGetting Started Blog Articles I Love\n\n\nClearly stated and illustrated traditional machine learning, deep learning, and statistics crash course from ML @ Berkeley:\n\ncourse found here\n\n\nThe most basic deep learning network.  A network of one neuron by the author of \nPython Machine Learning\n (Sebastian Raschka):  \nblog post here\n\n\nThe 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:  \nblog post here\n\n\nDeep Learning Videos I Love\n\n\nJust Starting Out\n\n\nMelanie Warrick's \nNeural Networks for Newbies\n\n\nBrandon Rohrer's YouTube \nchannel\n with tons of deep learning shorts.\n\n\nA great non-mathy series on YouTube called \nDeep Learning SIMPLIFIED\n\n\nIntermediate\n\n\nA great Computer Vision course out of Stanford in 2017: \nvideos here\n\n\nA good tutorial by Sayan Pathak at Microsoft on the CNTK deep learning Python library \nhere\n.\n\n\nPractice Makes Better\n\n\nKaggle Competitions\n\n\nA lot of folks have recommended \nKaggle Competitions\n to me as they are a great place to stretch your ML muscles and start coding on an fun and exciting challenge.  There are several \"start here\" problems to begin solving such as \npredicting survival on the Titanic\n.\n\n\nIf you're more advanced there's a nice Computer Vision masking challenge \nhere\n which closes in September 2017, but the code and data will still be up to check out.\n\n\nThanks for Reading and Give me a Shout on Twitter if You'd Like to Chat ML or Have Some Favorite Resources Yourself\n\n\nTwitter:  @rheartpython\n\n\nLinkedIn:  \nhttps://www.linkedin.com/in/micheleenharris\n\n\nIssues or PRs welcome.\n\n\nMore coming soon!",
+            "text": "navigating-ml\n\n\nMy paths on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.\n\n\nThese paths helped me.  Please enjoy responsibly.",
             "title": "Main"
         },
         {
             "location": "/#navigating-ml",
-            "text": "My notes on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.",
+            "text": "My paths on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.  These paths helped me.  Please enjoy responsibly.",
             "title": "navigating-ml"
-        },
-        {
-            "location": "/#working-with-images-a-cntk-image-tutorial-path",
-            "text": "Some Python required  Below are links to Jupyter notebooks from the CNTK Tutorials along with accompanying videos by Microsoft around the MNIST digit classification example.     Topic  Tutorial on Jupyter  Video Link      Loading MNIST data  Notebook 103A on CNTK GitHub  Video    Reading MNIST data in CNTK  Notebook 103B on CNTK GitHub  Video    Creating and training a logistic regression classifier  Notebook 103B on CNTK GitHub  Video    Predicting on data  Notebook 103B on CNTK GitHub  Video    Training and testing a Multilayer Perceptron  Notebook 103C on CNTK GitHub  Video      Use these notebooks for free online:   CNTK Tutorials on Azure Notebooks  Use these notebooks locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):    Download the Jupyter notebook by right clicking \"Raw\" in the upper right-hand corner of the CNTK GitHub repo link above and \"Save link as...\"  On command line, navigate to the folder with the notebook, and run  jupyter notebook , then open the notebook.    An aside, if you have other notebooks you'd like to include in a Docker workflow:  If using Docker (as on macOS and following  these  instructions), make sure to mount any custom folders with your own notebooks when doing the  docker run  by add the  -v  flag during that command like in:   `docker run -v /Users/micheleenharris/Documents/bin/ -d -p 8888:8888 --name cntk-jupyter-notebooks -t microsoft/cntk:2.0-cpu-python3.5`",
-            "title": "Working with Images:  A CNTK Image Tutorial Path"
-        },
-        {
-            "location": "/#additional-places-to-go",
-            "text": "",
-            "title": "Additional Places to Go"
-        },
-        {
-            "location": "/#getting-started-blog-articles-i-love",
-            "text": "Clearly stated and illustrated traditional machine learning, deep learning, and statistics crash course from ML @ Berkeley: course found here  The most basic deep learning network.  A network of one neuron by the author of  Python Machine Learning  (Sebastian Raschka):   blog post here  The 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:   blog post here",
-            "title": "Getting Started Blog Articles I Love"
-        },
-        {
-            "location": "/#deep-learning-videos-i-love",
-            "text": "",
-            "title": "Deep Learning Videos I Love"
-        },
-        {
-            "location": "/#just-starting-out",
-            "text": "Melanie Warrick's  Neural Networks for Newbies  Brandon Rohrer's YouTube  channel  with tons of deep learning shorts.  A great non-mathy series on YouTube called  Deep Learning SIMPLIFIED",
-            "title": "Just Starting Out"
-        },
-        {
-            "location": "/#intermediate",
-            "text": "A great Computer Vision course out of Stanford in 2017:  videos here  A good tutorial by Sayan Pathak at Microsoft on the CNTK deep learning Python library  here .",
-            "title": "Intermediate"
-        },
-        {
-            "location": "/#practice-makes-better",
-            "text": "",
-            "title": "Practice Makes Better"
-        },
-        {
-            "location": "/#kaggle-competitions",
-            "text": "A lot of folks have recommended  Kaggle Competitions  to me as they are a great place to stretch your ML muscles and start coding on an fun and exciting challenge.  There are several \"start here\" problems to begin solving such as  predicting survival on the Titanic .  If you're more advanced there's a nice Computer Vision masking challenge  here  which closes in September 2017, but the code and data will still be up to check out.  Thanks for Reading and Give me a Shout on Twitter if You'd Like to Chat ML or Have Some Favorite Resources Yourself  Twitter:  @rheartpython  LinkedIn:   https://www.linkedin.com/in/micheleenharris  Issues or PRs welcome.  More coming soon!",
-            "title": "Kaggle Competitions"
         },
         {
             "location": "/myprereqs/",
             "text": "Prerequisites\n\n\n\n\nPython - yeah so far that's it for now\n\n\n\n\n(2. Algebra, calculus and some basic ML knowledge won't hurt ya)\n\n\nPython\n\n\nJust Starting Out\n\n\nYour first Python course\n\n\nIntro to Python for Data Science from DataCamp\n (Time:  ~4 hours)\n\n\nLearn about Jupyter notebooks (or even Jupyterlab)\n\n\nNice, short tour of Jupyter Notebooks\n\n  * Go to \nAzure Notebooks\n to check out Jupyter notebooks live and try to follow along with the video.\n\n\nIntermediate\n\n\nPython intro and data sciencey tools - go through in order or skip around\n\n\nPython for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure\n - Note, solutions to exercises are in the last notebook. (Time: ~15 hours)\n\n\nA different take on Python and data science (either of these should cover your Python needs)\n\n\nFor a more in-depth Python course, this is a good one on edX out of UC San Diego:  \nPython for Data Science from edX\n.  (Time:  10 weeks/8-10 hours per week)\n- Basic process of data science\n- Python and Jupyter notebooks\n- An applied understanding of how to manipulate and analyze uncurated datasets\n- Basic statistical analysis and machine learning methods\n- How to effectively visualize results\n\n\nAdvanced\n\n\nSome books really worth checking out\n\n\nFor a great dive into Python in the context of ML check out this book by Sebastian Raschka (you'll get to write algorithms from scratch in pure Python!): \nPython Machine Learning (2nd Ed.)\n\n\nNot sure if this book is out yet, but Sebastian Raschka is writing a sequel with more deep learning and TensorFlow: \nIntroduction to Artificial Neural Networks and Deep Learning\n.",
-            "title": "Python"
+            "title": "Prerequisites"
         },
         {
             "location": "/myprereqs/#prerequisites",
@@ -79,6 +39,196 @@
             "location": "/myprereqs/#advanced",
             "text": "Some books really worth checking out  For a great dive into Python in the context of ML check out this book by Sebastian Raschka (you'll get to write algorithms from scratch in pure Python!):  Python Machine Learning (2nd Ed.)  Not sure if this book is out yet, but Sebastian Raschka is writing a sequel with more deep learning and TensorFlow:  Introduction to Artificial Neural Networks and Deep Learning .",
             "title": "Advanced"
+        },
+        {
+            "location": "/beg/beg_installs/",
+            "text": "Hardware and Software\n\n\nFor most of the Beginner Challenge, you'll only need \nAzure Notebooks\n as an online resource.\n\n\nFor the Transfer Learning and TensorFlow parts you'll need:\n\n\n\n\n(Deploy when ready) \nLinux (Ubuntu) Deep Learning Virtual Machine\n Standard NC6\n\n\nTip: place everything for this set of challenges in the same resource group to tear down together at the end.\n\n\n\n\n\n\n\n\nFor the Workbench parts you'll need some items locally (note:  Workbench is available for Windows or macOS only so this is a good chance to build up some tools locally - nice when you have spotty wifi):\n\n\n\n\nDocker for Mac or Docker for Windows (avoid Toolbox)\n\n\nInstall \nAnaconda\n\n\nInstall \nAzure ML Workbench\n\n\n\n\nGood Idea:\n\n\n\n\nStackOverflow account",
+            "title": "Setup"
+        },
+        {
+            "location": "/beg/beg_installs/#hardware-and-software",
+            "text": "For most of the Beginner Challenge, you'll only need  Azure Notebooks  as an online resource.  For the Transfer Learning and TensorFlow parts you'll need:   (Deploy when ready)  Linux (Ubuntu) Deep Learning Virtual Machine  Standard NC6  Tip: place everything for this set of challenges in the same resource group to tear down together at the end.     For the Workbench parts you'll need some items locally (note:  Workbench is available for Windows or macOS only so this is a good chance to build up some tools locally - nice when you have spotty wifi):   Docker for Mac or Docker for Windows (avoid Toolbox)  Install  Anaconda  Install  Azure ML Workbench   Good Idea:   StackOverflow account",
+            "title": "Hardware and Software"
+        },
+        {
+            "location": "/beg/beg_concepts/",
+            "text": "Concepts\n\n\n\n\nGit and GitHub for version control.\n\n\nJupyter notebook skillz.\n\n\nGet a good grasp of Python for:\n\n\nHow to read data (matplotlib, Pillow, opencv)\n\n\nHow to manipulate data (numpy, pandas)\n\n\nHow to plot data (matplotlib, plotly)\n\n\nTraditional ML\n\n\nLearn about ML and Python scikit-learn in this \nvideo series\n\n\n\n\n\n\n\n\n\n\nLearn concepts around neural networks for image applications.\n\n\nList the ways in which Object Detection differs from Image Classification and Instance Segmentation.\n\n\nList the differences between a Convolutional and regular Dense Neural Network.\n\n\nDesign a Convolution Neural Network (CNN) breaking it down into parts such as the filter, placement of the convolution layers, ReLU layers, pooling layers, and fully-connected layers.  Apply window stride and size appropriately.\n\n\nList the reasons to use Transfer Learning over \"from scratch\" model definitions.\n\n\n\n\n\n\n\n\nAdditional Resources\n\n\nExcellent 3-hr Scikit-learn tutorials from PyCon 2015\n\n\n\n\nWatch \nthis\n scikit-learn tutorial by Jake VanderPlas (Part 1) and \nthe next\n tutorial by Olivier Grisel (Part 2).",
+            "title": "Concepts"
+        },
+        {
+            "location": "/beg/beg_concepts/#concepts",
+            "text": "Git and GitHub for version control.  Jupyter notebook skillz.  Get a good grasp of Python for:  How to read data (matplotlib, Pillow, opencv)  How to manipulate data (numpy, pandas)  How to plot data (matplotlib, plotly)  Traditional ML  Learn about ML and Python scikit-learn in this  video series      Learn concepts around neural networks for image applications.  List the ways in which Object Detection differs from Image Classification and Instance Segmentation.  List the differences between a Convolutional and regular Dense Neural Network.  Design a Convolution Neural Network (CNN) breaking it down into parts such as the filter, placement of the convolution layers, ReLU layers, pooling layers, and fully-connected layers.  Apply window stride and size appropriately.  List the reasons to use Transfer Learning over \"from scratch\" model definitions.",
+            "title": "Concepts"
+        },
+        {
+            "location": "/beg/beg_concepts/#additional-resources",
+            "text": "Excellent 3-hr Scikit-learn tutorials from PyCon 2015   Watch  this  scikit-learn tutorial by Jake VanderPlas (Part 1) and  the next  tutorial by Olivier Grisel (Part 2).",
+            "title": "Additional Resources"
+        },
+        {
+            "location": "/beg/beg_implement/",
+            "text": "Beginner Challenge\n\n\nIn this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.\n\n\nBasic Neural Nets\n\n\n\n\nUse \nAzure Notebooks\n for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.\n\n\nGet the following sample image dataset loaded in your Jupyter notebook: \nsklearn image dataset\n\n\nAdapt a from-scratch Perceptron as in this \nJupyter notebook\n to train and test on the image dataset.\n\n\nUse the URL option when opening up a new notebook in Azure Notebooks\n\n\nOr, download by right clicking on \"Raw\" and \"Save link as...\"\n\n\nRe-implement the Perceptron in scikit-learn\n\n\n\n\n\n\nAdapt a from-scratch Multilayer Perceptron as in this \nJupyter notebook\n\n\nUse the URL option when opening up a new notebook in Azure Notebooks\n\n\nOr, download by right clicking on \"Raw\" and \"Save link as...\"\n\n\nRe-implement the MLP in scikit-learn\n\n\n\n\n\n\n\n\nTransfer Learning on the Deep Learning Virtual Machine\n\n\n\n\nConnect to your Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions \nhere\n).\n\n\nUse ResNet to train a CIFAR 10 classifier\n\n\nDownload the \nCIFAR 10 dataset in CNTK format\n\n\nRun this script on the command line on the DLVM, found \nhere\n, to train your classifier with Transfer Learning (base model is ResNet).\n\n\n\n\n\n\n\n\nRunning and Testing Locally with Azure ML Workbench\n\n\n\n\nTrain your MLP from scikit-learn inside of Azure ML Workbench\n\n\nTest\n\n\nCheck run history for metrics\n\n\nContainerize\n\n\nDeploy\n\n\nTest the endpoint\n\n\n\n\nTaste of TensorFlow\n\n\nHere, you'll take advantage of the Inception-v3 model trained on the ImageNet dataset, to simply classify a new image.\n\n\nGo through up to and including \"Usage with Python API\" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):  \nTutorial\n using your Linux DLVM\n\n\n\n\n\"Git clone\" the indicated repository\n\n\nRun the script locally on the command line\n\n\nRun the script with your own jpeg\n\n\nTake a peek at the code to see how the model was built\n\n\n\n\nAdditional Help\n\n\n\n\nStackOverflow with \ncntk\n tag\n\n\nIssues on CNTK GitHub repo\n\n\nStackOverflow with \nsklearn\n tag",
+            "title": "Practice"
+        },
+        {
+            "location": "/beg/beg_implement/#beginner-challenge",
+            "text": "In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.",
+            "title": "Beginner Challenge"
+        },
+        {
+            "location": "/beg/beg_implement/#basic-neural-nets",
+            "text": "Use  Azure Notebooks  for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.  Get the following sample image dataset loaded in your Jupyter notebook:  sklearn image dataset  Adapt a from-scratch Perceptron as in this  Jupyter notebook  to train and test on the image dataset.  Use the URL option when opening up a new notebook in Azure Notebooks  Or, download by right clicking on \"Raw\" and \"Save link as...\"  Re-implement the Perceptron in scikit-learn    Adapt a from-scratch Multilayer Perceptron as in this  Jupyter notebook  Use the URL option when opening up a new notebook in Azure Notebooks  Or, download by right clicking on \"Raw\" and \"Save link as...\"  Re-implement the MLP in scikit-learn",
+            "title": "Basic Neural Nets"
+        },
+        {
+            "location": "/beg/beg_implement/#transfer-learning-on-the-deep-learning-virtual-machine",
+            "text": "Connect to your Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions  here ).  Use ResNet to train a CIFAR 10 classifier  Download the  CIFAR 10 dataset in CNTK format  Run this script on the command line on the DLVM, found  here , to train your classifier with Transfer Learning (base model is ResNet).",
+            "title": "Transfer Learning on the Deep Learning Virtual Machine"
+        },
+        {
+            "location": "/beg/beg_implement/#running-and-testing-locally-with-azure-ml-workbench",
+            "text": "Train your MLP from scikit-learn inside of Azure ML Workbench  Test  Check run history for metrics  Containerize  Deploy  Test the endpoint",
+            "title": "Running and Testing Locally with Azure ML Workbench"
+        },
+        {
+            "location": "/beg/beg_implement/#taste-of-tensorflow",
+            "text": "Here, you'll take advantage of the Inception-v3 model trained on the ImageNet dataset, to simply classify a new image.  Go through up to and including \"Usage with Python API\" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):   Tutorial  using your Linux DLVM   \"Git clone\" the indicated repository  Run the script locally on the command line  Run the script with your own jpeg  Take a peek at the code to see how the model was built",
+            "title": "Taste of TensorFlow"
+        },
+        {
+            "location": "/beg/beg_implement/#additional-help",
+            "text": "StackOverflow with  cntk  tag  Issues on CNTK GitHub repo  StackOverflow with  sklearn  tag",
+            "title": "Additional Help"
+        },
+        {
+            "location": "/int/int_installs/",
+            "text": "Setup\n\n\n\n\n\n\n(Deploy when ready if you don't have it yet) \nLinux (Ubuntu) Deep Learning Virtual Machine\n Standard NC6\n\n\n\n\nTip: place everything for this set of challenges in the same resource group to tear down together at the end.\n\n\n\n\n\n\n\n\nEnsure Jupyter notebooks are working.\n\n\n\n\n\"access the Jupyter notebook server from any host. Just navigate in the browser to \nhttps://<VM DNS name or IP Address>:8000/\n\" (\nref\n - check out \"Jupyter notebook\" for more)",
+            "title": "Setup"
+        },
+        {
+            "location": "/int/int_installs/#setup",
+            "text": "(Deploy when ready if you don't have it yet)  Linux (Ubuntu) Deep Learning Virtual Machine  Standard NC6   Tip: place everything for this set of challenges in the same resource group to tear down together at the end.     Ensure Jupyter notebooks are working.   \"access the Jupyter notebook server from any host. Just navigate in the browser to  https://<VM DNS name or IP Address>:8000/ \" ( ref  - check out \"Jupyter notebook\" for more)",
+            "title": "Setup"
+        },
+        {
+            "location": "/int/int_concepts/",
+            "text": "Concepts\n\n\nLearn about CNTK and logistic regression, multilayer perceptron, and CNN classifiers on the MNIST dataset to classify hand-written digits.  We'll use these notebooks in our Challenge section.\n\n\nTake the first four modules of the free Deep Learning Explained edX \ncourse\n.  Each module should only take 1-2 hours.",
+            "title": "Concepts"
+        },
+        {
+            "location": "/int/int_concepts/#concepts",
+            "text": "Learn about CNTK and logistic regression, multilayer perceptron, and CNN classifiers on the MNIST dataset to classify hand-written digits.  We'll use these notebooks in our Challenge section.  Take the first four modules of the free Deep Learning Explained edX  course .  Each module should only take 1-2 hours.",
+            "title": "Concepts"
+        },
+        {
+            "location": "/int/int_implement/",
+            "text": "Intermediate Challenge\n\n\nIn the Intermediate Challenge, you'll apply what you've learned in the edX Deep Learning Explained course, leveraging the Jupyter notebooks you became familiar with in the course.  You'll start exploring the CIFAR-10 dataset along with other datsets in CNTK and TensorFlow.\n\n\nAdapt Deep Learning Explained Notebooks\n\n\nHere you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.\n\n\n\n\nLog into the Jupyter server on the DLVM - from any browser.\n\n\n\n\nTake the MLP and CNN Lab notebooks from edX course and use \nCIFAR 10 dataset in CNTK format\n instead to classify images into the 10 classes:  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck\n\n\n\n\n\n\nGo online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using Pillow (see ImageOps).  Convert them to the proper CNTK format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?\n\n\n\n\n\n\nExtra credit:\n  create a new label called \"food\" and add this \nfruit dataset\n, leaving some out of training for testing.  Try your coconut image again.  What if now you tested with a hot dog image?\n\n\nTaste of TensorFlow\n\n\n...",
+            "title": "Practice"
+        },
+        {
+            "location": "/int/int_implement/#intermediate-challenge",
+            "text": "In the Intermediate Challenge, you'll apply what you've learned in the edX Deep Learning Explained course, leveraging the Jupyter notebooks you became familiar with in the course.  You'll start exploring the CIFAR-10 dataset along with other datsets in CNTK and TensorFlow.",
+            "title": "Intermediate Challenge"
+        },
+        {
+            "location": "/int/int_implement/#adapt-deep-learning-explained-notebooks",
+            "text": "Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.   Log into the Jupyter server on the DLVM - from any browser.   Take the MLP and CNN Lab notebooks from edX course and use  CIFAR 10 dataset in CNTK format  instead to classify images into the 10 classes:  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck    Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using Pillow (see ImageOps).  Convert them to the proper CNTK format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?    Extra credit:   create a new label called \"food\" and add this  fruit dataset , leaving some out of training for testing.  Try your coconut image again.  What if now you tested with a hot dog image?",
+            "title": "Adapt Deep Learning Explained Notebooks"
+        },
+        {
+            "location": "/int/int_implement/#taste-of-tensorflow",
+            "text": "...",
+            "title": "Taste of TensorFlow"
+        },
+        {
+            "location": "/adv/adv_installs/",
+            "text": "Setup\n\n\nYou'll be doing most thing locally in this Advanced Challenge.\n\n\nGetting your Environment Set Up\n\n\nHardware\n\n\nThese are some highly rated suggestions.  You may of course try out the Practice section on a CPU machine.  There's a cloud option below as well.\n\n\nComputer-Laptop\n\n\nAnything with a NVIDIA GTX 1060 (GPU) is good if you travel a lot or cannot necessarily depend on wifi.\n\n\n\n\nE.g.:  https://www.razerzone.com/gaming-systems/razer-blade-pro - plan to get a 1060 w/ 256ssd + 2tb spinner\n\n\nGTX 1080 (extra $2k; only get if this is your primary machine and you travel a lot/have spotty wifi).\n\n\n\n\nComputer-Desktop\n\n\nAny gaming desktop with a min GTX 1080.\u00a0\n\n\n\n\nAlt 1: Custom built.\u00a0 If you go this route -> Add up your GPU ram, multiply by 2 for your min RAM.\u00a0 Get a CPU w/ 48 lanes (so you can go 2 GPUs later).\n\n\nAlt 2: \nhttps://lambdal.com/products/quad\n (this is probably over kill honestly, and your electricity bill might double.\u00a0 Will make a great space heater)\n\n\n\n\nComputer-Remote\n\n\nUse Azure and set up a jupyter notebook.\u00a0 This takes more learning and understanding but is the cheapest getting started option.\n\n\nIt's suggested to provision a new NC-6 (or NC12) DSVM on Ubuntu, updating everything, installing the packages, adding a 1TB data disk and kicking off a password protected Jupyter Notebook in a tmux session.\u00a0 DO NOT put sensitive data on this.\u00a0 It has open ports, admin rights to the system, is password protected only and it's not believed to use SSL unless you set up a certificate.\u00a0 There are other more secure options, though they are more advanced and not covered in this getting started.\n\n\nIoT-Test_Device\n\n\nRaspberry Pi v3, Nvidia TX-1 or Nvidia TX-2.\u00a0 If you are feeling adventurous get a few arduinos as well.\n\n\nSoftware\n\n\n\n\nDocker for Mac or Docker for Windows (avoid Toolbox)\n\n\nAnaconda\n\n\nIf you have a GPU\n\n\nGo to \nCuda Downloads\n\n\nJoin Nvidia Developer program\n\n\nUpdate your GPU drivers\n\n\nInstall Cuda & Cudnn\n\n\n\n\n\n\nInstall your packages\n\n\nOpen an admin cmd prompt\n\n\nPip install \nplotly\n (most other packages come with Anaconda)\n\n\nPip install the latest 3.6 GPU-1bit-SGD (if you got a GPU otherwise install CPU version)\n\n\nCNTK 2.2\n\n\nAs of today this is: \npip install https://cntk.ai/PythonWheel/GPU-1bit-SGD/cntk-2.2-cp36-cp36m-win_amd64.whl\n\n\n\n\n\n\n\n\n\n\nInstall \nAzure ML Workbench\n.\n\n\n\n\nGood Idea:\n\n\n\n\nStackOverflow account",
+            "title": "Setup"
+        },
+        {
+            "location": "/adv/adv_installs/#setup",
+            "text": "You'll be doing most thing locally in this Advanced Challenge.",
+            "title": "Setup"
+        },
+        {
+            "location": "/adv/adv_installs/#getting-your-environment-set-up",
+            "text": "",
+            "title": "Getting your Environment Set Up"
+        },
+        {
+            "location": "/adv/adv_installs/#hardware",
+            "text": "These are some highly rated suggestions.  You may of course try out the Practice section on a CPU machine.  There's a cloud option below as well.",
+            "title": "Hardware"
+        },
+        {
+            "location": "/adv/adv_installs/#computer-laptop",
+            "text": "Anything with a NVIDIA GTX 1060 (GPU) is good if you travel a lot or cannot necessarily depend on wifi.   E.g.:  https://www.razerzone.com/gaming-systems/razer-blade-pro - plan to get a 1060 w/ 256ssd + 2tb spinner  GTX 1080 (extra $2k; only get if this is your primary machine and you travel a lot/have spotty wifi).",
+            "title": "Computer-Laptop"
+        },
+        {
+            "location": "/adv/adv_installs/#computer-desktop",
+            "text": "Any gaming desktop with a min GTX 1080.\u00a0   Alt 1: Custom built.\u00a0 If you go this route -> Add up your GPU ram, multiply by 2 for your min RAM.\u00a0 Get a CPU w/ 48 lanes (so you can go 2 GPUs later).  Alt 2:  https://lambdal.com/products/quad  (this is probably over kill honestly, and your electricity bill might double.\u00a0 Will make a great space heater)",
+            "title": "Computer-Desktop"
+        },
+        {
+            "location": "/adv/adv_installs/#computer-remote",
+            "text": "Use Azure and set up a jupyter notebook.\u00a0 This takes more learning and understanding but is the cheapest getting started option.  It's suggested to provision a new NC-6 (or NC12) DSVM on Ubuntu, updating everything, installing the packages, adding a 1TB data disk and kicking off a password protected Jupyter Notebook in a tmux session.\u00a0 DO NOT put sensitive data on this.\u00a0 It has open ports, admin rights to the system, is password protected only and it's not believed to use SSL unless you set up a certificate.\u00a0 There are other more secure options, though they are more advanced and not covered in this getting started.",
+            "title": "Computer-Remote"
+        },
+        {
+            "location": "/adv/adv_installs/#iot-test_device",
+            "text": "Raspberry Pi v3, Nvidia TX-1 or Nvidia TX-2.\u00a0 If you are feeling adventurous get a few arduinos as well.",
+            "title": "IoT-Test_Device"
+        },
+        {
+            "location": "/adv/adv_installs/#software",
+            "text": "Docker for Mac or Docker for Windows (avoid Toolbox)  Anaconda  If you have a GPU  Go to  Cuda Downloads  Join Nvidia Developer program  Update your GPU drivers  Install Cuda & Cudnn    Install your packages  Open an admin cmd prompt  Pip install  plotly  (most other packages come with Anaconda)  Pip install the latest 3.6 GPU-1bit-SGD (if you got a GPU otherwise install CPU version)  CNTK 2.2  As of today this is:  pip install https://cntk.ai/PythonWheel/GPU-1bit-SGD/cntk-2.2-cp36-cp36m-win_amd64.whl      Install  Azure ML Workbench .   Good Idea:   StackOverflow account",
+            "title": "Software"
+        },
+        {
+            "location": "/adv/adv_concepts/",
+            "text": "Concepts\n\n\nComing soon.",
+            "title": "Concepts"
+        },
+        {
+            "location": "/adv/adv_concepts/#concepts",
+            "text": "Coming soon.",
+            "title": "Concepts"
+        },
+        {
+            "location": "/adv/adv_implement/",
+            "text": "Advanced Challenge\n\n\nIn this Advanced Challenge, the instructions will be a little more vague and you'll need to go figure find out much on your own, part of the learning and challenge.\n\n\n\n\nThis problem set is adapted from a Custom ML Resources document written by a colleague.\n\n\n\n\nWhy do this task\n:\u00a0 Usually, beginner tutorials around ML and neural networks begin with classifying hand-written digits from the MNIST dataset.  We are going to begin with something more challenging and much of it will be dealing with data and data formats.  This is to simulate how life will likely be in real life and it's hoped you will learn how to create machine learning models more effectively and quickly in the real world.\u00a0The reason to work through the following is:\n\n\n\n\nIt will force you to read and learn from scratch.\u00a0 You will learn the different label file formats, deserializers and how things compute.\u00a0\n\n\nFor energy/manufacturing you will get .png or .jpg or .tiff files and not stuff already in the perfect format.\u00a0\n\n\nLearning this will hopefully help you understand the concept of \u201cData Packing\u201d.\u00a0\n\n\nThis is not the simplest way, but it forces greater learning.\n\n\n\n\nWorking with CNTK Locally (DLVM is also OK)\n\n\nUse the CNTK Manual as reference: \nCNTK Manual on GitHub\n\n\nThis is focusing for the Energy/Manufacturing Vertical.\n\n\n\n\nUnderstand Label Files & Mini Batch Sources:\n\n\nCTF & Image: \nhttp://dacrook.com/complex-neural-network-data-modelling-with-cntk/\n\n\nSequence: \nhttp://dacrook.com/deep-learning-match-making-with-recurrent-networks/\n\n\n\n\n\n\nImage Classification:\n\n\nStart w/ CIFAR 10 for image classification using a Jupyter Notebook (use \nCNTK Manual on GitHub\n)\n\n\nGet Data from here: \nCIFAR-10 data\n\n\nStart w/ a CTF deserializer\n\n\nUse Image library w/ numpy and CNTK's io libraries to write a ctf file containing the data in flattened arrays\n\n\n\n\n\n\nUse the Image deserializer next\n\n\nTry out a few transforms.\u00a0 You will have to read the CNTK docs pages for transforms. \nCNTK transforms\n\n\n\n\n\n\nMake sure you also create an example for \ninference\n.\n\n\nUse Scikit-learns\u2019s confusion matrix and classification_report to generate metrics.\n\n\nScikit-learn's confusion matrix\n\n\nScikit-learn's classification report\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAzure ML Workbench\n\n\n\n\n\n\nDo the same thing w/ Azure ML Workbench\n\n\n\n\nSet up\n\n\nCreate a workspace\n\n\nCreate a git repo in VSTS\n\n\nCreate a project linked to the repo\n\n\nRe-write as a single training script and execute via docker locally.\n\n\nAdd in Azure ML Workbench\u2019s logging apis.\n\n\nTry out a Convolutional Network\n\n\nUse the Azure ML Workbench Operationalization CLI to create a container.\n\n\nCreate a local container\n\n\nPull the local container and test locally\n\n\nDeploy a real time container to Azure Container Services\n\n\nTest against this.\n\n\nTIP:\u00a0 You will either send the image via the body as an array of float32 or as a byte64 encoded string.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo the same exact exercise with CoCo: http://cocodataset.org/#home\n\n\n\n\nWhy do you think you get bad results?\n\n\n\n\n\n\nUse the Out of Box Faster-RCNN solution w/ CNTK and CoCo\n\n\n\n\nTaste of TensorFlow\n\n\nTrain a CNN on the CIFAR-10 dataset as in this \nTutorial\n.\n\n\nKey Learnings\n\n\nObject detection v.s. Classification, Data Prep and pipelines.\n\n\nPlaces to go for Help\n\n\nIf you run into trouble, email CNTK Help cntkhelp@microsoft.com and also create a stack overflow with tag \ncntk\n, then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.",
+            "title": "Practice"
+        },
+        {
+            "location": "/adv/adv_implement/#advanced-challenge",
+            "text": "In this Advanced Challenge, the instructions will be a little more vague and you'll need to go figure find out much on your own, part of the learning and challenge.   This problem set is adapted from a Custom ML Resources document written by a colleague.   Why do this task :\u00a0 Usually, beginner tutorials around ML and neural networks begin with classifying hand-written digits from the MNIST dataset.  We are going to begin with something more challenging and much of it will be dealing with data and data formats.  This is to simulate how life will likely be in real life and it's hoped you will learn how to create machine learning models more effectively and quickly in the real world.\u00a0The reason to work through the following is:   It will force you to read and learn from scratch.\u00a0 You will learn the different label file formats, deserializers and how things compute.\u00a0  For energy/manufacturing you will get .png or .jpg or .tiff files and not stuff already in the perfect format.\u00a0  Learning this will hopefully help you understand the concept of \u201cData Packing\u201d.\u00a0  This is not the simplest way, but it forces greater learning.",
+            "title": "Advanced Challenge"
+        },
+        {
+            "location": "/adv/adv_implement/#working-with-cntk-locally-dlvm-is-also-ok",
+            "text": "Use the CNTK Manual as reference:  CNTK Manual on GitHub  This is focusing for the Energy/Manufacturing Vertical.   Understand Label Files & Mini Batch Sources:  CTF & Image:  http://dacrook.com/complex-neural-network-data-modelling-with-cntk/  Sequence:  http://dacrook.com/deep-learning-match-making-with-recurrent-networks/    Image Classification:  Start w/ CIFAR 10 for image classification using a Jupyter Notebook (use  CNTK Manual on GitHub )  Get Data from here:  CIFAR-10 data  Start w/ a CTF deserializer  Use Image library w/ numpy and CNTK's io libraries to write a ctf file containing the data in flattened arrays    Use the Image deserializer next  Try out a few transforms.\u00a0 You will have to read the CNTK docs pages for transforms.  CNTK transforms    Make sure you also create an example for  inference .  Use Scikit-learns\u2019s confusion matrix and classification_report to generate metrics.  Scikit-learn's confusion matrix  Scikit-learn's classification report",
+            "title": "Working with CNTK Locally (DLVM is also OK)"
+        },
+        {
+            "location": "/adv/adv_implement/#azure-ml-workbench",
+            "text": "Do the same thing w/ Azure ML Workbench   Set up  Create a workspace  Create a git repo in VSTS  Create a project linked to the repo  Re-write as a single training script and execute via docker locally.  Add in Azure ML Workbench\u2019s logging apis.  Try out a Convolutional Network  Use the Azure ML Workbench Operationalization CLI to create a container.  Create a local container  Pull the local container and test locally  Deploy a real time container to Azure Container Services  Test against this.  TIP:\u00a0 You will either send the image via the body as an array of float32 or as a byte64 encoded string.         Do the same exact exercise with CoCo: http://cocodataset.org/#home   Why do you think you get bad results?    Use the Out of Box Faster-RCNN solution w/ CNTK and CoCo",
+            "title": "Azure ML Workbench"
+        },
+        {
+            "location": "/adv/adv_implement/#taste-of-tensorflow",
+            "text": "Train a CNN on the CIFAR-10 dataset as in this  Tutorial .",
+            "title": "Taste of TensorFlow"
+        },
+        {
+            "location": "/adv/adv_implement/#key-learnings",
+            "text": "Object detection v.s. Classification, Data Prep and pipelines.",
+            "title": "Key Learnings"
+        },
+        {
+            "location": "/adv/adv_implement/#places-to-go-for-help",
+            "text": "If you run into trouble, email CNTK Help cntkhelp@microsoft.com and also create a stack overflow with tag  cntk , then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.",
+            "title": "Places to go for Help"
         }
     ]
 }

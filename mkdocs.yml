@@ -2,7 +2,20 @@ site_name: Navigating ML
 theme: material
 pages:
     - Main: index.md
-    - Prequisites:
-      - 'Python': 'myprereqs.md'
+    - Getting Started:
+      - 'Prerequisites': 'myprereqs.md'
+    - Dealing with Images:
+      - Beginner:
+        - 'Setup': 'beg/beg_installs.md'
+        - 'Concepts': 'beg/beg_concepts.md'
+        - 'Practice': 'beg/beg_implement.md'
+      - Intermediate:
+        - 'Setup': 'int/int_installs.md'
+        - 'Concepts': 'int/int_concepts.md'
+        - 'Practice': 'int/int_implement.md'
+      - Advanced:
+        - 'Setup': 'adv/adv_installs.md'
+        - 'Concepts': 'adv/adv_concepts.md'
+        - 'Practice': 'adv/adv_implement.md'
 
 google_analytics: ['UA-86308542-1', 'https://michhar.github.io/navigating-ml/']

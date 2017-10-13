@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-10-12</lastmod>
+     <lastmod>2017-10-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,7 +13,29 @@
         
     <url>
      <loc>/myprereqs/</loc>
-     <lastmod>2017-10-12</lastmod>
+     <lastmod>2017-10-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         

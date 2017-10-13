@@ -1,0 +1,735 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.3">
+    
+    
+      
+        <title>Practice - Navigating ML</title>
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
+    
+    
+  </head>
+  
+  
+  
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Navigating ML" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon md-icon--home"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Dealing with Images
+                </span>
+              
+                <span class="md-header-nav__parent">
+                  Advanced
+                </span>
+              
+            
+            Practice
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <div class="md-nav__button md-logo">
+      
+        <i class="md-icon md-icon--home"></i>
+      
+    </div>
+    Navigating ML
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Main" class="md-nav__link">
+      Main
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting Started
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../myprereqs/" title="Prerequisites" class="md-nav__link">
+      Prerequisites
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Dealing with Images
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Dealing with Images
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Beginner
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Beginner
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../beg/beg_installs/" title="Setup" class="md-nav__link">
+      Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../beg/beg_concepts/" title="Concepts" class="md-nav__link">
+      Concepts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../beg/beg_implement/" title="Practice" class="md-nav__link">
+      Practice
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Intermediate
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2">
+        Intermediate
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../int/int_installs/" title="Setup" class="md-nav__link">
+      Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../int/int_concepts/" title="Concepts" class="md-nav__link">
+      Concepts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../int/int_implement/" title="Practice" class="md-nav__link">
+      Practice
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Advanced
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-3">
+        Advanced
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../adv_installs/" title="Setup" class="md-nav__link">
+      Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../adv_concepts/" title="Concepts" class="md-nav__link">
+      Concepts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Practice
+      </label>
+    
+    <a href="./" title="Practice" class="md-nav__link md-nav__link--active">
+      Practice
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-cntk-locally-dlvm-is-also-ok" title="Working with CNTK Locally (DLVM is also OK)" class="md-nav__link">
+    Working with CNTK Locally (DLVM is also OK)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#azure-ml-workbench" title="Azure ML Workbench" class="md-nav__link">
+    Azure ML Workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taste-of-tensorflow" title="Taste of TensorFlow" class="md-nav__link">
+    Taste of TensorFlow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-learnings" title="Key Learnings" class="md-nav__link">
+    Key Learnings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#places-to-go-for-help" title="Places to go for Help" class="md-nav__link">
+    Places to go for Help
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-cntk-locally-dlvm-is-also-ok" title="Working with CNTK Locally (DLVM is also OK)" class="md-nav__link">
+    Working with CNTK Locally (DLVM is also OK)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#azure-ml-workbench" title="Azure ML Workbench" class="md-nav__link">
+    Azure ML Workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taste-of-tensorflow" title="Taste of TensorFlow" class="md-nav__link">
+    Taste of TensorFlow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-learnings" title="Key Learnings" class="md-nav__link">
+    Key Learnings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#places-to-go-for-help" title="Places to go for Help" class="md-nav__link">
+    Places to go for Help
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="advanced-challenge">Advanced Challenge</h1>
+<p>In this Advanced Challenge, the instructions will be a little more vague and you'll need to go figure find out much on your own, part of the learning and challenge.</p>
+<blockquote>
+<p>This problem set is adapted from a Custom ML Resources document written by a colleague.</p>
+</blockquote>
+<p><em>Why do this task</em>:  Usually, beginner tutorials around ML and neural networks begin with classifying hand-written digits from the MNIST dataset.  We are going to begin with something more challenging and much of it will be dealing with data and data formats.  This is to simulate how life will likely be in real life and it's hoped you will learn how to create machine learning models more effectively and quickly in the real world. The reason to work through the following is:</p>
+<ul>
+<li>It will force you to read and learn from scratch.  You will learn the different label file formats, deserializers and how things compute. </li>
+<li>For energy/manufacturing you will get .png or .jpg or .tiff files and not stuff already in the perfect format. </li>
+<li>Learning this will hopefully help you understand the concept of “Data Packing”. </li>
+<li>This is not the simplest way, but it forces greater learning.</li>
+</ul>
+<h2 id="working-with-cntk-locally-dlvm-is-also-ok">Working with CNTK Locally (DLVM is also OK)</h2>
+<p><strong>Use the CNTK Manual as reference: <a href="https://github.com/Microsoft/CNTK/tree/master/Manual">CNTK Manual on GitHub</a></strong></p>
+<p>This is focusing for the Energy/Manufacturing Vertical.</p>
+<ol>
+<li>Understand Label Files &amp; Mini Batch Sources:<ol>
+<li>CTF &amp; Image: <a href="http://dacrook.com/complex-neural-network-data-modelling-with-cntk/">http://dacrook.com/complex-neural-network-data-modelling-with-cntk/</a></li>
+<li>Sequence: <a href="http://dacrook.com/deep-learning-match-making-with-recurrent-networks/">http://dacrook.com/deep-learning-match-making-with-recurrent-networks/</a></li>
+</ol>
+</li>
+<li>Image Classification:<ol>
+<li>Start w/ CIFAR 10 for image classification using a Jupyter Notebook (use <a href="https://github.com/Microsoft/CNTK/tree/master/Manual">CNTK Manual on GitHub</a>)<ol>
+<li>Get Data from here: <a href="https://www.kaggle.com/c/cifar-10/data">CIFAR-10 data</a></li>
+<li>Start w/ a CTF deserializer<ol>
+<li>Use Image library w/ numpy and CNTK's io libraries to write a ctf file containing the data in flattened arrays</li>
+</ol>
+</li>
+<li>Use the Image deserializer next<ol>
+<li>Try out a few transforms.  You will have to read the CNTK docs pages for transforms. <a href="https://cntk.ai/pythondocs/cntk.io.transforms.html">CNTK transforms</a></li>
+</ol>
+</li>
+<li>Make sure you also create an example for <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference</a>.</li>
+<li>Use Scikit-learns’s confusion matrix and classification_report to generate metrics.<ol>
+<li><a href="http://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html">Scikit-learn's confusion matrix</a></li>
+<li><a href="http://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html">Scikit-learn's classification report</a></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="azure-ml-workbench">Azure ML Workbench</h2>
+<ol>
+<li>
+<p>Do the same thing w/ Azure ML Workbench</p>
+<ol>
+<li>Set up<ol>
+<li>Create a workspace</li>
+<li>Create a git repo in VSTS</li>
+<li>Create a project linked to the repo</li>
+<li>Re-write as a single training script and execute via docker locally.</li>
+<li>Add in Azure ML Workbench’s logging apis.</li>
+<li>Try out a Convolutional Network</li>
+<li>Use the Azure ML Workbench Operationalization CLI to create a container.<ol>
+<li>Create a local container</li>
+<li>Pull the local container and test locally</li>
+<li>Deploy a real time container to Azure Container Services</li>
+<li>Test against this.</li>
+<li>TIP:  You will either send the image via the body as an array of float32 or as a byte64 encoded string.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>Do the same exact exercise with CoCo: http://cocodataset.org/#home</p>
+<ol>
+<li>Why do you think you get bad results?</li>
+</ol>
+</li>
+<li>Use the Out of Box Faster-RCNN solution w/ CNTK and CoCo</li>
+</ol>
+<h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
+<p>Train a CNN on the CIFAR-10 dataset as in this <a href="https://www.tensorflow.org/tutorials/deep_cnn">Tutorial</a>.</p>
+<h2 id="key-learnings">Key Learnings</h2>
+<p>Object detection v.s. Classification, Data Prep and pipelines.</p>
+<h2 id="places-to-go-for-help">Places to go for Help</h2>
+<p><strong>If you run into trouble, email CNTK Help cntkhelp@microsoft.com and also create a stack overflow with tag <code>cntk</code>, then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.</strong></p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../adv_concepts/" title="Concepts" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Concepts
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      
+      
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+        <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      
+        <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.da.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.de.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.du.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.es.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.fi.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.fr.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.hu.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.it.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.multi.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.no.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.ro.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.ru.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.sv.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/lunr.tr.js"></script>
+      
+        <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
+      
+        <script src="../../mkdocs/js/lunr.min.js"></script>
+      
+        <script src="../../mkdocs/js/mustache.min.js"></script>
+      
+        <script src="../../mkdocs/js/require.js"></script>
+      
+        <script src="../../mkdocs/js/search.js"></script>
+      
+        <script src="../../mkdocs/js/text.js"></script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-86308542-1","https://michhar.github.io/navigating-ml/"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>
