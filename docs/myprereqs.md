@@ -11,6 +11,7 @@
 **Your first Python course**
 
 [Intro to Python for Data Science from DataCamp](https://www.datacamp.com/courses/intro-to-python-for-data-science) (Time:  ~4 hours)
+
   * Python basics
   * Lists
   * Functions and packages

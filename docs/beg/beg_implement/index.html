@@ -291,6 +291,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#custom-vision" title="Custom Vision" class="md-nav__link">
+    Custom Vision
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#basic-neural-nets" title="Basic Neural Nets" class="md-nav__link">
     Basic Neural Nets
   </a>
@@ -298,15 +305,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#transfer-learning-on-the-deep-learning-virtual-machine" title="Transfer Learning on the Deep Learning Virtual Machine" class="md-nav__link">
-    Transfer Learning on the Deep Learning Virtual Machine
+  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
+    Running and Testing Locally with Azure ML Workbench
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Running and Testing Locally with Azure ML Workbench
+  <a href="#transfer-learning-on-the-deep-learning-virtual-machine-with-cntk" title="Transfer Learning on the Deep Learning Virtual Machine with CNTK" class="md-nav__link">
+    Transfer Learning on the Deep Learning Virtual Machine with CNTK
   </a>
   
 </li>
@@ -485,6 +492,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#custom-vision" title="Custom Vision" class="md-nav__link">
+    Custom Vision
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#basic-neural-nets" title="Basic Neural Nets" class="md-nav__link">
     Basic Neural Nets
   </a>
@@ -492,15 +506,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#transfer-learning-on-the-deep-learning-virtual-machine" title="Transfer Learning on the Deep Learning Virtual Machine" class="md-nav__link">
-    Transfer Learning on the Deep Learning Virtual Machine
+  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
+    Running and Testing Locally with Azure ML Workbench
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Running and Testing Locally with Azure ML Workbench
+  <a href="#transfer-learning-on-the-deep-learning-virtual-machine-with-cntk" title="Transfer Learning on the Deep Learning Virtual Machine with CNTK" class="md-nav__link">
+    Transfer Learning on the Deep Learning Virtual Machine with CNTK
   </a>
   
 </li>
@@ -535,7 +549,11 @@
                 
                 
                 <h1 id="beginner-challenge">Beginner Challenge</h1>
-<p>In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.</p>
+<p>In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.  You'll work with the fruit dataset, the sklearn images dataset and CIFAR-10 (tiny images) dataset.</p>
+<h2 id="custom-vision">Custom Vision</h2>
+<ol>
+<li>Download the <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a> and build a fruit image classifier with <a href="https://customvision.ai/">https://customvision.ai/</a>.</li>
+</ol>
 <h2 id="basic-neural-nets">Basic Neural Nets</h2>
 <ol>
 <li>Use <a href="https://notebooks.azure.com">Azure Notebooks</a> for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.</li>
@@ -553,15 +571,6 @@
 </ul>
 </li>
 </ol>
-<h2 id="transfer-learning-on-the-deep-learning-virtual-machine">Transfer Learning on the Deep Learning Virtual Machine</h2>
-<ul>
-<li>Connect to your Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine">here</a>).</li>
-<li>Use ResNet to train a CIFAR 10 classifier<ul>
-<li>Download the <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10">CIFAR 10 dataset in CNTK format</a></li>
-<li>Run this script on the command line on the DLVM, found <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py">here</a>, to train your classifier with Transfer Learning (base model is ResNet).</li>
-</ul>
-</li>
-</ul>
 <h2 id="running-and-testing-locally-with-azure-ml-workbench">Running and Testing Locally with Azure ML Workbench</h2>
 <ul>
 <li>Train your MLP from scikit-learn inside of Azure ML Workbench</li>
@@ -571,9 +580,18 @@
 <li>Deploy</li>
 <li>Test the endpoint</li>
 </ul>
+<h2 id="transfer-learning-on-the-deep-learning-virtual-machine-with-cntk">Transfer Learning on the Deep Learning Virtual Machine with CNTK</h2>
+<ul>
+<li>Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine">here</a>).</li>
+<li>Use ResNet to train a CIFAR 10 classifier<ul>
+<li>Download the <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10">CIFAR 10 dataset in CNTK format</a></li>
+<li>Run this script on the command line on the DLVM, found <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py">here</a>, to train your classifier with Transfer Learning (base model is ResNet).</li>
+</ul>
+</li>
+</ul>
 <h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
 <p>Here, you'll take advantage of the Inception-v3 model trained on the ImageNet dataset, to simply classify a new image.</p>
-<p>Go through up to and including "Usage with Python API" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):  <a href="https://www.tensorflow.org/tutorials/image_recognition#top_of_page">Tutorial</a> using your Linux DLVM</p>
+<p>Go through up to and including "Usage with Python API" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):  <a href="https://www.tensorflow.org/tutorials/image_recognition#top_of_page">Tutorial</a> using your Linux DLVM.</p>
 <ul>
 <li>"Git clone" the indicated repository</li>
 <li>Run the script locally on the command line</li>
