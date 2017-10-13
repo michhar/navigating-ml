@@ -1,6 +1,6 @@
-## Prerequisites
+# Prerequisites
 
-1.  Python - yeah so far that's it for now
+1.  Python (Rocks!)
 
 (2. Algebra, calculus and some basic ML knowledge won't hurt ya)
 
@@ -11,10 +11,15 @@
 **Your first Python course**
 
 [Intro to Python for Data Science from DataCamp](https://www.datacamp.com/courses/intro-to-python-for-data-science) (Time:  ~4 hours)
+  * Python basics
+  * Lists
+  * Functions and packages
+  * Numpy
 
-**Learn about Jupyter notebooks (or even Jupyterlab)**
+**Learn about Jupyter**
 
-[Nice, short tour of Jupyter Notebooks](https://www.youtube.com/watch?v=jZ952vChhuI)
+[Nice, short vido tour of Jupyter Notebooks](https://www.youtube.com/watch?v=jZ952vChhuI)
+
   * Go to [Azure Notebooks](https://notebooks.azure.com) to check out Jupyter notebooks live and try to follow along with the video.
 
 ### Intermediate
@@ -23,14 +28,29 @@
 
 [Python for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure](https://notebooks.azure.com/rheartpython/libraries/PythonDS101) - Note, solutions to exercises are in the last notebook. (Time: ~15 hours)
 
+* Basics
+* Data Structures
+* Functional Programmin]
+* Sorting and Pattern Matching
+* Object Oriented Programming
+* Basic Difference from 2 to 3
+* Numerical Computing
+* Data Analysis with pandas I
+* Data Analysis with pandas II
+* Machine Learning I - ML Basics and Data Exploration
+* Machine Learning II - Supervised and Unsupervised Learning
+* Machine Learning III - Parameter Tuning and Model Evaluation
+* Visualization
+
 **A different take on Python and data science (either of these should cover your Python needs)**
 
 For a more in-depth Python course, this is a good one on edX out of UC San Diego:  [Python for Data Science from edX](https://www.edx.org/course/python-data-science-uc-san-diegox-dse200x).  (Time:  10 weeks/8-10 hours per week)
-- Basic process of data science
-- Python and Jupyter notebooks
-- An applied understanding of how to manipulate and analyze uncurated datasets
-- Basic statistical analysis and machine learning methods
-- How to effectively visualize results
+
+* Basic process of data science
+* Python and Jupyter notebooks
+* An applied understanding of how to manipulate and analyze uncurated datasets
+* Basic statistical analysis and machine learning methods
+* How to effectively visualize results
 
 ### Advanced
 
