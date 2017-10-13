@@ -38,27 +38,6 @@ The most basic deep learning network.  A network of one neuron by the author of 
 
 The 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:  [blog post here](https://brohrer.github.io/five_questions_data_science_answers.html)
 
-### Getting Started in Python and Python for Data Science
-
-#### Just Starting Out
-
-[Intro to Python for Data Science from DataCamp](https://www.datacamp.com/courses/intro-to-python-for-data-science) (Time:  ~4 hours)
-
-#### Intermediate
-
-[Python for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure](https://notebooks.azure.com/rheartpython/libraries/PythonDS101) - Note, solutions to exercises at the end and I wrote this course. (Time: ~15 hours)
-
-For a more in-depth Python course, this is a good one on edX out of UC San Diego:  [Python for Data Science from edX](https://www.edx.org/course/python-data-science-uc-san-diegox-dse200x).  (Time:  10 weeks/8-10 hours per week)
-- Basic process of data science
-- Python and Jupyter notebooks
-- An applied understanding of how to manipulate and analyze uncurated datasets
-- Basic statistical analysis and machine learning methods
-- How to effectively visualize results
-
-#### Advanced
-
-I'll get back with more on this, but in general I like what Jake VanderPlas, a professor at the University of Washington, produces such as this one on Jupyter notebooks with Python, GitHub work, and how to make a Python package among other things with videos: [blog post here](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/)
-
 ### Deep Learning Videos I Love
 
 #### Just Starting Out
