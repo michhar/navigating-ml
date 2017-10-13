@@ -1,0 +1,74 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "navigating-ml\n\n\nMy notes on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.\n\n\nWorking with Images:  A CNTK Image Tutorial Path\n\n\nSome Python required\n\n\nBelow are links to Jupyter notebooks from the CNTK Tutorials along with accompanying videos by Microsoft around the MNIST digit classification example.\n\n\n\n\n\n\n\n\nTopic\n\n\nTutorial on Jupyter\n\n\nVideo Link\n\n\n\n\n\n\n\n\n\n\nLoading MNIST data\n\n\nNotebook 103A on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nReading MNIST data in CNTK\n\n\nNotebook 103B on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nCreating and training a logistic regression classifier\n\n\nNotebook 103B on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nPredicting on data\n\n\nNotebook 103B on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\nTraining and testing a Multilayer Perceptron\n\n\nNotebook 103C on CNTK GitHub\n\n\nVideo\n\n\n\n\n\n\n\n\n\n\nUse these notebooks for free online:  \nCNTK Tutorials on Azure Notebooks\n\n\nUse these notebooks locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):  \n\n\nDownload the Jupyter notebook by right clicking \"Raw\" in the upper right-hand corner of the CNTK GitHub repo link above and \"Save link as...\"\n\n\nOn command line, navigate to the folder with the notebook, and run \njupyter notebook\n, then open the notebook.\n\n\n\n\n\n\nAn aside, if you have other notebooks you'd like to include in a Docker workflow:  If using Docker (as on macOS and following \nthese\n instructions), make sure to mount any custom folders with your own notebooks when doing the \ndocker run\n by add the \n-v\n flag during that command like in:\n\n\n\n\n`docker run -v /Users/micheleenharris/Documents/bin/ -d -p 8888:8888 --name cntk-jupyter-notebooks -t microsoft/cntk:2.0-cpu-python3.5`\n\n\n\nAdditional Places to Go\n\n\nGetting Started Blog Articles I Love\n\n\nClearly stated and illustrated traditional machine learning, deep learning, and statistics crash course from ML @ Berkeley:\n\ncourse found here\n\n\nThe most basic deep learning network.  A network of one neuron by the author of \nPython Machine Learning\n (Sebastian Raschka):  \nblog post here\n\n\nThe 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:  \nblog post here\n\n\nGetting Started in Python and Python for Data Science\n\n\nJust Starting Out\n\n\nIntro to Python for Data Science from DataCamp\n (Time:  ~4 hours)\n\n\nIntermediate\n\n\nPython for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure\n - Note, solutions to exercises at the end and I wrote this course. (Time: ~15 hours)\n\n\nFor a more in-depth Python course, this is a good one on edX out of UC San Diego:  \nPython for Data Science from edX\n.  (Time:  10 weeks/8-10 hours per week)\n- Basic process of data science\n- Python and Jupyter notebooks\n- An applied understanding of how to manipulate and analyze uncurated datasets\n- Basic statistical analysis and machine learning methods\n- How to effectively visualize results\n\n\nAdvanced\n\n\nI'll get back with more on this, but in general I like what Jake VanderPlas, a professor at the University of Washington, produces such as this one on Jupyter notebooks with Python, GitHub work, and how to make a Python package among other things with videos: \nblog post here\n\n\nDeep Learning Videos I Love\n\n\nJust Starting Out\n\n\nMelanie Warrick's \nNeural Networks for Newbies\n\n\nBrandon Rohrer's YouTube \nchannel\n with tons of deep learning shorts.\n\n\nA great non-mathy series on YouTube called \nDeep Learning SIMPLIFIED\n\n\nIntermediate\n\n\nA great Computer Vision course out of Stanford in 2017: \nvideos here\n\n\nA good tutorial by Sayan Pathak at Microsoft on the CNTK deep learning Python library \nhere\n.\n\n\nPractice Makes Better\n\n\nKaggle Competitions\n\n\nA lot of folks have recommended \nKaggle Competitions\n to me as they are a great place to stretch your ML muscles and start coding on an fun and exciting challenge.  There are several \"start here\" problems to begin solving such as \npredicting survival on the Titanic\n.\n\n\nIf you're more advanced there's a nice Computer Vision masking challenge \nhere\n which closes in September 2017, but the code and data will still be up to check out.\n\n\nThanks for Reading and Give me a Shout on Twitter if You'd Like to Chat ML or Have Some Favorite Resources Yourself\n\n\nTwitter:  @rheartpython\n\n\nLinkedIn:  \nhttps://www.linkedin.com/in/micheleenharris\n\n\nIssues or PRs welcome.\n\n\nMore coming soon!",
+            "title": "Main"
+        },
+        {
+            "location": "/#navigating-ml",
+            "text": "My notes on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.",
+            "title": "navigating-ml"
+        },
+        {
+            "location": "/#working-with-images-a-cntk-image-tutorial-path",
+            "text": "Some Python required  Below are links to Jupyter notebooks from the CNTK Tutorials along with accompanying videos by Microsoft around the MNIST digit classification example.     Topic  Tutorial on Jupyter  Video Link      Loading MNIST data  Notebook 103A on CNTK GitHub  Video    Reading MNIST data in CNTK  Notebook 103B on CNTK GitHub  Video    Creating and training a logistic regression classifier  Notebook 103B on CNTK GitHub  Video    Predicting on data  Notebook 103B on CNTK GitHub  Video    Training and testing a Multilayer Perceptron  Notebook 103C on CNTK GitHub  Video      Use these notebooks for free online:   CNTK Tutorials on Azure Notebooks  Use these notebooks locally (note you'll need, among other Python libraries, CNTK installed or in Docker (for macOS)):    Download the Jupyter notebook by right clicking \"Raw\" in the upper right-hand corner of the CNTK GitHub repo link above and \"Save link as...\"  On command line, navigate to the folder with the notebook, and run  jupyter notebook , then open the notebook.    An aside, if you have other notebooks you'd like to include in a Docker workflow:  If using Docker (as on macOS and following  these  instructions), make sure to mount any custom folders with your own notebooks when doing the  docker run  by add the  -v  flag during that command like in:   `docker run -v /Users/micheleenharris/Documents/bin/ -d -p 8888:8888 --name cntk-jupyter-notebooks -t microsoft/cntk:2.0-cpu-python3.5`",
+            "title": "Working with Images:  A CNTK Image Tutorial Path"
+        },
+        {
+            "location": "/#additional-places-to-go",
+            "text": "",
+            "title": "Additional Places to Go"
+        },
+        {
+            "location": "/#getting-started-blog-articles-i-love",
+            "text": "Clearly stated and illustrated traditional machine learning, deep learning, and statistics crash course from ML @ Berkeley: course found here  The most basic deep learning network.  A network of one neuron by the author of  Python Machine Learning  (Sebastian Raschka):   blog post here  The 5 Questions Data Science Can Answer by Brandon Rohrer on his excellent blog:   blog post here",
+            "title": "Getting Started Blog Articles I Love"
+        },
+        {
+            "location": "/#getting-started-in-python-and-python-for-data-science",
+            "text": "",
+            "title": "Getting Started in Python and Python for Data Science"
+        },
+        {
+            "location": "/#just-starting-out",
+            "text": "Intro to Python for Data Science from DataCamp  (Time:  ~4 hours)",
+            "title": "Just Starting Out"
+        },
+        {
+            "location": "/#intermediate",
+            "text": "Python for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure  - Note, solutions to exercises at the end and I wrote this course. (Time: ~15 hours)  For a more in-depth Python course, this is a good one on edX out of UC San Diego:   Python for Data Science from edX .  (Time:  10 weeks/8-10 hours per week)\n- Basic process of data science\n- Python and Jupyter notebooks\n- An applied understanding of how to manipulate and analyze uncurated datasets\n- Basic statistical analysis and machine learning methods\n- How to effectively visualize results",
+            "title": "Intermediate"
+        },
+        {
+            "location": "/#advanced",
+            "text": "I'll get back with more on this, but in general I like what Jake VanderPlas, a professor at the University of Washington, produces such as this one on Jupyter notebooks with Python, GitHub work, and how to make a Python package among other things with videos:  blog post here",
+            "title": "Advanced"
+        },
+        {
+            "location": "/#deep-learning-videos-i-love",
+            "text": "",
+            "title": "Deep Learning Videos I Love"
+        },
+        {
+            "location": "/#just-starting-out_1",
+            "text": "Melanie Warrick's  Neural Networks for Newbies  Brandon Rohrer's YouTube  channel  with tons of deep learning shorts.  A great non-mathy series on YouTube called  Deep Learning SIMPLIFIED",
+            "title": "Just Starting Out"
+        },
+        {
+            "location": "/#intermediate_1",
+            "text": "A great Computer Vision course out of Stanford in 2017:  videos here  A good tutorial by Sayan Pathak at Microsoft on the CNTK deep learning Python library  here .",
+            "title": "Intermediate"
+        },
+        {
+            "location": "/#practice-makes-better",
+            "text": "",
+            "title": "Practice Makes Better"
+        },
+        {
+            "location": "/#kaggle-competitions",
+            "text": "A lot of folks have recommended  Kaggle Competitions  to me as they are a great place to stretch your ML muscles and start coding on an fun and exciting challenge.  There are several \"start here\" problems to begin solving such as  predicting survival on the Titanic .  If you're more advanced there's a nice Computer Vision masking challenge  here  which closes in September 2017, but the code and data will still be up to check out.  Thanks for Reading and Give me a Shout on Twitter if You'd Like to Chat ML or Have Some Favorite Resources Yourself  Twitter:  @rheartpython  LinkedIn:   https://www.linkedin.com/in/micheleenharris  Issues or PRs welcome.  More coming soon!",
+            "title": "Kaggle Competitions"
+        }
+    ]
+}
