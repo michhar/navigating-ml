@@ -358,7 +358,7 @@
     <label class="md-nav__link" for="nav-3-2">
       Intermediate
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
         Intermediate
       </label>
@@ -418,7 +418,7 @@
     <label class="md-nav__link" for="nav-3-3">
       Advanced
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
         Advanced
       </label>
@@ -555,16 +555,17 @@
 <li>Download the <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a> and build a fruit image classifier with <a href="https://customvision.ai/">https://customvision.ai/</a>.</li>
 </ol>
 <h2 id="basic-neural-nets">Basic Neural Nets</h2>
+<p>The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons work from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!</p>
 <ol>
 <li>Use <a href="https://notebooks.azure.com">Azure Notebooks</a> for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.</li>
-<li>Get the following sample image dataset loaded in your Jupyter notebook: <a href="http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_sample_images.html#sklearn.datasets.load_sample_images">sklearn image dataset</a></li>
+<li>Get the following sample image dataset loaded in your Jupyter notebook: <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">train and test Fashion MNIST Dataset (Source: Kaggle)</a></li>
 <li>Adapt a from-scratch Perceptron as in this <a href="https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch02/ch02.ipynb">Jupyter notebook</a> to train and test on the image dataset.<ul>
 <li>Use the URL option when opening up a new notebook in Azure Notebooks</li>
 <li>Or, download by right clicking on "Raw" and "Save link as..."</li>
 <li>Re-implement the Perceptron in scikit-learn</li>
 </ul>
 </li>
-<li>Adapt a from-scratch Multilayer Perceptron as in this <a href="https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch12/ch12.ipynb">Jupyter notebook</a><ul>
+<li>Adapt a from-scratch Multilayer Perceptron (MLP) as in this <a href="https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch12/ch12.ipynb">Jupyter notebook</a><ul>
 <li>Use the URL option when opening up a new notebook in Azure Notebooks</li>
 <li>Or, download by right clicking on "Raw" and "Save link as..."</li>
 <li>Re-implement the MLP in scikit-learn</li>
@@ -572,15 +573,19 @@
 </li>
 </ol>
 <h2 id="running-and-testing-locally-with-azure-ml-workbench">Running and Testing Locally with Azure ML Workbench</h2>
+<p>Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.</p>
+<p>Use the iris dataset template and tutorial as an example - see the <a href="https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1">Docs</a>.</p>
 <ul>
-<li>Train your MLP from scikit-learn inside of Azure ML Workbench</li>
-<li>Test</li>
-<li>Check run history for metrics</li>
+<li>Read your csv train file into Azure ML Workbench</li>
+<li>Modify the iris template to train your MLP using scikit-learn (same as template) locally in docker</li>
+<li>Test with the <code>score.py</code> file locally in docker</li>
+<li>Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)</li>
 <li>Containerize</li>
 <li>Deploy</li>
-<li>Test the endpoint</li>
+<li>Test the endpoint in any script or application that you want to build (in any language)</li>
 </ul>
 <h2 id="transfer-learning-on-the-deep-learning-virtual-machine-with-cntk">Transfer Learning on the Deep Learning Virtual Machine with CNTK</h2>
+<p>Now, we are going to totally switch gears and tools.  We'll spin up a Deep Learning Virtual Machine and leverage raw Python scripts already kindly prepared for us on a classic image dataset, CIFAR-10, which has ten classes.  Here, for ease of use and speed we'll use Transfer Learning as well.</p>
 <ul>
 <li>Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine">here</a>).</li>
 <li>Use ResNet to train a CIFAR 10 classifier<ul>
@@ -590,7 +595,7 @@
 </li>
 </ul>
 <h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
-<p>Here, you'll take advantage of the Inception-v3 model trained on the ImageNet dataset, to simply classify a new image.</p>
+<p>This will serve as a gentle intro to TensorFlow.  Here, you'll take advantage of the Inception-v3 model pre-trained on the ImageNet dataset and simply classify a new image using the pre-built script.</p>
 <p>Go through up to and including "Usage with Python API" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):  <a href="https://www.tensorflow.org/tutorials/image_recognition#top_of_page">Tutorial</a> using your Linux DLVM.</p>
 <ul>
 <li>"Git clone" the indicated repository</li>
@@ -598,11 +603,11 @@
 <li>Run the script with your own jpeg</li>
 <li>Take a peek at the code to see how the model was built</li>
 </ul>
+<p>Question:  How does this experience compare to the CNTK tutorial in the previous section?</p>
 <h2 id="additional-help">Additional Help</h2>
 <ul>
-<li>StackOverflow with <code>cntk</code> tag</li>
+<li>StackOverflow with <code>sklearn</code>, <code>cntk</code> or <code>tensorflow</code> as tag</li>
 <li>Issues on CNTK GitHub repo</li>
-<li>StackOverflow with <code>sklearn</code> tag</li>
 </ul>
                 
                   

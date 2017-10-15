@@ -21,8 +21,8 @@ Included are:  Jupyter, CustomVision.ai, Scikit-learn, CNTK, TensorFlow, Azure M
 
 | Dataset | Description | Link |
 |:------|:------|:------|
-| Scikit-learn Image Dataset | Two sample JPEGs in an easily consumable format for ML image analysis | [Link](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_sample_images.html#sklearn.datasets.load_sample_images) |
+| Fashion MNIST Dataset (Source: Kaggle) | The Fashion MNIST dataset is a good one to move on to from the hand-written digits one.  It has 60,000 28x28 training images and 10,000 test images as csv files. | [Link](https://www.kaggle.com/zalando-research/fashionmnist/data) |
 | Fruit Dataset (FIDS30) | The fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes. | [Link](http://www.vicos.si/Downloads/FIDS30) |
-| CIFAR-10 Kaggle Format | The CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in the official data. | [Link](https://www.kaggle.com/c/cifar-10/data) |
-| CIFAR-10 Toronto Dataset | Same as above | [Link](http://www.cs.toronto.edu/~kriz/cifar.html) |
+| CIFAR-10 (Source: Kaggle) | The CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in this official data. | [Link](https://www.kaggle.com/c/cifar-10/data) |
+| CIFAR-10 (Source: Toronto) | Same as above | [Link](http://www.cs.toronto.edu/~kriz/cifar.html) |
 
