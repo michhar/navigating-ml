@@ -15,7 +15,15 @@ TDB
 
 ### Tools and Technologies
 
-Included are:  Jupyter, CustomVision.ai, Scikit-learn, CNTK, TensorFlow, Azure ML Workbench, Deep Learning Virtual Machine
+Included are:
+
+* Jupyter
+* CustomVision.ai
+* Scikit-learn
+* CNTK
+* TensorFlow
+* Azure ML Workbench
+* Deep Learning Virtual Machine
 
 ### Data
 
