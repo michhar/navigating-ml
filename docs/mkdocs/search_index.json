@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "navigating-ml\n\n\nMy paths on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.\n\n\nPlease enjoy responsibly.\n\n\nQuick Reference\n\n\nData\n\n\n\n\n\n\n\n\nDataset\n\n\nDescription\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nFruit Dataset (FIDS30)\n\n\nThe fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 Kaggle Format\n\n\nThe CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in the official data.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 Toronto Dataset\n\n\nSame as above\n\n\nLink",
+            "text": "navigating-ml\n\n\nMy paths on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.\n\n\nHere, you'll get exposed to several types, qualities and sizes of datasets.  You'll also see how to use many useful Python libraries and general Data Science tools.  These paths can be used separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner hacks quickly and thoroughly.\n\n\nThat being said, feed back is always welcome especially at this early stage.  Please enjoy responsibly.\n\n\nQuick Reference\n\n\nTemplates\n\n\nTDB\n\n\nTools and Technologies\n\n\nIncluded are:  Jupyter, CustomVision.ai, Scikit-learn, CNTK, TensorFlow, Azure ML Workbench, Deep Learning Virtual Machine\n\n\nData\n\n\n\n\n\n\n\n\nDataset\n\n\nDescription\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nScikit-learn Image Dataset\n\n\nTwo sample JPEGs in an easily consumable format for ML image analysis\n\n\nLink\n\n\n\n\n\n\nFruit Dataset (FIDS30)\n\n\nThe fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 Kaggle Format\n\n\nThe CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in the official data.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 Toronto Dataset\n\n\nSame as above\n\n\nLink",
             "title": "Main"
         },
         {
             "location": "/#navigating-ml",
-            "text": "My paths on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.  Please enjoy responsibly.",
+            "text": "My paths on navigating Machine Learning and Deep Learning.  Note, there are many paths, but these helped me get started.  Here, you'll get exposed to several types, qualities and sizes of datasets.  You'll also see how to use many useful Python libraries and general Data Science tools.  These paths can be used separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner hacks quickly and thoroughly.  That being said, feed back is always welcome especially at this early stage.  Please enjoy responsibly.",
             "title": "navigating-ml"
         },
         {
@@ -16,8 +16,18 @@
             "title": "Quick Reference"
         },
         {
+            "location": "/#templates",
+            "text": "TDB",
+            "title": "Templates"
+        },
+        {
+            "location": "/#tools-and-technologies",
+            "text": "Included are:  Jupyter, CustomVision.ai, Scikit-learn, CNTK, TensorFlow, Azure ML Workbench, Deep Learning Virtual Machine",
+            "title": "Tools and Technologies"
+        },
+        {
             "location": "/#data",
-            "text": "Dataset  Description  Link      Fruit Dataset (FIDS30)  The fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes.  Link    CIFAR-10 Kaggle Format  The CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in the official data.  Link    CIFAR-10 Toronto Dataset  Same as above  Link",
+            "text": "Dataset  Description  Link      Scikit-learn Image Dataset  Two sample JPEGs in an easily consumable format for ML image analysis  Link    Fruit Dataset (FIDS30)  The fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes.  Link    CIFAR-10 Kaggle Format  The CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in the official data.  Link    CIFAR-10 Toronto Dataset  Same as above  Link",
             "title": "Data"
         },
         {
