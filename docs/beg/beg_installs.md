@@ -5,7 +5,7 @@ For the first part of the Beginner Challenge, you'll only need [Azure Notebooks]
 For the Transfer Learning and TensorFlow parts you'll need:
 
 * (Deploy when ready) [Linux (Ubuntu) Deep Learning Virtual Machine](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm) Standard NC6
-> Tip: place everything for this set of challenges in the same resource group to tear down together at the end.
+> Tip: place everything for this set of challenges in the same resource group to tear down together at the end.  Also, note you can start and stop VMs so make use of that when not using one that's pricey.
 
 For the Workbench parts you'll need some items locally (note:  Workbench is available for Windows or macOS so this is a good chance to build up some Data Science tools locally - nice when you have spotty wifi):
 

@@ -15,11 +15,11 @@ The purpose of the Basic Neural Nets exercises are to familiarize you with how a
 3. Adapt a from-scratch Perceptron as in this [Jupyter notebook](https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch02/ch02.ipynb) to train and test on the image dataset.
     - Use the URL option when opening up a new notebook in Azure Notebooks
     - Or, download by right clicking on "Raw" and "Save link as..."
-    - Re-implement the Perceptron in scikit-learn
+    - Re-implement the Perceptron with `sklearn` (scikit-learn)
 4. Adapt a from-scratch Multilayer Perceptron (MLP) as in this [Jupyter notebook](https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch12/ch12.ipynb)
     - Use the URL option when opening up a new notebook in Azure Notebooks
     - Or, download by right clicking on "Raw" and "Save link as..."
-    - Re-implement the MLP in scikit-learn
+    - Re-implement the MLP with `sklearn`
 
 ## Running and Testing Locally with Azure ML Workbench
 
@@ -39,10 +39,11 @@ Use the iris dataset template and tutorial as an example - see the [Docs](https:
 
 Now, we are going to totally switch gears and tools.  We'll spin up a Deep Learning Virtual Machine and leverage raw Python scripts already kindly prepared for us on a classic image dataset, CIFAR-10, which has ten classes.  Here, for ease of use and speed we'll use Transfer Learning as well.
 
-- Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions [here](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine)).
+- Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions in [Docs](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine)).
 - Use ResNet to train a CIFAR 10 classifier
-    - Download the [CIFAR 10 dataset in CNTK format](https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10)
-    - Run this script on the command line on the DLVM, found [here](https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py), to train your classifier with Transfer Learning (base model is ResNet).
+    1.  Go ahead and clone the [CNTK GitHub repo](https://github.com/Microsoft/CNTK).
+    2. Get the data by running the `install_cifar10.py` in the `CNTK/Examples/Image/DataSets/CIFAR-10/` folder of the [CNTK GitHub repo](https://github.com/Microsoft/CNTK) - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  _Note_: this download may take 10-20 minutes - it's a lot of data and data conversions.
+    3. Run [this](https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py) script on the command line on your DLVM, to train your classifier with Transfer Learning (the base model here is [ResNet](https://arxiv.org/abs/1512.03385)).
 
 ## Taste of TensorFlow
 
@@ -51,11 +52,9 @@ This will serve as a gentle intro to TensorFlow.  Here, you'll take advantage of
 Go through up to and including "Usage with Python API" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):  [Tutorial](https://www.tensorflow.org/tutorials/image_recognition#top_of_page) using your Linux DLVM.
 
 - "Git clone" the indicated repository
-- Run the script locally on the command line
+- Run the script on the command line on your DLVM
 - Run the script with your own jpeg
 - Take a peek at the code to see how the model was built
-
-Question:  How does this experience compare to the CNTK tutorial in the previous section?
 
 ## Additional Help
 
