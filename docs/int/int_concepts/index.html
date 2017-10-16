@@ -320,9 +320,36 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Concepts
+      </label>
+    
     <a href="./" title="Concepts" class="md-nav__link md-nav__link--active">
       Concepts
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#for-quick-reference-mnist-digits-and-cntk-notebooks-and-videos" title="For Quick Reference - MNIST Digits and CNTK Notebooks and Videos" class="md-nav__link">
+    For Quick Reference - MNIST Digits and CNTK Notebooks and Videos
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -426,6 +453,20 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#for-quick-reference-mnist-digits-and-cntk-notebooks-and-videos" title="For Quick Reference - MNIST Digits and CNTK Notebooks and Videos" class="md-nav__link">
+    For Quick Reference - MNIST Digits and CNTK Notebooks and Videos
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -438,15 +479,78 @@
                 
                 
                 <h1 id="concepts">Concepts</h1>
-<p>Learn about CNTK and logistic regression, multilayer perceptron, and CNN classifiers on the MNIST dataset to classify hand-written digits.  We'll use these notebooks in our Challenge section.</p>
-<p>Take the first four modules of the free Deep Learning Explained edX <a href="https://courses.edx.org/courses/course-v1:Microsoft+DAT236x+4T2017/course/">course</a>.  Each module should take 1-2 hours so consider this pre-work to take about 1 full day.</p>
+<p>Now it's time to really learn about CNTK and classifiers such as logistic regression, multilayer perceptron, and convolutional network (CNN/ConvNet) classifiers.  The MNIST hand-written digits dataset is used in the following course to classify grey-scale images of digits.  We'll use this code in our Challenge section so go ahead and get familiar with it now by taking this course.</p>
+<p>Work through the first four modules of the free Deep Learning Explained edX <a href="https://courses.edx.org/courses/course-v1:Microsoft+DAT236x+4T2017/course/">course</a>.  Each module should take 1-2 hours each.</p>
 <ol>
 <li>Learn concepts around neural networks for image applications.<ol>
 <li>List the differences between a Convolutional (ConvNet/CNN) and regular Dense Neural Network.</li>
-<li>List the tunable hyperparameters one can find in a ConvNet.</li>
+<li>List and give examples of the tunable hyperparameters one can find in a ConvNet.
+...</li>
 </ol>
 </li>
 </ol>
+<h3 id="for-quick-reference-mnist-digits-and-cntk-notebooks-and-videos">For Quick Reference - MNIST Digits and CNTK Notebooks and Videos</h3>
+<p>Below are links to some of the Jupyter notebooks used in the edX Deep Learning Explained course (linked to above) using the MNIST hand-written digits dataset.  Included are links to accompanying videos by Microsoft data scientists around this example.</p>
+<p>They are meant to be worked on in order, each tutorial building on the previous.  Ideally, you will have also watched the accompanying lectures from the course.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Topic</th>
+<th align="left">Tutorial on Jupyter</th>
+<th align="left">Video Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Loading MNIST data</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103A_MNIST_DataLoader.ipynb">Notebook 103A on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=V3bT7lvm_EQ">Video</a></td>
+</tr>
+<tr>
+<td align="left">Reading MNIST data in CNTK</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb">Notebook 103B on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=RbJh94AhHgw">Video</a></td>
+</tr>
+<tr>
+<td align="left">Creating and training a logistic regression classifier</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb">Notebook 103B on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=9hfsVAXe2fY">Video</a></td>
+</tr>
+<tr>
+<td align="left">Predicting on data</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb">Notebook 103B on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=JbhJv1OELlE">Video</a></td>
+</tr>
+<tr>
+<td align="left">Training and testing a Multilayer Perceptron</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103C_MNIST_MultiLayerPerceptron.ipynb">Notebook 103C on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=CRJZAN-fxRY">Video</a></td>
+</tr>
+<tr>
+<td align="left">Reading MNIST data in CNTK (CNN version)</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb">Notebook 103D on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=HYTWhunVL5Y">Video</a></td>
+</tr>
+<tr>
+<td align="left">Understanding CNN filters, strides and padding</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb">Notebook 103D on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=8nuvaC_nUo4">Video</a></td>
+</tr>
+<tr>
+<td align="left">Build CNN model, understand layers and number of parameters</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb">Notebook 103D on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=DzZoYC-E1kU">Video</a></td>
+</tr>
+<tr>
+<td align="left">Training and evaluating CNN model</td>
+<td align="left"><a href="https://github.com/Microsoft/CNTK/blob/master/Tutorials/CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb">Notebook 103D on CNTK GitHub</a></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=3Xmw1m9gGtE">Video</a></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Use these notebooks for free online:  <a href="https://notebooks.azure.com/cntk/libraries/tutorials">CNTK Tutorials on Azure Notebooks</a></li>
+</ul>
                 
                   
                 
