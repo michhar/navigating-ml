@@ -6,6 +6,17 @@ In this Beginner Challenge you'll learn about basic ML and neural networks hands
 
 1. Download the [fruit dataset](http://www.vicos.si/Downloads/FIDS30) and build a fruit image classifier with [https://customvision.ai/](https://customvision.ai/).
 
+## First Custom ML
+
+### Image Classification
+
+Create a Python program to classify images from Fashion MNIST Dataset (get [here](https://www.kaggle.com/zalando-research/fashionmnist/data)) leveraging code samples from the Python Data Science Handbook - [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits).  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for `sklearn.datasets.load_digits` so that you can convert into that format to utilize the algorithms in `sklearn` (scikit-learn).  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.
+
+### Object Detection
+
+Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html).  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for `sklearn.datasets.fetch_lfw_people` so that you can convert into that format to utilize the algorithms in `sklearn` (scikit-learn) to create this detector.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.
+
+
 ## Basic Neural Nets
 
 The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!
@@ -28,11 +39,11 @@ Now that you've got a couple of implementations of a Multilayer Perceptron, go a
 Use the iris dataset template and tutorial as an example - see the [Docs](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1).
 
 - Read your csv train file into Azure ML Workbench
-- Modify the iris template to train your MLP using scikit-learn (same as template) locally in docker
+- Modify the iris template to train a model with any of the above classification algorithms locally in docker
 - Test with the `score.py` file locally in docker
 - Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)
 - Containerize
-- Deploy
+- Deploy this to a Kubernetes cluster
 - Test the endpoint in any script or application that you want to build (in any language)
 
 ## Transfer Learning on the Deep Learning Virtual Machine with CNTK

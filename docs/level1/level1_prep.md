@@ -1,16 +1,38 @@
 # Level 1 Preparation
 
-1. Git and GitHub for version control.
-2. Jupyter notebook skills.
-1. Get a good grasp of Python for:
+To begin at this level you should have:
+
+- Familiarity with Python for general purpose programming
+- Working knowledge of traditional ML
+- Basic data mining skills
+
+...
+
+## Concepts
+
+### Neural Networks
+
+Read through [this](http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html) excellent explanation of a single-layer neural network.  This information will lay the foundation for these sets of challenges and help you get started from the ground-up, quickly with key concepts and Python code snippets.
+
+### Dealing with Image Data
+
+- Manipulation/conversions [Need doc]()
+- Scaling [Need doc]()
+- Transforms/augmentation [Need doc]()
+
+...
+
+## Tools
+
+1. Git and GitHub for version control. [Need doc]()
+2. Jupyter notebook skills. [Chapter 1 Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+1. Get a good grasp of Python for data tasks:
     1. How to read data (matplotlib, Pillow/PIL, opencv)
-    2. How to manipulate data (numpy, pandas)
+    2. How to manipulate data (numpy, pandas, scikit-learn) 
     3. How to plot data (matplotlib, plotly)
-    4. Traditional ML
-        - Learn about ML and Python scikit-learn in this [video series](https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A)
-3. Learn concepts around neural networks for image applications.
-    1.  List the ways in which Object Detection differs from Image Classification and Instance Segmentation.
-    4.  List the reasons to use Transfer Learning over "from scratch" model definitions.
+    4. Traditional ML (scikit-learn)
+
+...
 
 [A Learning Path is under dev to cover the above topics in linear fashion]()
 
@@ -18,8 +40,10 @@
 
 ### Scikit-Learn
 
-Excellent 3-hr Scikit-learn tutorials from PyCon 2015
+Excellent 3-hr scikit-learn tutorials from PyCon 2015:
 
 - Watch [this](https://www.youtube.com/watch?v=L7R4HUQ-eQ0) scikit-learn tutorial by Jake VanderPlas (Part 1) and [the next](https://www.youtube.com/watch?v=oGqGxvqA9-k) tutorial by Olivier Grisel (Part 2).
+
+Learn about ML and Python scikit-learn in this [video series](https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A)
 
 
