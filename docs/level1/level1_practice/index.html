@@ -332,27 +332,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Running and Testing Locally with Azure ML Workbench
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transfer-learning-on-the-deep-learning-virtual-machine-with-cntk" title="Transfer Learning on the Deep Learning Virtual Machine with CNTK" class="md-nav__link">
-    Transfer Learning on the Deep Learning Virtual Machine with CNTK
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taste-of-tensorflow" title="Taste of TensorFlow" class="md-nav__link">
-    Taste of TensorFlow
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#additional-help" title="Additional Help" class="md-nav__link">
     Additional Help
   </a>
@@ -385,7 +364,7 @@
     <label class="md-nav__link" for="nav-3-2">
       Level 2
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-3-2">
         Level 2
       </label>
@@ -445,7 +424,7 @@
     <label class="md-nav__link" for="nav-3-3">
       Level 3
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
       <label class="md-nav__title" for="nav-3-3">
         Level 3
       </label>
@@ -560,27 +539,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Running and Testing Locally with Azure ML Workbench
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transfer-learning-on-the-deep-learning-virtual-machine-with-cntk" title="Transfer Learning on the Deep Learning Virtual Machine with CNTK" class="md-nav__link">
-    Transfer Learning on the Deep Learning Virtual Machine with CNTK
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taste-of-tensorflow" title="Taste of TensorFlow" class="md-nav__link">
-    Taste of TensorFlow
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#additional-help" title="Additional Help" class="md-nav__link">
     Additional Help
   </a>
@@ -653,41 +611,9 @@
 </ul>
 </li>
 </ol>
-<h2 id="running-and-testing-locally-with-azure-ml-workbench">Running and Testing Locally with Azure ML Workbench</h2>
-<p>Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.</p>
-<p>Use the iris dataset template and tutorial as an example - see the <a href="https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1">Docs</a>.</p>
-<ul>
-<li>Read your csv train file into Azure ML Workbench</li>
-<li>Modify the iris template to train a model with any of the above classification algorithms locally in docker</li>
-<li>Test with the <code>score.py</code> file locally in docker</li>
-<li>Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)</li>
-<li>Containerize</li>
-<li>Deploy this to a Kubernetes cluster</li>
-<li>Test the endpoint in any script or application that you want to build (in any language)</li>
-</ul>
-<h2 id="transfer-learning-on-the-deep-learning-virtual-machine-with-cntk">Transfer Learning on the Deep Learning Virtual Machine with CNTK</h2>
-<p>Now, we are going to totally switch gears and tools.  We'll spin up a Deep Learning Virtual Machine and leverage raw Python scripts already kindly prepared for us on a classic image dataset, CIFAR-10, which has ten classes.  Here, for ease of use and speed we'll use Transfer Learning as well.</p>
-<ul>
-<li>Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions in <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine">Docs</a>).</li>
-<li>Use ResNet to train a CIFAR 10 classifier<ol>
-<li>Go ahead and clone the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a>.</li>
-<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take 10-20 minutes - it's a lot of data and data conversions.</li>
-<li>Run <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py">this</a> script on the command line on your DLVM, to train your classifier with Transfer Learning (the base model here is <a href="https://arxiv.org/abs/1512.03385">ResNet</a>).</li>
-</ol>
-</li>
-</ul>
-<h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
-<p>This will serve as a gentle intro to TensorFlow.  Here, you'll take advantage of the Inception-v3 model pre-trained on the ImageNet dataset and simply classify a new image using the pre-built script.</p>
-<p>Go through up to and including "Usage with Python API" such that you can classify your own jpeg (note, there are 1000 classes in this Inception-v3 model):  <a href="https://www.tensorflow.org/tutorials/image_recognition#top_of_page">Tutorial</a> using your Linux DLVM.</p>
-<ul>
-<li>"Git clone" the indicated repository</li>
-<li>Run the script on the command line on your DLVM</li>
-<li>Run the script with your own jpeg</li>
-<li>Take a peek at the code to see how the model was built</li>
-</ul>
 <h2 id="additional-help">Additional Help</h2>
 <ul>
-<li>StackOverflow with <code>sklearn</code>, <code>cntk</code> or <code>tensorflow</code> as tag</li>
+<li>StackOverflow with <code>sklearn</code></li>
 <li>Issues on CNTK GitHub repo</li>
 </ul>
                 
