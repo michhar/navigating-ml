@@ -19,7 +19,7 @@
 
 **Learn about Jupyter**
 
-[Nice, short vido tour of Jupyter Notebooks](https://www.youtube.com/watch?v=jZ952vChhuI)
+[Nice, short video tour of Jupyter Notebooks](https://www.youtube.com/watch?v=jZ952vChhuI)
 
   * Go to [Azure Notebooks](https://notebooks.azure.com) to check out Jupyter notebooks live and try to follow along with the video.
 
@@ -31,7 +31,7 @@
 
 * Basics
 * Data Structures
-* Functional Programmin]
+* Functional Programming
 * Sorting and Pattern Matching
 * Object Oriented Programming
 * Basic Difference from 2 to 3
@@ -59,4 +59,8 @@ For a more in-depth Python course, this is a good one on edX out of UC San Diego
 
 For a great dive into Python in the context of ML check out this book by Sebastian Raschka (you'll get to write algorithms from scratch in pure Python!): [Python Machine Learning (2nd Ed.)](https://github.com/rasbt/python-machine-learning-book-2nd-edition)
 
-Not sure if this book is out yet, but Sebastian Raschka is writing a sequel with more deep learning and TensorFlow: [Introduction to Artificial Neural Networks and Deep Learning](https://leanpub.com/ann-and-deeplearning).
+Not sure if this book is out yet, but Sebastian Raschka is writing a sequel with more deep learning in Python with TensorFlow: [Introduction to Artificial Neural Networks and Deep Learning](https://leanpub.com/ann-and-deeplearning).
+
+"This book is concerned with the nuts and bolts of manipulating, processing, cleaning, and crunching data in Python. My goal is to offer a guide to the parts of the Python programming language and its data-oriented library ecosystem and tools that will equip you to become an effective data analyst. While 'data analysis' is in the title of the book, the focus is specifically on Python programming, libraries, and tools as opposed to data analysis methodology. This is the Python programming you need for data analysis."  [Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython by Wes McKinney](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/)
+
+"Perhaps you would like to give your homemade robot a brain of its own? Make it recognize faces? Or learn to walk around? Or maybe your company has tons of data (user logs, financial data, production data, machine sensor data, hotline stats, HR reports, etc.), and more than likely you could unearth some hidden gems if you just knew where to look." [Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)

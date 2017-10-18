@@ -8,7 +8,7 @@ In this Beginner Challenge you'll learn about basic ML and neural networks hands
 
 ## Basic Neural Nets
 
-The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons work from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!
+The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!
 
 1.  Use [Azure Notebooks](https://notebooks.azure.com) for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.
 2. Get the following sample image dataset loaded in your Jupyter notebook: [train and test Fashion MNIST Dataset (Source: Kaggle)](https://www.kaggle.com/zalando-research/fashionmnist/data)

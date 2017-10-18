@@ -3,19 +3,19 @@ theme: material
 pages:
     - Main: index.md
     - Getting Started:
-      - 'Prerequisites': 'myprereqs.md'
+      - 'Python': 'python.md'
     - Dealing with Images:
-      - Beginner:
-        - 'Setup': 'beg/beg_installs.md'
-        - 'Concepts': 'beg/beg_concepts.md'
-        - 'Practice': 'beg/beg_implement.md'
-      - Intermediate:
-        - 'Setup': 'int/int_installs.md'
-        - 'Concepts': 'int/int_concepts.md'
-        - 'Practice': 'int/int_implement.md'
-      - Advanced:
-        - 'Setup': 'adv/adv_installs.md'
-        - 'Concepts': 'adv/adv_concepts.md'
-        - 'Practice': 'adv/adv_implement.md'
+      - Level 1:
+        - 'Setup': 'level1/level1_setup.md'
+        - 'Preparation': 'level1/level1_prep.md'
+        - 'Practice': 'level1/level1_practice.md'
+      - Level 2:
+        - 'Setup': 'level2/level2_setup.md'
+        - 'Preparation': 'level2/level2_prep.md'
+        - 'Practice': 'level2/level2_practice.md'
+      - Level 3:
+        - 'Setup': 'level3/level3_setup.md'
+        - 'Preparation': 'level3/level3_prep.md'
+        - 'Practice': 'level3/level3_practice.md'
 
 google_analytics: ['UA-86308542-1', 'https://michhar.github.io/navigating-ml/']

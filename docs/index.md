@@ -1,6 +1,6 @@
 # navigating-ml
 
-Do you feel like there's just too much to be aware of in the Deep Learning space today?  Concepts like Convolutional Neural Networks, GANs, Neuro Style...and networks like AlexNet, ResNet, or Inception...frameworks like CNTK, TensorFlow, Caffe2, PyTorch...extra layers on top of those like TensorFlow Slim or Sonnet, Keras, Gluon, MMLSpark...
+Do you feel like there's just too much to be aware of in the Deep Learning space today?  Concepts like Convolutional Neural Networks, GANs, Neural Style Transfer...and networks like AlexNet, ResNet, or Inception...frameworks like CNTK, TensorFlow, Caffe2, PyTorch...extra layers on top of those like TFLearn, Keras, Gluon, MMLSpark...
 
 It can really seem overwhelming.  I propose we step back, take a nice, deep breath, and make a decision.  Are you a beginner in this field?  Are you on your way to really grokking neural nets, but still missing some key concepts?  Or are you as seasoned pro conceptually, but not super familiar with frameworks like CNTK (Microsoft's Cognitive Toolkit) or TensorFlow (Google's deep learning framework) or want to know more about the hardware and current tools for this kind of work?
 
@@ -12,7 +12,7 @@ Maybe you're a total neural network geek and you've played with CNTK and TensorF
 
 > Tip:  Focus on the pipeline first and iterate on the model after.
 
-Here, you'll get exposed to several types, qualities and sizes of datasets.  You'll also use many useful Python libraries and general Data Science tools.  These paths can be used separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner work quickly and thoroughly.
+Here, you'll get exposed to several types, qualities and sizes of datasets.  You'll also use many key Python libraries and general Data Science tools.  These paths can be walked separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner work quickly and thoroughly.
 
 That being said, feedback is always welcome especially at this early stage.  Please enjoy responsibly.
 
