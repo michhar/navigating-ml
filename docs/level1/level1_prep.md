@@ -1,4 +1,4 @@
-# Concepts
+# Level 1 Preparation
 
 1. Git and GitHub for version control.
 2. Jupyter notebook skills.

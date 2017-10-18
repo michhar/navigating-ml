@@ -1,6 +1,6 @@
-# Advanced Challenge
+# Level 3 Challenge
 
-In this Advanced Challenge, the instructions will be a little more vague and you'll need to go figure find out much on your own, part of the learning and challenge.
+In this advanced Challenge, the instructions will be a little more vague and you'll need to go figure find out much on your own, part of the learning and challenge.
 
 > This problem set is adapted from a Custom ML Resources document written by a colleague.
 

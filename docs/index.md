@@ -4,7 +4,7 @@ Do you feel like there's just too much to be aware of in the Deep Learning space
 
 It can really seem overwhelming.  I propose we step back, take a nice, deep breath, and make a decision.  Are you a beginner in this field?  Are you on your way to really grokking neural nets, but still missing some key concepts?  Or are you as seasoned pro conceptually, but not super familiar with frameworks like CNTK (Microsoft's Cognitive Toolkit) or TensorFlow (Google's deep learning framework) or want to know more about the hardware and current tools for this kind of work?
 
-If you suspect you are a Beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Beginner Challenge for Dealing with Images to start building up your deep learning cred.
+If you suspect you are a beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Beginner Challenge for Dealing with Images to start building up your deep learning cred.
 
 Do you grok the basics of ML and perhaps what a fully-connected neural network is?  Have you had some exposure to TensorFlow or CNTK, but don't yet have deep working knowledge of Convolutional Neural Networks?  In that case, try jumping into the Intermediate section of Dealing with Images.  If it seems a little overwhelming, head back to the Beginner area.  If it's not challenging enough, move on to the Advanced section.
 
