@@ -21,6 +21,8 @@ Classification,3,Doc,"How to improve a classifier(with better data) using Custom
 Classification,3,Doc,Example code using CiFar 10 dataset and implementing ResNet paper,https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python 
 Classification,3,Doc,Image Classification with CNTK and transfer learning. A lot like TensorFlow for poets,https://cntk.ai/pythondocs/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning.html 
 Classification,3,Doc,Image Classification tutorial using CNTK. Includes topics such as dropout and batchnormalization,https://cntk.ai/pythondocs/CNTK_201B_CIFAR-10_ImageHandsOn.html
+Classification,3,Doc,Azure ML Workbench links to this tutorial that goes through image classification with training and deployment,https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-aerial-image-classification
+Classification,3,Doc,The Azure ML image classification tutorial is based on this project. Tutorial uses CNTK but this repo includes a TensorFlow version,https://github.com/Azure/Embarrassingly-Parallel-Image-Classification
 Object Detection,3,Doc,TensorFlow external doc: Tutorial for Object Detection API. Can swap between models,https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
 Object Detection,3,Doc,TensorFlow external doc: Quickstart for object detection. Includes instructions for training on Google Cloud,https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_pets.md
 Object Detection,3,Doc,TensorFlow external doc: Tutorial for object detection using the latest API,https://www.oreilly.com/ideas/object-detection-with-tensorflow
