@@ -1,5 +1,6 @@
 Scenario,Line Item Number,Type,Note,Link
 General,0,Doc,"Sample code for reader showing scale, crop and mean image augmentation for CNTK on GitHub",https://github.com/Microsoft/CNTK/blob/master/Examples/Image/Classification/ConvNet/Python/ConvNet_CIFAR10_DataAug.py
+General,0,Doc,Tutorial showing how to transform images into CNTK format using CIFAR 10 dataset as an example,https://cntk.ai/pythondocs/CNTK_201A_CIFAR-10_DataLoader.html#
 General,0,Gap,Helpful display of types and examples (in pics) of image augmentation from Python package,https://github.com/aleju/imgaug
 General,0,Gap,Tutorial on image reading like found at the beginning of this CNTK tutorial ,http://adventuresinmachinelearning.com/microsoft-cntk-tutorial/
 General,0,Doc,"Understanding representation in training and test data in ""A few grains of salt"" section under (**need to make more prominent**) around having representative datasets especially if using a catch-all class label.",https://docs.microsoft.com/en-us/cognitive-toolkit/build-your-own-image-classifier-using-transfer-learning#build-your-own-custom-image-classifier
@@ -17,13 +18,16 @@ Classification,3,Doc,TensorFlow external doc: image classification examples usin
 Classification,3,Doc,Azure ML Workbench has tutorials for both TensorFlow and CNTK for classification with MNIST data,#
 Classification,3,Gap,"End-to-end tutorial on MNIST dataset using CNTK for image reading, layer definition, training and testing with nice comparisons to tensorflow",http://adventuresinmachinelearning.com/microsoft-cntk-tutorial/
 Classification,3,Doc,"How to improve a classifier(with better data) using Custom Vision Service (a few nugets of critical knowledge applicable to image analysis with ML in general) ""Include images that are representative of what your classifier will encounter in the real world"" with good and bad examples", https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-improving-your-classifier
+Classification,3,Doc,Example code using CiFar 10 dataset and implementing ResNet paper,https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python 
+Classification,3,Doc,Image Classification with CNTK and transfer learning. A lot like TensorFlow for poets,https://cntk.ai/pythondocs/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning.html 
+Classification,3,Doc,Image Classification tutorial using CNTK. Includes topics such as dropout and batchnormalization,https://cntk.ai/pythondocs/CNTK_201B_CIFAR-10_ImageHandsOn.html
 Object Detection,3,Doc,TensorFlow external doc: Tutorial for Object Detection API. Can swap between models,https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
 Object Detection,3,Doc,TensorFlow external doc: Quickstart for object detection. Includes instructions for training on Google Cloud,https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_pets.md
 Object Detection,3,Doc,TensorFlow external doc: Tutorial for object detection using the latest API,https://www.oreilly.com/ideas/object-detection-with-tensorflow
 Object Detection,3,Gap,A tutorial on VoTT tool,#
 Object Detection,3,Doc,Explaination on how to use the VoTT tool for image tagging,https://github.com/CatalystCode/VoTT
-Object Detection,3,Doc,Tutorial for object detection using Fast R-CNN (but **erroneously in the wrong place on MCOM**) ,https://docs.microsoft.com/en-us/cognitive-toolkit/object-detection-using-fast-r-cnn
-Object Detection,3,Doc,Example on image detection with Faster R-CNN  (**needs improvement and better findability** as burried on GitHub) ,https://github.com/Microsoft/CNTK/tree/release/2.2/Examples/Image/Detection/FasterRCNN
+Object Detection,3,Doc,Tutorial for object detection using Fast R-CNN,https://docs.microsoft.com/en-us/cognitive-toolkit/Object-Detection-using-Fast-R-CNN
+Object Detection,3,Doc,Documentation for Faster R-CNN using CNTK. Includes instructions and examples,https://docs.microsoft.com/en-us/cognitive-toolkit/object-detection-using-faster-r-cnn
 Object Detection,3,Gap,Inclusion in tutorial on adjusting model hyperparameters for object detection with CNTK - what do all of these hyperparams mean?,https://www.tensorflow.org/versions/master/tutorials/layers
 Tool Installation,3,Doc,Install Jupyter Notebooks Option 1:  Azure Notebooks for Jupyter notebooks and how to use this service,https://notebooks.azure.com/help/libraries
 Tool Installation,3,Doc,Install Jupyter Notebooks Option 2:  Provisioning a Data Science Virtual Machine,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm
