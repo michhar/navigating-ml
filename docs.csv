@@ -1,4 +1,3 @@
-Scenario,Line Item Number,Type,Note,Link
 General,0,Doc,"Sample code for reader showing scale, crop and mean image augmentation for CNTK on GitHub",https://github.com/Microsoft/CNTK/blob/master/Examples/Image/Classification/ConvNet/Python/ConvNet_CIFAR10_DataAug.py
 General,0,Doc,Tutorial showing how to transform images into CNTK format using CIFAR 10 dataset as an example,https://cntk.ai/pythondocs/CNTK_201A_CIFAR-10_DataLoader.html#
 General,0,Gap,Helpful display of types and examples (in pics) of image augmentation from Python package,https://github.com/aleju/imgaug
@@ -10,6 +9,9 @@ General,0,Gap,Discussion and addressing network misclassification due to image q
 General,0,Doc,"Explanations of readers, deserializers and transforms for CNTK",https://docs.microsoft.com/en-us/cognitive-toolkit/brainscript-and-python---understanding-and-extending-readers
 General,0,Doc,Sample code for reader showing scale image augmentation for CNTK on GitHub,https://github.com/Microsoft/CNTK/blob/master/Examples/Image/FeatureExtraction/FeatureExtraction.py
 General,0,Gap,Image augmentation with keras,https://machinelearningmastery.com/image-augmentation-deep-learning-keras/
+General,0,Gap,A machine learning algorithm cheat sheet like the one that exists for traditional ML but for deep learning,https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet
+General,0,Gap,Clear guidance on when/who should be using tool or service. eg should I use Batch AI or Shipyard for my ML training workload?,#
+General,0,Gap,The docs needed to accomplish some of these tasks are spread across platforms like GitHub doc.microsoft some on azure and random readthedocs sites. It is a disjointed experience,#
 Classification,3,Doc,TensorFlow external doc: A simple example of image classification using Cifar 10 data set,https://www.tensorflow.org/tutorials/image_recognition#usage_with_python_api
 Classification,3,Doc,TensorFlow external doc: classifying Cifar 10 data,https://www.tensorflow.org/tutorials/deep_cnn
 Classification,3,Doc,TensorFlow external doc: Tutorial for classification using Transfer Learning,https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
@@ -26,20 +28,15 @@ Classification,3,Doc,The Azure ML image classification tutorial is based on this
 Object Detection,3,Doc,TensorFlow external doc: Tutorial for Object Detection API. Can swap between models,https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
 Object Detection,3,Doc,TensorFlow external doc: Quickstart for object detection. Includes instructions for training on Google Cloud,https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_pets.md
 Object Detection,3,Doc,TensorFlow external doc: Tutorial for object detection using the latest API,https://www.oreilly.com/ideas/object-detection-with-tensorflow
-Object Detection,3,Gap,A tutorial on VoTT tool,#
+Object Detection,3,Gap,A tutorial on VoTT tool. Instructions exist but not a tutorial,#
 Object Detection,3,Doc,Explaination on how to use the VoTT tool for image tagging,https://github.com/CatalystCode/VoTT
 Object Detection,3,Doc,Tutorial for object detection using Fast R-CNN,https://docs.microsoft.com/en-us/cognitive-toolkit/Object-Detection-using-Fast-R-CNN
 Object Detection,3,Doc,Documentation for Faster R-CNN using CNTK. Includes instructions and examples,https://docs.microsoft.com/en-us/cognitive-toolkit/object-detection-using-faster-r-cnn
 Object Detection,3,Gap,Inclusion in tutorial on adjusting model hyperparameters for object detection with CNTK - what do all of these hyperparams mean?,https://www.tensorflow.org/versions/master/tutorials/layers
-Tool Installation,3,Doc,Install Jupyter Notebooks Option 1:  Azure Notebooks for Jupyter notebooks and how to use this service,https://notebooks.azure.com/help/libraries
-Tool Installation,3,Doc,Install Jupyter Notebooks Option 2:  Provisioning a Data Science Virtual Machine,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm
-Tool Installation,3,Doc,Install Jupyter Notebooks Option 3:  Install Jupyter notebook locally with Anaconda (**needs update**),https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-spark-jupyter-notebook-install-locally#install-jupyter-notebook-on-your-computer
-Tool Installation,3,Doc,Using Jupyter Notebooks Option 1:  Using Jupyter notebooks on the Data Science Virtual Machine,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-vm-do-ten-things#2-using-a-jupyter-notebook-to-explore-and-model-your-data-with-python-or-r
-Tool Installation,3,Gap,Install Jupyter Notebooks Option 4:  Latest information on Jupyter install with Anaconda,http://jupyter.readthedocs.io/en/latest/install.html
-Tool Installation,3,Gap,Using Jupyter Notebooks Option 2:  Good video resource from YouTube,https://www.youtube.com/watch?v=jZ952vChhuI
+Object Detection,3,Doc,Code story for detecting birds using CNTK with Azure ML Workbench,https://www.microsoft.com/developerblog/2017/10/24/bird-detection-with-azure-ml-workbench/
 Tool Installation,3,Doc,Install CNTK Option 1:  Install CNTK locally for Windows or Ubuntu Linux (GPU Options),https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine
 Tool Installation,3,Doc,Install CNTK Option 2:  Leverage the DSVM for CNTK as it comes preinstalled (GPU Options),https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-virtual-machine-overview
-Tool Installation,3,Doc,Install CNTK Option 3:  Install CNTK within a Docker Container (GPU Option and obscurred CPU Option **update please**),https://docs.microsoft.com/en-us/cognitive-toolkit/CNTK-Docker-Containers
+Tool Installation,3,Doc,Install CNTK Option 3:  Install CNTK within a Docker Container (GPU Option and obscured CPU Option **update please**),https://docs.microsoft.com/en-us/cognitive-toolkit/CNTK-Docker-Containers
 Tool Installation,3,Doc,Install CNTK Option 4:  Leverage Azure Notebooks as it comes pre-installed (CPU only),https://notebooks.azure.com/cntk/libraries/tutorials
 Training,3,Gap,Documentation for almost all ML training options are on Azure/Microsoft but Shipyard is on a separate readthedocs site,http://batch-shipyard.readthedocs.io/en/latest/
 Training,3,Doc,Training and serving CNTK using Kubernetes on Azure,https://blogs.technet.microsoft.com/machinelearning/2017/09/06/how-to-use-cognitive-toolkit-cntk-with-kubernetes-on-azure/
@@ -54,6 +51,9 @@ Deployment,4,Doc,AML Workbench tutorial for deploying a deep learning model. Cov
 Deployment,4,Doc,Really nice example with a more comprehensive Python code sample on deployment and consumption of a CNTK service for dealing with images (**need better findability**),https://github.com/Azure/ACS-Deployment-Tutorial
 Deployment,4,Gap,"Operationalization in CNTK docs (**in AML docs, but not CNTK**)",https://docs.microsoft.com/en-us/azure/machine-learning/preview/deployment-setup-configuration
 Deployment,4,Gap,Consume an image web service with the nice AML CLI,https://notebooks.azure.com/masalvar/libraries/azmlcli/html/AzureMLCLIExample.ipynb
-Deployment,4,Doc,Set up for and consume image service with C# sample (**need a sample in Python for image analysis**),https://docs.microsoft.com/en-us/azure/machine-learning/preview/model-management-consumption
+Deployment,4,Doc,Set up for and consume image service. Includes C# and Python samples,https://docs.microsoft.com/en-us/azure/machine-learning/preview/model-management-consumption
 Deployment,4,Gap, Image data serialization for a web service,https://notebooks.azure.com/masalvar/libraries/azmlcli/html/AzureMLCLIExample.ipynb
 Deployment,4,Gap,Image data compression for a web service,https://github.com/tensorflow/models/blob/master/research/compression/image_encoder/encoder.py
+Continued Learning,6,Course,Stanford Course on Computer Vision Tasks,https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+Continued Learning,6,Book,Learning TensorFlow by Itay Lieder Yehezkel S. Resheff and Tom Hope is a high level step by step instructions on getting started in TensorFlow,https://www.safaribooksonline.com/library/view/learning-tensorflow/9781491978504/
+Continued Learning,6,Book,Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurelien Geron takes you deeper in your understanding of how TensorFlow and Deep learning work,https://www.safaribooksonline.com/library/view/hands-on-machine-learning/9781491962282/
