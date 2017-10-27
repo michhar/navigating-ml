@@ -22,5 +22,7 @@ Detection,1,Doc,Using the Python Face API SDK,https://docs.microsoft.com/en-us/a
 Detection,1,Doc,Using basic Python to call a Face API enpoint - this should either be removed or use the Python Face API SDK,https://docs.microsoft.com/en-us/azure/cognitive-services/face/quickstarts/python
 Data,1,Gap,Faces in the Wild dataset for Object Detection cleaned up by and for use with scikit-learn,http://scikit-learn.org/stable/datasets/labeled_faces.html
 Detection,1,Gap,Scikit-image for image featurization and scikit-learn classifers for patches in images for Object Detection,https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html
-Tool Installation,1,Doc,Install Azure Machine Learning Workbench,https://docs.microsoft.com/en-us/azure/machine-learning/preview/quickstart-installation
-Data Preparation,1,Doc,Using AML Workbench to prepare data (please add more sections on this - it's the only mention),https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1
+Tool Installation,1,Doc,Install AML Workbench,https://docs.microsoft.com/en-us/azure/machine-learning/preview/quickstart-installation
+Data Preparation,1,Doc,Data Prep in AML Workbench - a very useful guide (a little hard to find - should there be a master dprep section?),https://docs.microsoft.com/en-us/azure/machine-learning/preview/data-prep-getting-started
+Data Preparation,1,Doc,Data Prep in AML Workbench - data sourcing,https://docs.microsoft.com/en-us/azure/machine-learning/preview/data-source-wizard
+Data Preparation,1,Doc,Data Prep in AML Workbench - with custom Python scripting (this is powerful and should be more prominent),https://docs.microsoft.com/en-us/azure/machine-learning/preview/data-prep-python-extensibility-overview
