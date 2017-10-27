@@ -1,0 +1,26 @@
+Scenario,Line Item Number,Type,Note,Link
+General,0,Doc,Basic guide to machine learning and algorithms,https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice
+General,0,Doc,At-a-glance guide to machine learning algorithms - a cheat sheet,https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet
+General,0,Gap,Defining your first neural network - the perceptron - your first neural network,http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html
+General,0,Doc,"Understanding representation in training and test data in ""A few grains of salt"" section under (**need to make more as a general CV concept**) around having representative datasets especially if using a catch-all class label.",https://docs.microsoft.com/en-us/cognitive-toolkit/build-your-own-image-classifier-using-transfer-learning#build-your-own-custom-image-classifier
+Tool Installation,1,Doc,Install Jupyter Notebooks Option 1:  Azure Notebooks for Jupyter notebooks and how to use this service,https://notebooks.azure.com/help/libraries
+Tool Installation,1,Doc,Install Jupyter Notebooks Option 2:  Provisioning a Data Science Virtual Machine,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-provision-vm
+Tool Installation,1,Doc,Install Jupyter Notebooks Option 3:  Install Jupyter notebook locally with Anaconda (**needs update**),https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-spark-jupyter-notebook-install-locally#install-jupyter-notebook-on-your-computer
+Tool Installation,1,Doc,Using Jupyter Notebooks Option 1:  Using Jupyter notebooks on the Data Science Virtual Machine,https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-vm-do-ten-things#2-using-a-jupyter-notebook-to-explore-and-model-your-data-with-python-or-r
+Tool Installation,1,Gap,Install Jupyter Notebooks Option 4:  Latest information on Jupyter install with Anaconda,http://jupyter.readthedocs.io/en/latest/install.html
+Tool Installation,1,Gap,Using Jupyter Notebooks Option 2:  Good video resource from YouTube,https://www.youtube.com/watch?v=jZ952vChhuI
+Data,1,Gap,Pillbox dataset - good real-world data because needs cleaning,https://pillbox.nlm.nih.gov/developer.html
+Classification,1,Gap,Pandas docs for data manipulation,http://pandas.pydata.org/pandas-docs/version/0.16.2/index.html
+Classification,1,Gap,Pillow docs for image reading with Image module,http://pillow.readthedocs.io/en/3.1.x/reference/Image.html
+Classification,1,Gap,Pillow docs for image manipulation and augmentation with ImageOps module,http://pillow.readthedocs.io/en/3.1.x/reference/ImageOps.html
+Classification,1,Doc,Using Custom Vision Cognitive Service for Image Classification - building a classifer,https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
+Classification,1,Doc,Using Custom Vision Cognitive Service for Image Classification - test and retrain,https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/test-your-model
+Classification,1,Doc,Using Custom Vision Cognitive Service for Image Classification - improve classifier,https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-improving-your-classifier
+Classification,1,Gap,Scikit-learn classifiers for image classification:  official Scikit-learn docs supervised-learning list,http://scikit-learn.org/stable/supervised_learning.html
+Classification,1,Gap,Scikit-learn classifiers for image classification:  Data Science Handbook example,https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html#Example:-Random-Forest-for-Classifying-Digits
+Detection,1,Doc,Using the Python Face API SDK,https://docs.microsoft.com/en-us/azure/cognitive-services/face/tutorials/faceapiinpythontutorial
+Detection,1,Doc,Using basic Python to call a Face API enpoint - this should either be removed or use the Python Face API SDK,https://docs.microsoft.com/en-us/azure/cognitive-services/face/quickstarts/python
+Data,1,Gap,Faces in the Wild dataset for Object Detection cleaned up by and for use with scikit-learn,http://scikit-learn.org/stable/datasets/labeled_faces.html
+Detection,1,Gap,Scikit-image for image featurization and scikit-learn classifers for patches in images for Object Detection,https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html
+Tool Installation,1,Doc,Install Azure Machine Learning Workbench,https://docs.microsoft.com/en-us/azure/machine-learning/preview/quickstart-installation
+Data Preparation,1,Doc,Using AML Workbench to prepare data (please add more sections on this - it's the only mention),https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1
