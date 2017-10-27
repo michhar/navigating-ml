@@ -10,7 +10,7 @@ Tool Installation,1,Doc,Using Jupyter Notebooks Option 1:  Using Jupyter noteboo
 Tool Installation,1,Gap,Install Jupyter Notebooks Option 4:  Latest information on Jupyter install with Anaconda,http://jupyter.readthedocs.io/en/latest/install.html
 Tool Installation,1,Gap,Using Jupyter Notebooks Option 2:  Good video resource from YouTube,https://www.youtube.com/watch?v=jZ952vChhuI
 Data,1,Gap,Pillbox dataset - good real-world data because needs cleaning,https://pillbox.nlm.nih.gov/developer.html
-Classification,1,Gap,Pandas docs for data manipulation,http://pandas.pydata.org/pandas-docs/version/0.16.2/index.html
+Data Preparation,1,Gap,Pandas docs for data manipulation,http://pandas.pydata.org/pandas-docs/version/0.16.2/index.html
 Classification,1,Gap,Pillow docs for image reading with Image module,http://pillow.readthedocs.io/en/3.1.x/reference/Image.html
 Classification,1,Gap,Pillow docs for image manipulation and augmentation with ImageOps module,http://pillow.readthedocs.io/en/3.1.x/reference/ImageOps.html
 Classification,1,Doc,Using Custom Vision Cognitive Service for Image Classification - building a classifer,https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
