@@ -287,7 +287,7 @@
     <label class="md-nav__link" for="nav-3-2">
       Level 2
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
         Level 2
       </label>
@@ -385,6 +385,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#additional-help" title="Additional Help" class="md-nav__link">
+    Additional Help
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -411,7 +418,7 @@
     <label class="md-nav__link" for="nav-3-3">
       Level 3
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
         Level 3
       </label>
@@ -519,6 +526,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#additional-help" title="Additional Help" class="md-nav__link">
+    Additional Help
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -542,8 +556,7 @@
 <li>Log into the Jupyter server on the DLVM - from any browser.</li>
 <li>Take the CNN Lab notebooks from edX course and use <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10">CIFAR 10 dataset in CNTK format</a> instead to classify images into the 10 classes:  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck instead of handwritten digits.<ol>
 <li>If you haven't cloned it yet, go ahead and clone the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a>.</li>
-<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take several minutes.
-...</li>
+<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take several minutes.</li>
 </ol>
 </li>
 <li>Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using Pillow (see ImageOps).  Convert them to the proper CNTK format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?</li>
@@ -573,9 +586,21 @@
 </li>
 </ul>
 <h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
-<p>...</p>
+<p>Easy:  Run this TensorFlow script to classify a new image (this uses a pretrained Inception V3 model):
+* <a href="https://www.tensorflow.org/tutorials/image_recognition">https://www.tensorflow.org/tutorials/image_recognition</a></p>
+<p>Intermediate: Perform this TensorFlow CNN Tutorial from Google:
+* <a href="https://www.tensorflow.org/tutorials/deep_cnn">https://www.tensorflow.org/tutorials/deep_cnn</a></p>
+<p>Advanced:  Modify this MNIST CNN TensorFlow tutorial for use with the CIFAR-10 dataset:</p>
+<ul>
+<li><a href="http://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-tensorflow/">http://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-tensorflow/</a></li>
+</ul>
 <h2 id="want-more">Want More?</h2>
 <p>Check out Rodrigo Benenson's <a href="http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d3130">blog</a> to find out the best algorithm for classifying with CIFAR-10 and implement it.  May the force be with you.</p>
+<h2 id="additional-help">Additional Help</h2>
+<ul>
+<li>StackOverflow with <code>cntk</code> or <code>tensorflow</code> tag</li>
+<li>For CNTK specific help you may send your questions to cntkhelp@microsoft.com.</li>
+</ul>
                 
                   
                 
