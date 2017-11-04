@@ -56,4 +56,3 @@ The purpose of the Basic Neural Nets exercises are to familiarize you with how a
 ## Additional Help
 
 - StackOverflow with `sklearn`
-- Issues on CNTK GitHub repo
