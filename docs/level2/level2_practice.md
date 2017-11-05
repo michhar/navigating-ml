@@ -4,12 +4,20 @@ In this intermediate Challenge, you'll apply what you've learned in the edX Deep
 
 ## Adapt Deep Learning Explained CNTK Notebooks
 
-Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.  If you have a GPU at home, you may go ahead and use it, just be sure to follow the install instructions for CNTK in the [Advanced section](../adv/adv_setup/).
+Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.  If you have a GPU at home, you may go ahead and use it, just be sure to follow the install instructions for CNTK in the [Advanced section](../level3/level3_prep).
 
-1. Log into the Jupyter server on the DLVM - from any browser.
-2. Take the CNN Lab notebooks from edX course and use [CIFAR 10 dataset in CNTK format](https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10) instead to classify images into the 10 classes:  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck instead of handwritten digits.
-    1.  If you haven't cloned it yet, go ahead and clone the [CNTK GitHub repo](https://github.com/Microsoft/CNTK).
-    2. Get the data by running the `install_cifar10.py` in the `CNTK/Examples/Image/DataSets/CIFAR-10/` folder of the [CNTK GitHub repo](https://github.com/Microsoft/CNTK) - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  _Note_: this download may take several minutes.
+1. Get the CIFAR-10 dataset (in CNTK format)
+  * SSH into your DLVM ([Doc](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm#connect-to-vm) - need to add 'azureuser' to the ssh command however!  Note, you can also use the VM through a Unix Desktop by following this [Doc](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop#install-a-desktop-environment-on-your-linux-vm))
+    - `ssh azureuser@<your VMs public ip here` (e.g. `ssh azureuser@52.174.34.95`, which you can get from the Azure portal, portal.azure.com)
+    - `cd` into the `notebooks` folder
+    - Clone the CNTK Github repo
+    - `cd CNTK/Examples/Image/DataSets/CIFAR-10/` to go to the data folder where the download script lives
+    - Run the download script: `python install_cifar10.py` (this might take some time as it's creating the CNTK text files as well as image files from the origin Toronto CIFAR 10 archived dataset)
+2. Log into the Jupyter server on the DLVM - from any browser (note: you'll need to agree to keep going to this site despite the certificate warning, don't worry, this is normal)
+  - Point your browser to `https://<VM DNS name or IP Address>:8000/`" ([Doc](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro#tools-installed-on-the-data-science-virtual-machine-for-linux))
+
+[wip]
+
 3. Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using Pillow (see ImageOps).  Convert them to the proper CNTK format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?
 4. Create a new label called "food" and add this [fruit dataset](http://www.vicos.si/Downloads/FIDS30), leaving some out of training for testing.  Try your coconut image again.  What if now you tested with a hot dog image?
 
@@ -41,9 +49,11 @@ Now, we are going to totally switch gears and tools.  We'll spin up a Deep Learn
 ## Taste of TensorFlow
 
 Easy:  Run this TensorFlow script to classify a new image (this uses a pretrained Inception V3 model):
+
 * [https://www.tensorflow.org/tutorials/image_recognition](https://www.tensorflow.org/tutorials/image_recognition)
 
 Intermediate: Perform this TensorFlow CNN Tutorial from Google:
+
 * [https://www.tensorflow.org/tutorials/deep_cnn](https://www.tensorflow.org/tutorials/deep_cnn)
 
 Advanced:  Modify this MNIST CNN TensorFlow tutorial for use with the CIFAR-10 dataset:
