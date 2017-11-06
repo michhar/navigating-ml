@@ -14,7 +14,11 @@ For these two problems, it is recommended to go through the code from the origin
 
 ### Image Classification
 
-Create a Python program to classify images from Fashion MNIST Dataset (get [here](https://www.kaggle.com/zalando-research/fashionmnist/data)) leveraging code samples from the Python Data Science Handbook - [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits).  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for `sklearn.datasets.load_digits` so that you can convert into that format to utilize the algorithms in `sklearn` (scikit-learn).  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.
+Create a Python program to classify images from Fashion MNIST Dataset (get [here](https://www.kaggle.com/zalando-research/fashionmnist/data)) leveraging code samples from the Python Data Science Handbook - [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits).  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.
+
+Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the [Setup Section](level1_setup).  
+
+It might help to examine the existing data format for `sklearn.datasets.load_digits` so that you can convert into that format to utilize the algorithms in `sklearn` (scikit-learn).  
 
 - What did you find?  Which fashion item has the best accuracy, which the worst?  Why do you think that is?  Is there a way you could imagine improving this model?
 - Try a different model
@@ -26,7 +30,11 @@ Create a Python program to classify images from Fashion MNIST Dataset (get [here
 
 > _In the real world, data is rarely so uniform and simple pixels will not be suitable: this has led to a large literature on feature extraction methods for image data._
 
-Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html).  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for `sklearn.datasets.fetch_lfw_people` so that you can convert into that format to utilize the algorithms in `sklearn` (scikit-learn) to create this detector.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.
+Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html).  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.
+
+Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the [Setup Section](level1_setup).  
+
+It might help to examine the existing data format for `sklearn.datasets.fetch_lfw_people` so that you can convert into that format to utilize the algorithms in `sklearn` (scikit-learn) to create this detector.  
 
 - What other confounding factors are there for images other than illumination, you think?
 - Plot the original image along with the `skimage.rgb2gray` version and the HOG representation.  See how this works in `matplotlib`.  What does `skimage.rgb2gray` actually do?
@@ -52,6 +60,17 @@ The purpose of the Basic Neural Nets exercises are to familiarize you with how a
     - Use the URL option when opening up a new notebook in Azure Notebooks
     - Or, download by right clicking on "Raw" and "Save link as..."
     - Re-implement the MLP with `sklearn`
+
+## Extra:  Training and Testing Locally with Azure ML Workbench
+
+Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.
+
+Use the iris dataset template and tutorial as an example - see the [Docs](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1).
+
+- Read your csv train file into Azure ML Workbench
+- Modify the iris template to train a model with any of the above classification algorithms locally in docker container
+- Test with the test data and the `score.py` script locally in docker
+- Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)
 
 ## Additional Help
 

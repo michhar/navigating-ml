@@ -332,6 +332,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#extra-training-and-testing-locally-with-azure-ml-workbench" title="Extra:  Training and Testing Locally with Azure ML Workbench" class="md-nav__link">
+    Extra:  Training and Testing Locally with Azure ML Workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#additional-help" title="Additional Help" class="md-nav__link">
     Additional Help
   </a>
@@ -539,6 +546,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#extra-training-and-testing-locally-with-azure-ml-workbench" title="Extra:  Training and Testing Locally with Azure ML Workbench" class="md-nav__link">
+    Extra:  Training and Testing Locally with Azure ML Workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#additional-help" title="Additional Help" class="md-nav__link">
     Additional Help
   </a>
@@ -572,7 +586,9 @@
 <p>TIPS:  Place all imports at the top of the notebook.  Call the training data something consistent thoughout all of your work (X_train -&gt; training data, y_train -&gt; labels, X_test -&gt; test data...).</p>
 </blockquote>
 <h3 id="image-classification">Image Classification</h3>
-<p>Create a Python program to classify images from Fashion MNIST Dataset (get <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">here</a>) leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits">Ref</a>.  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for <code>sklearn.datasets.load_digits</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn).  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Create a Python program to classify images from Fashion MNIST Dataset (get <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">here</a>) leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits">Ref</a>.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the <a href="../level1_setup">Setup Section</a>.  </p>
+<p>It might help to examine the existing data format for <code>sklearn.datasets.load_digits</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn).  </p>
 <ul>
 <li>What did you find?  Which fashion item has the best accuracy, which the worst?  Why do you think that is?  Is there a way you could imagine improving this model?</li>
 <li>Try a different model</li>
@@ -582,7 +598,9 @@
 <blockquote>
 <p><em>In the real world, data is rarely so uniform and simple pixels will not be suitable: this has led to a large literature on feature extraction methods for image data.</em></p>
 </blockquote>
-<p>Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html">Ref</a>.  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for <code>sklearn.datasets.fetch_lfw_people</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn) to create this detector.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html">Ref</a>.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the <a href="../level1_setup">Setup Section</a>.  </p>
+<p>It might help to examine the existing data format for <code>sklearn.datasets.fetch_lfw_people</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn) to create this detector.  </p>
 <ul>
 <li>What other confounding factors are there for images other than illumination, you think?</li>
 <li>Plot the original image along with the <code>skimage.rgb2gray</code> version and the HOG representation.  See how this works in <code>matplotlib</code>.  What does <code>skimage.rgb2gray</code> actually do?</li>
@@ -611,6 +629,15 @@
 </ul>
 </li>
 </ol>
+<h2 id="extra-training-and-testing-locally-with-azure-ml-workbench">Extra:  Training and Testing Locally with Azure ML Workbench</h2>
+<p>Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.</p>
+<p>Use the iris dataset template and tutorial as an example - see the <a href="https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1">Docs</a>.</p>
+<ul>
+<li>Read your csv train file into Azure ML Workbench</li>
+<li>Modify the iris template to train a model with any of the above classification algorithms locally in docker container</li>
+<li>Test with the test data and the <code>score.py</code> script locally in docker</li>
+<li>Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)</li>
+</ul>
 <h2 id="additional-help">Additional Help</h2>
 <ul>
 <li>StackOverflow with <code>sklearn</code></li>

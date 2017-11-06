@@ -28,20 +28,6 @@ Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as 
 1. Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using the Python Pillow library (see [ImageOps](http://pillow.readthedocs.io/en/3.1.x/reference/ImageOps.html)).  Convert them to the proper CNTK text format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?
 2. Create a new label called "food" and add this [fruit dataset](http://www.vicos.si/Downloads/FIDS30), leaving some out of training for testing.  Try your coconut image again.  What if now you tested with a hot dog image?
 
-## Running and Testing Locally with Azure ML Workbench
-
-Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.
-
-Use the iris dataset template and tutorial as an example - see the [Docs](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1).
-
-- Read your csv train file into Azure ML Workbench
-- Modify the iris template to train a model with any of the above classification algorithms locally in docker
-- Test with the `score.py` file locally in docker
-- Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)
-- Containerize
-- Deploy this to a Kubernetes cluster
-- Test the endpoint in any script or application that you want to build (in any language)
-
 ## Transfer Learning on the Deep Learning Virtual Machine with CNTK
 
 Here, for ease of use and speed we'll use Transfer Learning as well.
