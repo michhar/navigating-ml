@@ -5,3 +5,5 @@
 
 2. Ensure Jupyter notebooks are working.
     - "access the Jupyter notebook server from any host. Just navigate in the browser to `https://<VM DNS name or IP Address>:8000/`" ([Doc](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro#tools-installed-on-the-data-science-virtual-machine-for-linux) - check out "Jupyter notebook" for more)
+    
+3.  Download Azure Machine Learning Workbench locally from this [Doc](https://docs.microsoft.com/en-us/azure/machine-learning/preview/quickstart-installation).

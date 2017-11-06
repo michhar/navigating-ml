@@ -355,6 +355,32 @@
     Adapt Deep Learning Explained CNTK Notebooks
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image-classification" title="Image Classification" class="md-nav__link">
+    Image Classification
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extra-credit" title="Extra Credit" class="md-nav__link">
+    Extra Credit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -496,6 +522,32 @@
     Adapt Deep Learning Explained CNTK Notebooks
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image-classification" title="Image Classification" class="md-nav__link">
+    Image Classification
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extra-credit" title="Extra Credit" class="md-nav__link">
+    Extra Credit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -551,14 +603,32 @@
                 <h1 id="level-2-challenge">Level 2 Challenge</h1>
 <p>In this intermediate Challenge, you'll apply what you've learned in the edX Deep Learning Explained course, leveraging the Jupyter notebooks you became familiar with in the course.  You'll start exploring the CIFAR-10 dataset along with other datsets in CNTK and TensorFlow.</p>
 <h2 id="adapt-deep-learning-explained-cntk-notebooks">Adapt Deep Learning Explained CNTK Notebooks</h2>
-<p>Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.  If you have a GPU at home, you may go ahead and use it, just be sure to follow the install instructions for CNTK in the <a href="../../adv/adv_setup/">Advanced section</a>.</p>
+<h3 id="image-classification">Image Classification</h3>
+<p>Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.  If you have a GPU at home, you may go ahead and use it, just be sure to follow the install instructions for CNTK in the <a href="../../level3/level3_prep">Advanced section</a>.</p>
 <ol>
-<li>Log into the Jupyter server on the DLVM - from any browser.</li>
-<li>Take the CNN Lab notebooks from edX course and use <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10">CIFAR 10 dataset in CNTK format</a> instead to classify images into the 10 classes:  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck instead of handwritten digits.<ol>
-<li>If you haven't cloned it yet, go ahead and clone the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a>.</li>
-<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take several minutes.</li>
-</ol>
+<li>Get the CIFAR-10 dataset (in CNTK format)</li>
+<li>SSH into your DLVM (<a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm#connect-to-vm">Doc</a> - need to add 'azureuser' to the ssh command however!  Note, you can also use the VM through a Unix Desktop by following this <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop#install-a-desktop-environment-on-your-linux-vm">Doc</a>)<ul>
+<li><code>ssh azureuser@&lt;your VMs public ip here</code> (e.g. <code>ssh azureuser@52.174.34.95</code>, which you can get from the Azure portal, portal.azure.com)</li>
+<li><code>cd</code> into the <code>notebooks</code> folder</li>
+<li>Clone the CNTK Github repo</li>
+<li><code>cd CNTK/Examples/Image/DataSets/CIFAR-10/</code> to go to the data folder where the download script lives</li>
+<li>Run the download script: <code>python install_cifar10.py</code> (this might take some time as it's creating the CNTK text files as well as image files from the origin Toronto CIFAR 10 archived dataset)</li>
+</ul>
 </li>
+<li>Now let's begin working with some code.  Log into the Jupyter server on the DLVM - from any browser (note: you'll need to agree to keep going to this site despite the certificate warning, don't worry, this is normal)</li>
+<li>Point your browser to <code>https://&lt;VM DNS name or IP Address&gt;:8000/</code>" (<a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro#tools-installed-on-the-data-science-virtual-machine-for-linux">Doc</a>)<blockquote>
+<p>If this notebook is not familiar to you go back to the Preparation section and watch the videos <a href="../level2_practice">here</a>.</p>
+</blockquote>
+</li>
+<li>Open <code>CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb</code> (or better yet, open a copy you've made on the VM)- this will be the CNN notebook you modify to fit the CIFAR-10 dataset (instead of MNIST), remembering that your data is now at <code>../Examples/Image/DataSets/CIFAR-10/</code>.</li>
+<li>Modify the notebook to work with the CIFAR-10<ul>
+<li>Remember you're working with RGB images instead of grayscale</li>
+</ul>
+</li>
+<li>What is the resulting average test error?  Why is this value so different from the MNIST result?  What hyperparameters can you modify to fix this?</li>
+</ol>
+<h4 id="extra-credit">Extra Credit</h4>
+<ol>
 <li>Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using Pillow (see ImageOps).  Convert them to the proper CNTK format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?</li>
 <li>Create a new label called "food" and add this <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a>, leaving some out of training for testing.  Try your coconut image again.  What if now you tested with a hot dog image?</li>
 </ol>
@@ -575,21 +645,19 @@
 <li>Test the endpoint in any script or application that you want to build (in any language)</li>
 </ul>
 <h2 id="transfer-learning-on-the-deep-learning-virtual-machine-with-cntk">Transfer Learning on the Deep Learning Virtual Machine with CNTK</h2>
-<p>Now, we are going to totally switch gears and tools.  We'll spin up a Deep Learning Virtual Machine and leverage raw Python scripts already kindly prepared for us on a classic image dataset, CIFAR-10, which has ten classes.  Here, for ease of use and speed we'll use Transfer Learning as well.</p>
-<ul>
-<li>Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions in <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine">Docs</a>).</li>
-<li>Use ResNet to train a CIFAR 10 classifier<ol>
-<li>Go ahead and clone the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a>.</li>
-<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take 10-20 minutes - it's a lot of data and data conversions.</li>
+<p>Here, for ease of use and speed we'll use Transfer Learning as well.</p>
+<ol>
 <li>Run <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py">this</a> script on the command line on your DLVM, to train your classifier with Transfer Learning (the base model here is <a href="https://arxiv.org/abs/1512.03385">ResNet</a>).</li>
 </ol>
-</li>
-</ul>
 <h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
-<p>Easy:  Run this TensorFlow script to classify a new image (this uses a pretrained Inception V3 model):
-* <a href="https://www.tensorflow.org/tutorials/image_recognition">https://www.tensorflow.org/tutorials/image_recognition</a></p>
-<p>Intermediate: Perform this TensorFlow CNN Tutorial from Google:
-* <a href="https://www.tensorflow.org/tutorials/deep_cnn">https://www.tensorflow.org/tutorials/deep_cnn</a></p>
+<p>Easy:  Run this TensorFlow script to classify a new image (this uses a pretrained Inception V3 model):</p>
+<ul>
+<li><a href="https://www.tensorflow.org/tutorials/image_recognition">https://www.tensorflow.org/tutorials/image_recognition</a></li>
+</ul>
+<p>Intermediate: Perform this TensorFlow CNN Tutorial from Google:</p>
+<ul>
+<li><a href="https://www.tensorflow.org/tutorials/deep_cnn">https://www.tensorflow.org/tutorials/deep_cnn</a></li>
+</ul>
 <p>Advanced:  Modify this MNIST CNN TensorFlow tutorial for use with the CIFAR-10 dataset:</p>
 <ul>
 <li><a href="http://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-tensorflow/">http://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-tensorflow/</a></li>
