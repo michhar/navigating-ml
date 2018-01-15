@@ -4,6 +4,7 @@ pages:
     - Main: index.md
     - Getting Started:
       - 'Python': 'python.md'
+      - 'NumPy and Linear Algebra': 'python/numpy.md'
     - Dealing with Images:
       - Level 1:
         - 'Setup': 'level1/level1_setup.md'
