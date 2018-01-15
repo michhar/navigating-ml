@@ -1,6 +1,6 @@
 # Prerequisites
 
-1.  Python (Rocks!)
+1.  Python 3 (Rocks!)
 
 (2. Algebra, calculus and some basic ML knowledge won't hurt ya)
 
@@ -52,6 +52,10 @@ For a more in-depth Python course, this is a good one on edX out of UC San Diego
 * An applied understanding of how to manipulate and analyze uncurated datasets
 * Basic statistical analysis and machine learning methods
 * How to effectively visualize results
+
+### Numerical Python, a.k.a. using the `numpy` package, is essential for the data scientist
+
+See my [python/numpy.html](python/numpy) article for a detailed list of `numpy` resources.
 
 ### Advanced
 
