@@ -4,6 +4,7 @@
 
 1.  Quickstart tutorial.  From the `scipy` docs.  Short, but good starting point. [Ref](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
 2.  Introduction to NumPy.  A nice whole chapter on `numpy` by Jake VanderPlas. [Ref](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html)
+3.  Introduction to Numpy.  A really nice quick tour as an appendix to a deep learning book by Sebastian Raschka [Ref](https://sebastianraschka.com/pdf/books/dlb/appendix_f_numpy-intro.pdf) and as a [Notebook](https://github.com/rasbt/deep-learning-book/blob/master/code/appendix_f_numpy-intro/appendix_f_numpy-intro.ipynb)
 3.  Numerical Scientific Computing.  Quick tour with exercises by Micheleen Harris.  [Notebook](https://notebooks.azure.com/rheartpython/libraries/PythonDS101/html/07.NumericalScientificComputing.ipynb)
 4.  NumPy Practice.  With some nice notes on Linear Algebra operations in `numpy` by Tirthajyoti Sarkar.  [Notebook](https://github.com/tirthajyoti/PythonMachineLearning/blob/master/Pandas%20and%20Numpy/Numpy%20practice.ipynb)
 
