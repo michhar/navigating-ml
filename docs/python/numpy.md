@@ -1,5 +1,7 @@
 # A List of `numpy` resources
 
+NumPy stands for Numerical Python.  It's widely used in Linear Algebra applications and has become a _de facto_ library for use in Machine Learning.  It uses memory efficiently and is mostly implemented in C, thus is a very efficient option for numerical calculations (see more in Reference #3 by Sebastian Raschka).  I've made a list of resources for the `numpy` library to help someone new or someone in need of a good reference later on.  It was created by Travis Oliphant in 2005 (also the creator of SciPy).  The package lives on GitHub ([Link](https://github.com/numpy/numpy)).
+
 ## Listing.  In no special order.
 
 1.  Quickstart tutorial.  From the `scipy` docs.  Short, but good starting point. [Ref](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
