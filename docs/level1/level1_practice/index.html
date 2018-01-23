@@ -310,15 +310,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#custom-vision" title="Custom Vision" class="md-nav__link">
-    Custom Vision
+  <a href="#custom-vision-microsoft" title="Custom Vision (Microsoft)" class="md-nav__link">
+    Custom Vision (Microsoft)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#first-custom-ml" title="First Custom ML" class="md-nav__link">
-    First Custom ML
+  <a href="#first-custom-ml-open-source-tools" title="First Custom ML (Open Source Tools)" class="md-nav__link">
+    First Custom ML (Open Source Tools)
   </a>
   
     <nav class="md-nav">
@@ -351,8 +351,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#extra-training-and-testing-locally-with-azure-ml-workbench" title="Extra:  Training and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Extra:  Training and Testing Locally with Azure ML Workbench
+  <a href="#moving-on" title="Moving On" class="md-nav__link">
+    Moving On
   </a>
   
 </li>
@@ -524,15 +524,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#custom-vision" title="Custom Vision" class="md-nav__link">
-    Custom Vision
+  <a href="#custom-vision-microsoft" title="Custom Vision (Microsoft)" class="md-nav__link">
+    Custom Vision (Microsoft)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#first-custom-ml" title="First Custom ML" class="md-nav__link">
-    First Custom ML
+  <a href="#first-custom-ml-open-source-tools" title="First Custom ML (Open Source Tools)" class="md-nav__link">
+    First Custom ML (Open Source Tools)
   </a>
   
     <nav class="md-nav">
@@ -565,8 +565,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#extra-training-and-testing-locally-with-azure-ml-workbench" title="Extra:  Training and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Extra:  Training and Testing Locally with Azure ML Workbench
+  <a href="#moving-on" title="Moving On" class="md-nav__link">
+    Moving On
   </a>
   
 </li>
@@ -594,12 +594,17 @@
                 
                 
                 <h1 id="level-1-challenge">Level 1 Challenge</h1>
-<p>In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.  Here and throughout these challenges you'll work with these image datasets: the fruit FIDS30 dataset, the Kaggle Fashion MNIST dataset and the CIFAR-10 (tiny images) dataset.</p>
-<h2 id="custom-vision">Custom Vision</h2>
-<ol>
-<li>Download the <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a> and build a fruit image classifier with <a href="https://customvision.ai/">https://customvision.ai/</a>.</li>
-</ol>
-<h2 id="first-custom-ml">First Custom ML</h2>
+<p>It is recommended that you have completed the <a href="../level1_prep">Leve 1 Preparation</a>.</p>
+<p>In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages commonly used in data manipulation and data science.  </p>
+<p>Here and throughout these practice exercises you'll work with the following image datasets: the fruit FIDS30 dataset, the Kaggle Fashion MNIST dataset and the CIFAR-10 (tiny images) dataset.</p>
+<h2 id="custom-vision-microsoft">Custom Vision (Microsoft)</h2>
+<p>Download the <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a> and build a fruit image classifier with two fruit classes using <a href="https://customvision.ai/">https://customvision.ai/</a>.</p>
+<p>After you have done some training above, create a Python script to "pixel-normalize" the images prior to training the model and retrain to see your new Precision and Recall.</p>
+<p><img alt="Precision and recall" src="http://nlpforhackers.io/wp-content/uploads/2017/01/Precision-Recall.png" /></p>
+<blockquote>
+<p>Some defintions.  <strong>Precision</strong>:  if a tag is precicted by your classifier, how likely is it that it is right?  <strong>Recall</strong>:  out of the tags that should be classified as right, what percentage did your classifier correctly find?</p>
+</blockquote>
+<h2 id="first-custom-ml-open-source-tools">First Custom ML (Open Source Tools)</h2>
 <p>For these two problems, it is recommended to go through the code from the original source line by line in whatever fashion you see fit so that you really understand what is happening.</p>
 <blockquote>
 <p>TIPS:  Place all imports at the top of the notebook.  Call the training data something consistent thoughout all of your work (X_train -&gt; training data, y_train -&gt; labels, X_test -&gt; test data...).</p>
@@ -631,7 +636,7 @@
 <li><strong>Extra credit</strong>:  Implement Non-Maximum Suppression in Python to find the single best bounding box of a group of bounding boxes as are found above.  Apply this to the astronaut image.</li>
 </ul>
 <h2 id="basic-neural-nets">Basic Neural Nets</h2>
-<p>The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!</p>
+<p>The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple artificial neuron works and then set of a few neurons to form a network (artificial neural network) - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!</p>
 <ol>
 <li>Use <a href="https://notebooks.azure.com">Azure Notebooks</a> for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.</li>
 <li>Get the following sample image dataset loaded in your Jupyter notebook: <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">train and test Fashion MNIST Dataset (Source: Kaggle)</a></li>
@@ -648,18 +653,12 @@
 </ul>
 </li>
 </ol>
-<h2 id="extra-training-and-testing-locally-with-azure-ml-workbench">Extra:  Training and Testing Locally with Azure ML Workbench</h2>
-<p>Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.</p>
-<p>Use the iris dataset template and tutorial as an example - see the <a href="https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1">Docs</a>.</p>
-<ul>
-<li>Read your csv train file into Azure ML Workbench</li>
-<li>Modify the iris template to train a model with any of the above classification algorithms locally in docker container</li>
-<li>Test with the test data and the <code>score.py</code> script locally in docker</li>
-<li>Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)</li>
-</ul>
+<h2 id="moving-on">Moving On</h2>
+<p>Now it is time to move on to Level 2 Preparation.</p>
 <h2 id="additional-help">Additional Help</h2>
 <ul>
-<li>StackOverflow with <code>sklearn</code></li>
+<li>StackOverflow with <code>sklearn</code>, <code>jupyter</code></li>
+<li>For Custom Vision you can email customvisionteam@microsoft.com.</li>
 </ul>
                 
                   

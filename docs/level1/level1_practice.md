@@ -1,12 +1,23 @@
 # Level 1 Challenge
 
-In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.  Here and throughout these challenges you'll work with these image datasets: the fruit FIDS30 dataset, the Kaggle Fashion MNIST dataset and the CIFAR-10 (tiny images) dataset.
+It is recommended that you have completed the [Leve 1 Preparation](level1_prep).
 
-## Custom Vision
+In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages commonly used in data manipulation and data science.  
 
-1. Download the [fruit dataset](http://www.vicos.si/Downloads/FIDS30) and build a fruit image classifier with [https://customvision.ai/](https://customvision.ai/).
+Here and throughout these practice exercises you'll work with the following image datasets: the fruit FIDS30 dataset, the Kaggle Fashion MNIST dataset and the CIFAR-10 (tiny images) dataset.
 
-## First Custom ML
+## Custom Vision (Microsoft)
+
+Download the [fruit dataset](http://www.vicos.si/Downloads/FIDS30) and build a fruit image classifier with two fruit classes using [https://customvision.ai/](https://customvision.ai/).
+
+After you have done some training above, create a Python script to "pixel-normalize" the images prior to training the model and retrain to see your new Precision and Recall.
+
+![Precision and recall](http://nlpforhackers.io/wp-content/uploads/2017/01/Precision-Recall.png)
+
+> Some defintions.  **Precision**:  if a tag is precicted by your classifier, how likely is it that it is right?  **Recall**:  out of the tags that should be classified as right, what percentage did your classifier correctly find?
+
+
+## First Custom ML (Open Source Tools)
 
 For these two problems, it is recommended to go through the code from the original source line by line in whatever fashion you see fit so that you really understand what is happening.
 
@@ -48,7 +59,7 @@ It might help to examine the existing data format for `sklearn.datasets.fetch_lf
 
 ## Basic Neural Nets
 
-The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!
+The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple artificial neuron works and then set of a few neurons to form a network (artificial neural network) - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!
 
 1.  Use [Azure Notebooks](https://notebooks.azure.com) for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.
 2. Get the following sample image dataset loaded in your Jupyter notebook: [train and test Fashion MNIST Dataset (Source: Kaggle)](https://www.kaggle.com/zalando-research/fashionmnist/data)
@@ -61,17 +72,11 @@ The purpose of the Basic Neural Nets exercises are to familiarize you with how a
     - Or, download by right clicking on "Raw" and "Save link as..."
     - Re-implement the MLP with `sklearn`
 
-## Extra:  Training and Testing Locally with Azure ML Workbench
+## Moving On
 
-Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.
-
-Use the iris dataset template and tutorial as an example - see the [Docs](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1).
-
-- Read your csv train file into Azure ML Workbench
-- Modify the iris template to train a model with any of the above classification algorithms locally in docker container
-- Test with the test data and the `score.py` script locally in docker
-- Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)
+Now it is time to move on to Level 2 Preparation.
 
 ## Additional Help
 
-- StackOverflow with `sklearn`
+- StackOverflow with `sklearn`, `jupyter`
+- For Custom Vision you can email customvisionteam@microsoft.com.

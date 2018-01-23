@@ -2,7 +2,7 @@
 
 To begin at this level you should have:
 
-- Familiarity with Python 3 for general purpose programming
+- Familiarity with Python 3 for general purpose programming.  See the [Python](../python) section for more.
 - Working knowledge of traditional ML (when to use what)
 - Basic data mining skills
 
@@ -28,8 +28,6 @@ To begin at this level you should have:
     4. Traditional ML (scikit-learn)
 
 [A Learning Path is under dev to cover the above topics in linear fashion]()
-
-
 
 ## Additional Resources
 
