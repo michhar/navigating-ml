@@ -87,17 +87,22 @@
         },
         {
             "location": "/level1/level1_setup/",
-            "text": "Setup\n\n\nFor the first part of the Beginner Challenge, you'll only need \nAzure Notebooks\n as an online resource.\n\n\nFor the Workbench parts you'll need some items locally (note:  Workbench is available for Windows or macOS so this is a good chance to build up some Data Science tools locally - nice when you have spotty wifi):\n\n\n\n\nDocker for Mac or Docker for Windows (avoid Toolbox)\n\n\nInstall \nAzure ML Workbench\n\n\n\n\nGood Idea:\n\n\n\n\nStackOverflow account\n\n\n\n\nAdditional Resources\n\n\n\n\nThe Stats/ML StackExchange is a useful place to pose questions \nLink",
+            "text": "Setup\n\n\n\n\nAnaconda3 Python (Recommended versions:  Anaconda3 4.1.1 for Python 3.5.2 recommended, Anaconda3 4.3.1 for Python 3.6 ok, too)\n\n\n\n\nThis will allow you to create \nconda\n environments to \"contain\" your projects and Python versions.  In fact you can use your current Anaconda or Miniconda Python to install other Python versions from the command line \nRef\n\n\n\n\n\n\nJupyter notebook with Python and ML ecosystem (local, service or cloud)\n\n\n\n\n\n\nFor the first part of the Beginner Challenge, you can use \nAzure Notebooks\n service as your Python environment as it's a Jupyter notebook system and free.  Or you can set up Jupyter notebooks locally with the ML ecosystem (\nnumpy\n, \npandas\n, \nscikit-learn\n, \nopencv-python\n etc.).\n\n\n\n\nMore on Jupyter from their \nDocs\n.\n\n\n\n\n\n\nThis is a good chance to build up some Data Science tools locally - nice (from experience) when you have spotty wifi.\n\n\n\n\n\n\nDocker for Mac or Docker for Windows (avoid Toolbox)\n\n\nThis is to aid in creating reproducible setups so you can share with others so they can do it, too!\n\n\n\n\nGood Idea:\n\n\n\n\nStackOverflow account\n\n\n\n\nAdditional Resources\n\n\n\n\nThe Stats/ML StackExchange is a useful place to pose questions about ML and stats \nLink",
             "title": "Setup"
         },
         {
             "location": "/level1/level1_setup/#setup",
-            "text": "For the first part of the Beginner Challenge, you'll only need  Azure Notebooks  as an online resource.  For the Workbench parts you'll need some items locally (note:  Workbench is available for Windows or macOS so this is a good chance to build up some Data Science tools locally - nice when you have spotty wifi):   Docker for Mac or Docker for Windows (avoid Toolbox)  Install  Azure ML Workbench   Good Idea:   StackOverflow account",
+            "text": "Anaconda3 Python (Recommended versions:  Anaconda3 4.1.1 for Python 3.5.2 recommended, Anaconda3 4.3.1 for Python 3.6 ok, too)   This will allow you to create  conda  environments to \"contain\" your projects and Python versions.  In fact you can use your current Anaconda or Miniconda Python to install other Python versions from the command line  Ref    Jupyter notebook with Python and ML ecosystem (local, service or cloud)    For the first part of the Beginner Challenge, you can use  Azure Notebooks  service as your Python environment as it's a Jupyter notebook system and free.  Or you can set up Jupyter notebooks locally with the ML ecosystem ( numpy ,  pandas ,  scikit-learn ,  opencv-python  etc.).   More on Jupyter from their  Docs .    This is a good chance to build up some Data Science tools locally - nice (from experience) when you have spotty wifi.    Docker for Mac or Docker for Windows (avoid Toolbox)  This is to aid in creating reproducible setups so you can share with others so they can do it, too!",
             "title": "Setup"
         },
         {
+            "location": "/level1/level1_setup/#good-idea",
+            "text": "StackOverflow account",
+            "title": "Good Idea:"
+        },
+        {
             "location": "/level1/level1_setup/#additional-resources",
-            "text": "The Stats/ML StackExchange is a useful place to pose questions  Link",
+            "text": "The Stats/ML StackExchange is a useful place to pose questions about ML and stats  Link",
             "title": "Additional Resources"
         },
         {
