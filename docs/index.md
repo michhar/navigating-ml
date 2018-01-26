@@ -32,7 +32,6 @@ Included are:
 * Scikit-learn
 * CNTK
 * TensorFlow
-* Azure ML Workbench
 * Deep Learning Virtual Machine
 
 ### Data

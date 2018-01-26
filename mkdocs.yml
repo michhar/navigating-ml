@@ -5,6 +5,7 @@ pages:
     - Getting Started:
       - 'Python': 'python.md'
       - 'NumPy and Linear Algebra': 'python/numpy.md'
+      - 'Natural Language Processing Resources': 'python/nlp.md'
     - Dealing with Images:
       - Level 1:
         - 'Setup': 'level1/level1_setup.md'

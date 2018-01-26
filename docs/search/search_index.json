@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "navigating-ml\n\n\nWith the advent of more data and compute power, we have a unique opportunity to create more intricate algorithms that help address accuracy issues seen in traditional machine learning.  Deep learning allows us to fine tune the fit of an algorithm to its data in an iterative manner, and to evaluate and \"feed-back\" that information during the training process for a better model.  This results in better models if enough data is provided or in some cases if there's an existing \"base model\", as is the case in transfer learning, if good quality and highly representative data is provided.\n\n\nThat being said, do you feel like there's just too much to be aware of in the ML and Deep Learning space today?  Concepts like Convolutional Neural Networks, GANs, Neural Style Transfer...and networks like AlexNet, ResNet, or Inception...frameworks like CNTK, TensorFlow, Caffe2, PyTorch...extra layers on top of those like TFLearn, Keras, Gluon, MMLSpark...\n\n\n\n\nTip:  Focus on the pipeline or workflow first and iterate on the model after.\n\n\n\n\nIf you suspect you are a beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Level 1 Challenge for Dealing with Images to start building up your traditional machine learning and neural network cred.\n\n\nDo you grok the basics of ML and perhaps what a fully-connected neural network is?  Have you had some exposure to TensorFlow or CNTK, but don't yet have deep working knowledge of Convolutional Neural Networks?  In that case, try jumping into the Level 2 section of Dealing with Images.  If it seems a little overwhelming, head back to the Level 1 area.  If it's not challenging enough, move on to the Level 3 section.\n\n\nMaybe you're a total neural network geek and you've played with CNTK and TensorFlow a little bit now, gone through several tutorials and maybe built some custom models.  But you haven't set up your environment to include a GPU or two.  Or perhaps you haven't performed image augmentation for input readers in CNTK or created a live REST endpoint and app to call your model?  These are tasks you'll likely encounter once you start working with partners and customers for building custom ML models.  They will want something deployed.  But don't worry, by Level 3 you should be almost there and hopefully hungry for more machine learning knowledge.\n\n\nHere, you'll get exposed to several types, qualities and sizes of datasets.  You'll also use many key Python libraries and general Data Science tools.  These paths can be walked separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner work quickly and thoroughly.\n\n\nThat being said, feedback is always welcome especially at this early stage.  Please enjoy responsibly.\n\n\nQuick Reference\n\n\nTemplates\n\n\nTDB\n\n\nTools and Technologies\n\n\nIncluded are:\n\n\n\n\nJupyter\n\n\nCustomVision.ai\n\n\nScikit-learn\n\n\nCNTK\n\n\nTensorFlow\n\n\nAzure ML Workbench\n\n\nDeep Learning Virtual Machine\n\n\n\n\nData\n\n\n\n\n\n\n\n\nDataset\n\n\nDescription\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nFashion MNIST Dataset (Source: Kaggle)\n\n\nThe Fashion MNIST dataset is a good one to move on to from the hand-written digits one.  It has 60,000 28x28 training images and 10,000 test images as csv files.\n\n\nLink\n\n\n\n\n\n\nFruit Dataset (FIDS30)\n\n\nThe fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 (Source: Kaggle)\n\n\nThe CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in this official data.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 (Source: Toronto)\n\n\nSame as above\n\n\nLink",
+            "text": "navigating-ml\n\n\nWith the advent of more data and compute power, we have a unique opportunity to create more intricate algorithms that help address accuracy issues seen in traditional machine learning.  Deep learning allows us to fine tune the fit of an algorithm to its data in an iterative manner, and to evaluate and \"feed-back\" that information during the training process for a better model.  This results in better models if enough data is provided or in some cases if there's an existing \"base model\", as is the case in transfer learning, if good quality and highly representative data is provided.\n\n\nThat being said, do you feel like there's just too much to be aware of in the ML and Deep Learning space today?  Concepts like Convolutional Neural Networks, GANs, Neural Style Transfer...and networks like AlexNet, ResNet, or Inception...frameworks like CNTK, TensorFlow, Caffe2, PyTorch...extra layers on top of those like TFLearn, Keras, Gluon, MMLSpark...\n\n\n\n\nTip:  Focus on the pipeline or workflow first and iterate on the model after.\n\n\n\n\nIf you suspect you are a beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Level 1 Challenge for Dealing with Images to start building up your traditional machine learning and neural network cred.\n\n\nDo you grok the basics of ML and perhaps what a fully-connected neural network is?  Have you had some exposure to TensorFlow or CNTK, but don't yet have deep working knowledge of Convolutional Neural Networks?  In that case, try jumping into the Level 2 section of Dealing with Images.  If it seems a little overwhelming, head back to the Level 1 area.  If it's not challenging enough, move on to the Level 3 section.\n\n\nMaybe you're a total neural network geek and you've played with CNTK and TensorFlow a little bit now, gone through several tutorials and maybe built some custom models.  But you haven't set up your environment to include a GPU or two.  Or perhaps you haven't performed image augmentation for input readers in CNTK or created a live REST endpoint and app to call your model?  These are tasks you'll likely encounter once you start working with partners and customers for building custom ML models.  They will want something deployed.  But don't worry, by Level 3 you should be almost there and hopefully hungry for more machine learning knowledge.\n\n\nHere, you'll get exposed to several types, qualities and sizes of datasets.  You'll also use many key Python libraries and general Data Science tools.  These paths can be walked separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner work quickly and thoroughly.\n\n\nThat being said, feedback is always welcome especially at this early stage.  Please enjoy responsibly.\n\n\nQuick Reference\n\n\nTemplates\n\n\nTDB\n\n\nTools and Technologies\n\n\nIncluded are:\n\n\n\n\nJupyter\n\n\nCustomVision.ai\n\n\nScikit-learn\n\n\nCNTK\n\n\nTensorFlow\n\n\nDeep Learning Virtual Machine\n\n\n\n\nData\n\n\n\n\n\n\n\n\nDataset\n\n\nDescription\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nFashion MNIST Dataset (Source: Kaggle)\n\n\nThe Fashion MNIST dataset is a good one to move on to from the hand-written digits one.  It has 60,000 28x28 training images and 10,000 test images as csv files.\n\n\nLink\n\n\n\n\n\n\nFruit Dataset (FIDS30)\n\n\nThe fruit image data set consists of 971 images of common fruit. The images are classified into 30 different fruit classes.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 (Source: Kaggle)\n\n\nThe CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in this official data.\n\n\nLink\n\n\n\n\n\n\nCIFAR-10 (Source: Toronto)\n\n\nSame as above\n\n\nLink",
             "title": "Main"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "location": "/#tools-and-technologies",
-            "text": "Included are:   Jupyter  CustomVision.ai  Scikit-learn  CNTK  TensorFlow  Azure ML Workbench  Deep Learning Virtual Machine",
+            "text": "Included are:   Jupyter  CustomVision.ai  Scikit-learn  CNTK  TensorFlow  Deep Learning Virtual Machine",
             "title": "Tools and Technologies"
         },
         {
@@ -84,6 +84,66 @@
             "location": "/python/numpy/#a-listing-of-linear-algebra-resources-to-go-along-with-this",
             "text": "Stanford comprehensive Linear Algebra review document by Zico Kolter.   Ref   Linear Algebra Review (Andrew Ng).   Matrices and Vectors.  Video  Addition And Scalar Multiplication.  Video  Matrix Vector Multiplication.   Video  Matrix-Matrix Multiplication.   Video  Matrix Multiplication Properties.   Video  Inverse And Transpose.   Video     Linear Algebra youtube channel by Khan Academy  Videos   Coding the Matrix.   Book   Exercise:  Follow along with these courses by doing things concurrently in  numpy .  There are likely many more great resources out there so feel free to create an issue on this  GitHub repo  letting me know about yours or others.",
             "title": "A listing of Linear Algebra resources to go along with this"
+        },
+        {
+            "location": "/python/nlp/",
+            "text": "Natural Language Processing Resources\n\n\nTutorials\n\n\n\n\nGensim official Docs \nTutorial\n\n\nNatural Language Processing with NLTK and Gensim \nVideo\n\n\nA Word2Vec Keras tutorial \nTutorial\n\n\nLanguage Understanding with Recurrent Networks and CNTK \nTutorial\n\n\nVector Representations of Words with TensorFlow \nTutorial\n\n\nWord2Vec word embedding tutorial in Python and TensorFlow \nTutorial\n\n\n\n\nExercises\n\n\n\n\n\n\n\n\nTopic\n\n\nTitle/Description\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nSentiment Analysis\n\n\nBuild a sentiment analysis / polarity model \nscikit-learn\n\n\nExercise\n and \nCode to start\n\n\n\n\n\n\n\n\nCourses and Course Materials\n\n\n\n\nStanford Deep Learning for NLP (cs224n) \nCourse Material\n\n\n\n\nExamples\n\n\n\n\nDocument clustering with k-means official \nscikit-learn\n \nExample\n\n\nFeaturize free-form text data using \nmmlspark\n on top of primitives in SparkML via a single transformer in this official \nmmlspark\n \nNotebook\n\n\nSequence Classification with CNTK \nExample\n\n\nSequence2Sequence with CNTK \nExample\n\n\n\n\nNLP-Specific Packages\n\n\n\n\nallennlp\n:  Deep Learning for NLP from AllenNLP built on PyTorch \nRef\n - good for conditional random field, encoders/decoders, reading comprehension, semantic role, etc.\n\n\ngensim\n:  topic modelling \nDocs\n - good for word2vec, semantic similarity, LDA, LSA, etc.\n\n\nnltk\n:  Natural Language Toolkit \nDocs\n - good for tokenization, stemming, tagging, parsing, corpora, etc.\n\n\nspacy\n:  Efficient and Backed by ANNs NLP Toolkit \nDocs\n - good for parsing, tagging, entity recognition, text categorization, phrase matching, etc.\n\n\n\n\nKaggle\n\n\n\n\nToxic Comment Classification Challenge \nCompetition\n\n\n\n\nBooks\n\n\nTBD\n\n\nBlog Articles\n\n\n\n\n\n\n\n\nTopic\n\n\nTitle/Description\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nBasics\n\n\n7 types of Artificial Neural Networks for Natural Language Processing\n\n\nLink\n\n\n\n\n\n\nTF/IDF\n\n\nCalculating TF/IDF on How I met your mother transcripts (with \nscikit-learn\n)\n\n\nLink\n\n\n\n\n\n\nGeneral/Sentiment Analysis\n\n\nBreakthrough Research Papers and Models for Sentiment Analysis\n\n\nLink\n\n\n\n\n\n\nSequence to Sequence\n\n\nA tutorial on how to summarize text and generate features from Github Issues using deep learning with Keras and TensorFlow.\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nLink\n\n\n\n\n\n\n\n\nPapers\n\n\n\n\n\n\n\n\nTopic\n\n\nTitle/Description\n\n\nAuthor(s)\n\n\nLink\n\n\n\n\n\n\n\n\n\n\nText Classification\n\n\nFine-tuned Language Models for Text Classification (with Transfer Learning)\n\n\nJeremy Howard, Sebastian Ruder\n\n\nLink\n\n\n\n\n\n\n\n\nNLP at Scale\n\n\n\n\nDocument classification with \npyspark\n with HDInsight on Azure \nDoc\n\n\n\n\nList updated 2017-01-26",
+            "title": "Natural Language Processing Resources"
+        },
+        {
+            "location": "/python/nlp/#natural-language-processing-resources",
+            "text": "",
+            "title": "Natural Language Processing Resources"
+        },
+        {
+            "location": "/python/nlp/#tutorials",
+            "text": "Gensim official Docs  Tutorial  Natural Language Processing with NLTK and Gensim  Video  A Word2Vec Keras tutorial  Tutorial  Language Understanding with Recurrent Networks and CNTK  Tutorial  Vector Representations of Words with TensorFlow  Tutorial  Word2Vec word embedding tutorial in Python and TensorFlow  Tutorial",
+            "title": "Tutorials"
+        },
+        {
+            "location": "/python/nlp/#exercises",
+            "text": "Topic  Title/Description  Link      Sentiment Analysis  Build a sentiment analysis / polarity model  scikit-learn  Exercise  and  Code to start",
+            "title": "Exercises"
+        },
+        {
+            "location": "/python/nlp/#courses-and-course-materials",
+            "text": "Stanford Deep Learning for NLP (cs224n)  Course Material",
+            "title": "Courses and Course Materials"
+        },
+        {
+            "location": "/python/nlp/#examples",
+            "text": "Document clustering with k-means official  scikit-learn   Example  Featurize free-form text data using  mmlspark  on top of primitives in SparkML via a single transformer in this official  mmlspark   Notebook  Sequence Classification with CNTK  Example  Sequence2Sequence with CNTK  Example",
+            "title": "Examples"
+        },
+        {
+            "location": "/python/nlp/#nlp-specific-packages",
+            "text": "allennlp :  Deep Learning for NLP from AllenNLP built on PyTorch  Ref  - good for conditional random field, encoders/decoders, reading comprehension, semantic role, etc.  gensim :  topic modelling  Docs  - good for word2vec, semantic similarity, LDA, LSA, etc.  nltk :  Natural Language Toolkit  Docs  - good for tokenization, stemming, tagging, parsing, corpora, etc.  spacy :  Efficient and Backed by ANNs NLP Toolkit  Docs  - good for parsing, tagging, entity recognition, text categorization, phrase matching, etc.",
+            "title": "NLP-Specific Packages"
+        },
+        {
+            "location": "/python/nlp/#kaggle",
+            "text": "Toxic Comment Classification Challenge  Competition",
+            "title": "Kaggle"
+        },
+        {
+            "location": "/python/nlp/#books",
+            "text": "TBD",
+            "title": "Books"
+        },
+        {
+            "location": "/python/nlp/#blog-articles",
+            "text": "Topic  Title/Description  Link      Basics  7 types of Artificial Neural Networks for Natural Language Processing  Link    TF/IDF  Calculating TF/IDF on How I met your mother transcripts (with  scikit-learn )  Link    General/Sentiment Analysis  Breakthrough Research Papers and Models for Sentiment Analysis  Link    Sequence to Sequence  A tutorial on how to summarize text and generate features from Github Issues using deep learning with Keras and TensorFlow.  Link      Link",
+            "title": "Blog Articles"
+        },
+        {
+            "location": "/python/nlp/#papers",
+            "text": "Topic  Title/Description  Author(s)  Link      Text Classification  Fine-tuned Language Models for Text Classification (with Transfer Learning)  Jeremy Howard, Sebastian Ruder  Link",
+            "title": "Papers"
+        },
+        {
+            "location": "/python/nlp/#nlp-at-scale",
+            "text": "Document classification with  pyspark  with HDInsight on Azure  Doc   List updated 2017-01-26",
+            "title": "NLP at Scale"
         },
         {
             "location": "/level1/level1_setup/",
