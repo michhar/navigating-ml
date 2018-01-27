@@ -20,7 +20,7 @@ pages:
         - 'Preparation': 'level3/level3_prep.md'
         - 'Practice': 'level3/level3_practice.md'
 
-google_analytics: ['UA-86308542-2', 'https://michhar.github.io/navigating-ml']
+google_analytics: ['UA-86308542-1', 'https://michhar.github.io']
 
 markdown_extensions:
   - pymdownx.arithmatex
