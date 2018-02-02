@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -10,9 +13,22 @@
       
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.3">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.4.0">
     
     
       
@@ -20,32 +36,22 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.7fb6a6f0.css">
       
     
     
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
-    
     
   </head>
-  
-  
-  
   
     <body>
   
@@ -65,7 +71,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="../.." title="Navigating ML" class="md-header-nav__button md-logo">
           
-            <i class="md-icon md-icon--home"></i>
+            <i class="md-icon"></i>
           
         </a>
       </div>
@@ -73,39 +79,38 @@
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
-                <span class="md-header-nav__parent">
-                  Dealing with Images
-                </span>
-              
-                <span class="md-header-nav__parent">
-                  Level 2
-                </span>
-              
+              <span class="md-header-nav__topic">
+                Navigating ML
+              </span>
+              <span class="md-header-nav__topic">
+                Practice
+              </span>
             
-            Practice
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
-  <div class="md-search__inner">
+  <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -114,6 +119,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -123,6 +129,7 @@
     
     <div class="md-container">
       
+        
       
       
       <main class="md-main">
@@ -134,11 +141,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <div class="md-nav__button md-logo">
+    <span class="md-nav__button md-logo">
       
-        <i class="md-icon md-icon--home"></i>
+        <i class="md-icon"></i>
       
-    </div>
+    </span>
     Navigating ML
   </label>
   
@@ -183,6 +190,30 @@
   <li class="md-nav__item">
     <a href="../../python/" title="Python" class="md-nav__link">
       Python
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../python/numpy/" title="NumPy and Linear Algebra" class="md-nav__link">
+      NumPy and Linear Algebra
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../python/nlp/" title="Natural Language Processing Resources" class="md-nav__link">
+      Natural Language Processing Resources
     </a>
   </li>
 
@@ -287,7 +318,7 @@
     <label class="md-nav__link" for="nav-3-2">
       Level 2
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
         Level 2
       </label>
@@ -355,12 +386,31 @@
     Adapt Deep Learning Explained CNTK Notebooks
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Running and Testing Locally with Azure ML Workbench
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image-classification" title="Image Classification" class="md-nav__link">
+    Image Classification
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extra-credit" title="Extra Credit" class="md-nav__link">
+    Extra Credit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -381,6 +431,13 @@
         <li class="md-nav__item">
   <a href="#want-more" title="Want More?" class="md-nav__link">
     Want More?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-help" title="Additional Help" class="md-nav__link">
+    Additional Help
   </a>
   
 </li>
@@ -411,7 +468,7 @@
     <label class="md-nav__link" for="nav-3-3">
       Level 3
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
         Level 3
       </label>
@@ -489,12 +546,31 @@
     Adapt Deep Learning Explained CNTK Notebooks
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-and-testing-locally-with-azure-ml-workbench" title="Running and Testing Locally with Azure ML Workbench" class="md-nav__link">
-    Running and Testing Locally with Azure ML Workbench
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#image-classification" title="Image Classification" class="md-nav__link">
+    Image Classification
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extra-credit" title="Extra Credit" class="md-nav__link">
+    Extra Credit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -519,6 +595,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#additional-help" title="Additional Help" class="md-nav__link">
+    Additional Help
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -537,45 +620,60 @@
                 <h1 id="level-2-challenge">Level 2 Challenge</h1>
 <p>In this intermediate Challenge, you'll apply what you've learned in the edX Deep Learning Explained course, leveraging the Jupyter notebooks you became familiar with in the course.  You'll start exploring the CIFAR-10 dataset along with other datsets in CNTK and TensorFlow.</p>
 <h2 id="adapt-deep-learning-explained-cntk-notebooks">Adapt Deep Learning Explained CNTK Notebooks</h2>
-<p>Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.  If you have a GPU at home, you may go ahead and use it, just be sure to follow the install instructions for CNTK in the <a href="../../adv/adv_setup/">Advanced section</a>.</p>
+<h3 id="image-classification">Image Classification</h3>
+<p>Here you'll adapt the Jupyter notebooks from the edX course - using the DLVM as the notebook server.  If you have a GPU at home, you may go ahead and use it, just be sure to follow the install instructions for CNTK in the <a href="../../level3/level3_setup">Advanced section</a>.</p>
 <ol>
-<li>Log into the Jupyter server on the DLVM - from any browser.</li>
-<li>Take the CNN Lab notebooks from edX course and use <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/DataSets/CIFAR-10">CIFAR 10 dataset in CNTK format</a> instead to classify images into the 10 classes:  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck instead of handwritten digits.<ol>
-<li>If you haven't cloned it yet, go ahead and clone the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a>.</li>
-<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take several minutes.
-...</li>
-</ol>
+<li>Get the CIFAR-10 dataset (in CNTK format)</li>
+<li>SSH into your DLVM (<a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm#connect-to-vm">Doc</a> - need to add 'azureuser' to the ssh command however!  Note, you can also use the VM through a Unix Desktop by following this <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop#install-a-desktop-environment-on-your-linux-vm">Doc</a>)<ul>
+<li><code>ssh azureuser@&lt;your VMs public ip here</code> (e.g. <code>ssh azureuser@52.174.34.95</code>, which you can get from the Azure portal, portal.azure.com)</li>
+<li><code>cd</code> into the <code>notebooks</code> folder</li>
+<li>Clone the CNTK Github repo</li>
+<li><code>cd CNTK/Examples/Image/DataSets/CIFAR-10/</code> to go to the data folder where the download script lives</li>
+<li>Run the download script: <code>python install_cifar10.py</code> (this might take some time as it's creating the CNTK text files as well as image files from the original Toronto CIFAR 10 archived dataset)</li>
+</ul>
 </li>
-<li>Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using Pillow (see ImageOps).  Convert them to the proper CNTK format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?</li>
+<li>Now let's begin working with some code.  Log into the Jupyter server on the DLVM - from any browser (note: you'll need to agree to keep going to this site despite the certificate warning - don't worry, this is normal)</li>
+<li>Point your browser to <code>https://&lt;VM DNS name or IP Address&gt;:8000/</code>" (<a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro#tools-installed-on-the-data-science-virtual-machine-for-linux">Doc</a>)<blockquote>
+<p>If this notebook is not familiar to you go back to the Preparation section and watch the videos <a href="../level2_prep">here</a>.</p>
+</blockquote>
+</li>
+<li>Open <code>CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb</code> (or better yet, open a copy you've made on the VM) - this will be the CNN notebook you modify to fit the CIFAR-10 dataset (instead of MNIST), remembering that your data is now at <code>../Examples/Image/DataSets/CIFAR-10/</code>.</li>
+<li>Modify the notebook to work with the CIFAR-10<ul>
+<li>Remember you're working with RGB images instead of grayscale</li>
+</ul>
+</li>
+<li>What is the resulting average test error?  Why is this value so different from the MNIST result?  What hyperparameters can you modify to fix this?</li>
+</ol>
+<h4 id="extra-credit">Extra Credit</h4>
+<ol>
+<li>Go online and find 5 png's of cats and dogs.  Reshape them and pad them to be 32x32 pixels using the Python Pillow library (see <a href="http://pillow.readthedocs.io/en/3.1.x/reference/ImageOps.html">ImageOps</a>).  Convert them to the proper CNTK text format.  Test the network with these, following the guidelines and lessons you learned in the edX course.  Now find an image of a coconut or lime and test the network with this.  What is wrong with using a food image?</li>
 <li>Create a new label called "food" and add this <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a>, leaving some out of training for testing.  Try your coconut image again.  What if now you tested with a hot dog image?</li>
 </ol>
-<h2 id="running-and-testing-locally-with-azure-ml-workbench">Running and Testing Locally with Azure ML Workbench</h2>
-<p>Now that you've got a couple of implementations of a Multilayer Perceptron, go ahead and setup an experiment in Azure ML Workbench, a nice new public preview Data Science workbench, to train and test on the Fashion dataset above.</p>
-<p>Use the iris dataset template and tutorial as an example - see the <a href="https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1">Docs</a>.</p>
-<ul>
-<li>Read your csv train file into Azure ML Workbench</li>
-<li>Modify the iris template to train a model with any of the above classification algorithms locally in docker</li>
-<li>Test with the <code>score.py</code> file locally in docker</li>
-<li>Check run history for metrics (observe the use of scikit-learn's confusion matrix, etc.)</li>
-<li>Containerize</li>
-<li>Deploy this to a Kubernetes cluster</li>
-<li>Test the endpoint in any script or application that you want to build (in any language)</li>
-</ul>
 <h2 id="transfer-learning-on-the-deep-learning-virtual-machine-with-cntk">Transfer Learning on the Deep Learning Virtual Machine with CNTK</h2>
-<p>Now, we are going to totally switch gears and tools.  We'll spin up a Deep Learning Virtual Machine and leverage raw Python scripts already kindly prepared for us on a classic image dataset, CIFAR-10, which has ten classes.  Here, for ease of use and speed we'll use Transfer Learning as well.</p>
-<ul>
-<li>Connect to your Linux Deep Learning Virtual Machine (DLVM) in Azure with x2go (see instructions in <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-deep-learning-dsvm#how-to-access-the-deep-learning-virtual-machine">Docs</a>).</li>
-<li>Use ResNet to train a CIFAR 10 classifier<ol>
-<li>Go ahead and clone the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a>.</li>
-<li>Get the data by running the <code>install_cifar10.py</code> in the <code>CNTK/Examples/Image/DataSets/CIFAR-10/</code> folder of the <a href="https://github.com/Microsoft/CNTK">CNTK GitHub repo</a> - it's suggested to copy this folder out to some other place to keep your CNTK repo download clean.  <em>Note</em>: this download may take 10-20 minutes - it's a lot of data and data conversions.</li>
+<p>Here, for ease of use and speed we'll use Transfer Learning as well.</p>
+<ol>
 <li>Run <a href="https://github.com/Microsoft/CNTK/tree/master/Examples/Image/Classification/ResNet/Python#trainresnet_cifar10py">this</a> script on the command line on your DLVM, to train your classifier with Transfer Learning (the base model here is <a href="https://arxiv.org/abs/1512.03385">ResNet</a>).</li>
 </ol>
-</li>
-</ul>
 <h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
-<p>...</p>
+<p>Easy:  Run this TensorFlow script to classify a new image (this uses a pretrained Inception V3 model):</p>
+<ul>
+<li><a href="https://www.tensorflow.org/tutorials/image_recognition">https://www.tensorflow.org/tutorials/image_recognition</a></li>
+</ul>
+<p>Intermediate: Perform this TensorFlow CNN Tutorial from Google:</p>
+<ul>
+<li><a href="https://www.tensorflow.org/tutorials/deep_cnn">https://www.tensorflow.org/tutorials/deep_cnn</a></li>
+</ul>
+<p>Advanced:  Modify this MNIST CNN TensorFlow tutorial for use with the CIFAR-10 dataset:</p>
+<ul>
+<li><a href="http://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-tensorflow/">http://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-tensorflow/</a></li>
+</ul>
 <h2 id="want-more">Want More?</h2>
 <p>Check out Rodrigo Benenson's <a href="http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d3130">blog</a> to find out the best algorithm for classifying with CIFAR-10 and implement it.  May the force be with you.</p>
+<h2 id="additional-help">Additional Help</h2>
+<ul>
+<li>StackOverflow with <code>cntk</code> or <code>tensorflow</code> tag</li>
+<li>For CNTK specific help you may send your questions to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;">&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;</a>.</li>
+</ul>
                 
                   
                 
@@ -631,13 +729,25 @@
       <div class="md-footer-copyright">
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
         
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/michhar/navigating-ml" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/rheartpython" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/micheleenharris" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
       
     </div>
   </div>
@@ -645,65 +755,16 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      <script src="../../assets/javascripts/application.ce2ab4bf.js"></script>
       
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
       
-      <script>app.initialize({url:{base:"../.."}})</script>
-      
-        <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
-      
-        <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.da.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.de.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.du.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.es.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.fi.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.fr.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.hu.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.it.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.multi.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.no.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.ro.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.ru.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.sv.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.tr.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
-      
-        <script src="../../mkdocs/js/lunr.min.js"></script>
-      
-        <script src="../../mkdocs/js/mustache.min.js"></script>
-      
-        <script src="../../mkdocs/js/require.js"></script>
-      
-        <script src="../../mkdocs/js/search.js"></script>
-      
-        <script src="../../mkdocs/js/text.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-86308542-1","https://michhar.github.io/navigating-ml/"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-86308542-1","https://michhar.github.io"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>

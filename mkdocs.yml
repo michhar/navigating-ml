@@ -4,6 +4,8 @@ pages:
     - Main: index.md
     - Getting Started:
       - 'Python': 'python.md'
+      - 'NumPy and Linear Algebra': 'python/numpy.md'
+      - 'Natural Language Processing Resources': 'python/nlp.md'
     - Dealing with Images:
       - Level 1:
         - 'Setup': 'level1/level1_setup.md'
@@ -18,4 +20,34 @@ pages:
         - 'Preparation': 'level3/level3_prep.md'
         - 'Practice': 'level3/level3_practice.md'
 
-google_analytics: ['UA-86308542-1', 'https://michhar.github.io/navigating-ml/']
+google_analytics: ['UA-86308542-1', 'https://michhar.github.io']
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/michhar/navigating-ml'
+    - type: 'twitter'
+      link: 'https://twitter.com/rheartpython'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/micheleenharris'

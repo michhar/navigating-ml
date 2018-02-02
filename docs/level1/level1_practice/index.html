@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -10,9 +13,22 @@
       
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.3">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.4.0">
     
     
       
@@ -20,32 +36,22 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.7fb6a6f0.css">
       
     
     
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
-    
     
   </head>
-  
-  
-  
   
     <body>
   
@@ -65,7 +71,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="../.." title="Navigating ML" class="md-header-nav__button md-logo">
           
-            <i class="md-icon md-icon--home"></i>
+            <i class="md-icon"></i>
           
         </a>
       </div>
@@ -73,39 +79,38 @@
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
-                <span class="md-header-nav__parent">
-                  Dealing with Images
-                </span>
-              
-                <span class="md-header-nav__parent">
-                  Level 1
-                </span>
-              
+              <span class="md-header-nav__topic">
+                Navigating ML
+              </span>
+              <span class="md-header-nav__topic">
+                Practice
+              </span>
             
-            Practice
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
-  <div class="md-search__inner">
+  <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -114,6 +119,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -123,6 +129,7 @@
     
     <div class="md-container">
       
+        
       
       
       <main class="md-main">
@@ -134,11 +141,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <div class="md-nav__button md-logo">
+    <span class="md-nav__button md-logo">
       
-        <i class="md-icon md-icon--home"></i>
+        <i class="md-icon"></i>
       
-    </div>
+    </span>
     Navigating ML
   </label>
   
@@ -183,6 +190,30 @@
   <li class="md-nav__item">
     <a href="../../python/" title="Python" class="md-nav__link">
       Python
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../python/numpy/" title="NumPy and Linear Algebra" class="md-nav__link">
+      NumPy and Linear Algebra
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../python/nlp/" title="Natural Language Processing Resources" class="md-nav__link">
+      Natural Language Processing Resources
     </a>
   </li>
 
@@ -291,15 +322,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#custom-vision" title="Custom Vision" class="md-nav__link">
-    Custom Vision
+  <a href="#custom-vision-microsoft" title="Custom Vision (Microsoft)" class="md-nav__link">
+    Custom Vision (Microsoft)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#first-custom-ml" title="First Custom ML" class="md-nav__link">
-    First Custom ML
+  <a href="#first-custom-ml-open-source-tools" title="First Custom ML (Open Source Tools)" class="md-nav__link">
+    First Custom ML (Open Source Tools)
   </a>
   
     <nav class="md-nav">
@@ -327,6 +358,13 @@
         <li class="md-nav__item">
   <a href="#basic-neural-nets" title="Basic Neural Nets" class="md-nav__link">
     Basic Neural Nets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moving-on" title="Moving On" class="md-nav__link">
+    Moving On
   </a>
   
 </li>
@@ -364,7 +402,7 @@
     <label class="md-nav__link" for="nav-3-2">
       Level 2
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
         Level 2
       </label>
@@ -424,7 +462,7 @@
     <label class="md-nav__link" for="nav-3-3">
       Level 3
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
         Level 3
       </label>
@@ -498,15 +536,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#custom-vision" title="Custom Vision" class="md-nav__link">
-    Custom Vision
+  <a href="#custom-vision-microsoft" title="Custom Vision (Microsoft)" class="md-nav__link">
+    Custom Vision (Microsoft)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#first-custom-ml" title="First Custom ML" class="md-nav__link">
-    First Custom ML
+  <a href="#first-custom-ml-open-source-tools" title="First Custom ML (Open Source Tools)" class="md-nav__link">
+    First Custom ML (Open Source Tools)
   </a>
   
     <nav class="md-nav">
@@ -539,6 +577,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#moving-on" title="Moving On" class="md-nav__link">
+    Moving On
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#additional-help" title="Additional Help" class="md-nav__link">
     Additional Help
   </a>
@@ -561,18 +606,25 @@
                 
                 
                 <h1 id="level-1-challenge">Level 1 Challenge</h1>
-<p>In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages and the Azure ML Workbench tool.  Here and throughout these challenges you'll work with these image datasets: the fruit FIDS30 dataset, the Kaggle Fashion MNIST dataset and the CIFAR-10 (tiny images) dataset.</p>
-<h2 id="custom-vision">Custom Vision</h2>
-<ol>
-<li>Download the <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a> and build a fruit image classifier with <a href="https://customvision.ai/">https://customvision.ai/</a>.</li>
-</ol>
-<h2 id="first-custom-ml">First Custom ML</h2>
+<p>It is recommended that you have completed the <a href="../level1_prep">Leve 1 Preparation</a>.</p>
+<p>In this Beginner Challenge you'll learn about basic ML and neural networks hands-on with Jupyter notebooks and Python.  You'll be introduced to scikit-learn, CNTK, and TensorFlow as Python packages commonly used in data manipulation and data science.  </p>
+<p>Here and throughout these practice exercises you'll work with the following image datasets: the fruit FIDS30 dataset, the Kaggle Fashion MNIST dataset and the CIFAR-10 (tiny images) dataset.</p>
+<h2 id="custom-vision-microsoft">Custom Vision (Microsoft)</h2>
+<p>Download the <a href="http://www.vicos.si/Downloads/FIDS30">fruit dataset</a> and build a fruit image classifier with two fruit classes using <a href="https://customvision.ai/">https://customvision.ai/</a>.</p>
+<p>After you have done some training above, create a Python script to "pixel-normalize" the images prior to training the model and retrain to see your new Precision and Recall.</p>
+<p><img alt="Precision and recall" src="http://nlpforhackers.io/wp-content/uploads/2017/01/Precision-Recall.png" /></p>
+<blockquote>
+<p>Some defintions.  <strong>Precision</strong>:  if a tag is precicted by your classifier, how likely is it that it is right?  <strong>Recall</strong>:  out of the tags that should be classified as right, what percentage did your classifier correctly find?</p>
+</blockquote>
+<h2 id="first-custom-ml-open-source-tools">First Custom ML (Open Source Tools)</h2>
 <p>For these two problems, it is recommended to go through the code from the original source line by line in whatever fashion you see fit so that you really understand what is happening.</p>
 <blockquote>
 <p>TIPS:  Place all imports at the top of the notebook.  Call the training data something consistent thoughout all of your work (X_train -&gt; training data, y_train -&gt; labels, X_test -&gt; test data...).</p>
 </blockquote>
 <h3 id="image-classification">Image Classification</h3>
-<p>Create a Python program to classify images from Fashion MNIST Dataset (get <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">here</a>) leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits">Ref</a>.  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for <code>sklearn.datasets.load_digits</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn).  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Create a Python program to classify images from Fashion MNIST Dataset (get <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">here</a>) leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Application:-Exploring-Hand-written-Digits">Ref</a>.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the <a href="../level1_setup">Setup Section</a>.  </p>
+<p>It might help to examine the existing data format for <code>sklearn.datasets.load_digits</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn).  </p>
 <ul>
 <li>What did you find?  Which fashion item has the best accuracy, which the worst?  Why do you think that is?  Is there a way you could imagine improving this model?</li>
 <li>Try a different model</li>
@@ -582,7 +634,9 @@
 <blockquote>
 <p><em>In the real world, data is rarely so uniform and simple pixels will not be suitable: this has led to a large literature on feature extraction methods for image data.</em></p>
 </blockquote>
-<p>Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html">Ref</a>.  Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the Getting Started and Level 1 Preparation sections.  It might help to examine the existing data format for <code>sklearn.datasets.fetch_lfw_people</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn) to create this detector.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Create a Python program to detect cats in 2D images by leveraging code samples from the Python Data Science Handbook - <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html">Ref</a>.  Refer to Chapter 2 and 3 of this Handbook for information on data manipulation in Python if not already familiar.</p>
+<p>Do this in a Jupyter notebook (any service or locally) - recall you learned about this tool the <a href="../level1_setup">Setup Section</a>.  </p>
+<p>It might help to examine the existing data format for <code>sklearn.datasets.fetch_lfw_people</code> so that you can convert into that format to utilize the algorithms in <code>sklearn</code> (scikit-learn) to create this detector.  </p>
 <ul>
 <li>What other confounding factors are there for images other than illumination, you think?</li>
 <li>Plot the original image along with the <code>skimage.rgb2gray</code> version and the HOG representation.  See how this works in <code>matplotlib</code>.  What does <code>skimage.rgb2gray</code> actually do?</li>
@@ -594,7 +648,7 @@
 <li><strong>Extra credit</strong>:  Implement Non-Maximum Suppression in Python to find the single best bounding box of a group of bounding boxes as are found above.  Apply this to the astronaut image.</li>
 </ul>
 <h2 id="basic-neural-nets">Basic Neural Nets</h2>
-<p>The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple neuron works and then set of a few neurons - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!</p>
+<p>The purpose of the Basic Neural Nets exercises are to familiarize you with how a simple artificial neuron works and then set of a few neurons to form a network (artificial neural network) - all from the ground-up - this knowledge will serve you well.  It will really get to the core of neural nets and give you a perfect "from scratch" introduction (the code template already exists around the infamous iris dataset, you'll just make it work with some fashionable images).  If we want to get to know deep neural nets, why not dive in deep to start!</p>
 <ol>
 <li>Use <a href="https://notebooks.azure.com">Azure Notebooks</a> for this tutorial.  Fire up a blank Python 3.5 Jupyter notebook for this.</li>
 <li>Get the following sample image dataset loaded in your Jupyter notebook: <a href="https://www.kaggle.com/zalando-research/fashionmnist/data">train and test Fashion MNIST Dataset (Source: Kaggle)</a></li>
@@ -611,10 +665,12 @@
 </ul>
 </li>
 </ol>
+<h2 id="moving-on">Moving On</h2>
+<p>Now it is time to move on to Level 2 Preparation.</p>
 <h2 id="additional-help">Additional Help</h2>
 <ul>
-<li>StackOverflow with <code>sklearn</code></li>
-<li>Issues on CNTK GitHub repo</li>
+<li>StackOverflow with <code>sklearn</code>, <code>jupyter</code></li>
+<li>For Custom Vision you can email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#117;&#115;&#116;&#111;&#109;&#118;&#105;&#115;&#105;&#111;&#110;&#116;&#101;&#97;&#109;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;">&#99;&#117;&#115;&#116;&#111;&#109;&#118;&#105;&#115;&#105;&#111;&#110;&#116;&#101;&#97;&#109;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;</a>.</li>
 </ul>
                 
                   
@@ -671,13 +727,25 @@
       <div class="md-footer-copyright">
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
         
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/michhar/navigating-ml" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/rheartpython" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/micheleenharris" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
       
     </div>
   </div>
@@ -685,65 +753,16 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      <script src="../../assets/javascripts/application.ce2ab4bf.js"></script>
       
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
       
-      <script>app.initialize({url:{base:"../.."}})</script>
-      
-        <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
-      
-        <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.da.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.de.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.du.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.es.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.fi.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.fr.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.hu.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.it.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.multi.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.no.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.ro.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.ru.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.sv.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.tr.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
-      
-        <script src="../../mkdocs/js/lunr.min.js"></script>
-      
-        <script src="../../mkdocs/js/mustache.min.js"></script>
-      
-        <script src="../../mkdocs/js/require.js"></script>
-      
-        <script src="../../mkdocs/js/search.js"></script>
-      
-        <script src="../../mkdocs/js/text.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-86308542-1","https://michhar.github.io/navigating-ml/"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-86308542-1","https://michhar.github.io"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>

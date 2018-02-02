@@ -2,37 +2,30 @@
 
 To begin at this level you should have:
 
-- Familiarity with Python for general purpose programming
-- Working knowledge of traditional ML
+- Familiarity with Python 3 for general purpose programming.  See the [Python](../python) section for more.
+- Working knowledge of traditional ML (when to use what)
 - Basic data mining skills
-
-...
 
 ## Concepts
 
-### Neural Networks
-
-Read through [this](http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html) excellent explanation of a single-layer neural network.  This information will lay the foundation for these sets of challenges and help you get started from the ground-up, quickly with key concepts and Python code snippets.
-
 ### Dealing with Image Data
 
-- Manipulation/conversions [Need doc]()
-- Scaling [Need doc]()
-- Transforms/augmentation [Need doc]()
+- Read through this excellent first taste of Image Classification from this Stanford CS231n course [Ref](http://cs231n.github.io/classification/)
 
-...
+### Neural Networks
+
+* Read through [this](http://sebastianraschka.com/Articles/2015_singlelayer_neurons.html) excellent explanation of a single-layer neural network.  This information will lay the foundation for these sets of challenges and help you get started from the ground-up, quickly with key concepts and Python code snippets.
+
 
 ## Tools
 
-1. Git and GitHub for version control. [Need doc]()
+1. Git and GitHub for version control.
 2. Jupyter notebook skills. [Chapter 1 Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 1. Get a good grasp of Python for data tasks:
     1. How to read data (matplotlib, Pillow/PIL, opencv)
     2. How to manipulate data (numpy, pandas, scikit-learn) 
     3. How to plot data (matplotlib, plotly)
     4. Traditional ML (scikit-learn)
-
-...
 
 [A Learning Path is under dev to cover the above topics in linear fashion]()
 

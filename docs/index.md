@@ -1,16 +1,16 @@
 # navigating-ml
 
-Do you feel like there's just too much to be aware of in the Deep Learning space today?  Concepts like Convolutional Neural Networks, GANs, Neural Style Transfer...and networks like AlexNet, ResNet, or Inception...frameworks like CNTK, TensorFlow, Caffe2, PyTorch...extra layers on top of those like TFLearn, Keras, Gluon, MMLSpark...
+With the advent of more data and compute power, we have a unique opportunity to create more intricate algorithms that help address accuracy issues seen in traditional machine learning.  Deep learning allows us to fine tune the fit of an algorithm to its data in an iterative manner, and to evaluate and "feed-back" that information during the training process for a better model.  This results in better models if enough data is provided or in some cases if there's an existing "base model", as is the case in transfer learning, if good quality and highly representative data is provided.
 
-It can really seem overwhelming.  I propose we step back, take a nice, deep breath, and make a decision.  Are you a beginner in this field?  Are you on your way to really grokking neural nets, but still missing some key concepts?  Or are you as seasoned pro conceptually, but not super familiar with frameworks like CNTK (Microsoft's Cognitive Toolkit) or TensorFlow (Google's deep learning framework) or want to know more about the hardware and current tools for this kind of work?
+That being said, do you feel like there's just too much to be aware of in the ML and Deep Learning space today?  Concepts like Convolutional Neural Networks, GANs, Neural Style Transfer...and networks like AlexNet, ResNet, or Inception...frameworks like CNTK, TensorFlow, Caffe2, PyTorch...extra layers on top of those like TFLearn, Keras, Gluon, MMLSpark...
 
-If you suspect you are a beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Level 1 Challenge for Dealing with Images to start building up your machine learning and neural network cred.
+> Tip:  Focus on the pipeline or workflow first and iterate on the model after.
+
+If you suspect you are a beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Level 1 Challenge for Dealing with Images to start building up your traditional machine learning and neural network cred.
 
 Do you grok the basics of ML and perhaps what a fully-connected neural network is?  Have you had some exposure to TensorFlow or CNTK, but don't yet have deep working knowledge of Convolutional Neural Networks?  In that case, try jumping into the Level 2 section of Dealing with Images.  If it seems a little overwhelming, head back to the Level 1 area.  If it's not challenging enough, move on to the Level 3 section.
 
 Maybe you're a total neural network geek and you've played with CNTK and TensorFlow a little bit now, gone through several tutorials and maybe built some custom models.  But you haven't set up your environment to include a GPU or two.  Or perhaps you haven't performed image augmentation for input readers in CNTK or created a live REST endpoint and app to call your model?  These are tasks you'll likely encounter once you start working with partners and customers for building custom ML models.  They will want something deployed.  But don't worry, by Level 3 you should be almost there and hopefully hungry for more machine learning knowledge.
-
-> Tip:  Focus on the pipeline first and iterate on the model after.
 
 Here, you'll get exposed to several types, qualities and sizes of datasets.  You'll also use many key Python libraries and general Data Science tools.  These paths can be walked separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner work quickly and thoroughly.
 
@@ -32,7 +32,6 @@ Included are:
 * Scikit-learn
 * CNTK
 * TensorFlow
-* Azure ML Workbench
 * Deep Learning Virtual Machine
 
 ### Data

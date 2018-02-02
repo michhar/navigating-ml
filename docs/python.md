@@ -1,8 +1,8 @@
 # Prerequisites
 
-1.  Python (Rocks!)
+1.  Python 3 (Rocks!)
 
-(2. Algebra, calculus and some basic ML knowledge won't hurt ya)
+(2. Algebra, calculus and some basic ML knowledge won't hurt)
 
 ## Python
 
@@ -17,13 +17,58 @@
   * Functions and packages
   * Numpy
 
+**Your second Python course**
+
+A nice course from Software Carpentry on basics of Python programming with a data analysis twist.
+
+[Course](http://swcarpentry.github.io/python-novice-inflammation/) (Time:  ~8 hours)
+
+1. Analyzing Patient Data
+2. Repeating Actions with Loops
+3. Storing Multiple Values in Lists
+4. Analyzing Data from Multiple Files
+5. Making Choices
+6. Creating Functions
+7. Errors and Exceptions
+8. Defensive Programming
+9. Debugging
+10. Command-Line Programs
+
 **Learn about Jupyter**
 
 [Nice, short video tour of Jupyter Notebooks](https://www.youtube.com/watch?v=jZ952vChhuI)
 
   * Go to [Azure Notebooks](https://notebooks.azure.com) to check out Jupyter notebooks live and try to follow along with the video.
 
+**Programming and Plotting with Python**
+
+Basics with plotting theme throughout and nice exercies from Software Carpentry.
+
+[Course](http://swcarpentry.github.io/python-novice-gapminder/) (Time: ~8 hours)
+
+1. Running and Quitting
+2. Variables and Assignment
+3. Data Types and Type Conversion
+4. Built-in Functions and Help
+6. Libraries
+7. Reading Tabular Data into DataFrames
+8. Pandas DataFrames
+9. Plotting
+11. Lists
+12. For Loops
+13. Looping Over Data Sets
+14. Writing Functions
+15. Variable Scope
+17. Conditionals
+18. Programming Style
+
 ### Intermediate
+
+**The Data Science Handbook**
+
+By Jake VanderPlas, this handbook outlines everything you need to know with cool Examples and Applications, on how to get started in Data Science with Python.
+
+[Book](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 **Python intro and data sciencey tools - go through in order or skip around**
 
@@ -52,6 +97,10 @@ For a more in-depth Python course, this is a good one on edX out of UC San Diego
 * An applied understanding of how to manipulate and analyze uncurated datasets
 * Basic statistical analysis and machine learning methods
 * How to effectively visualize results
+
+### Numerical Python, a.k.a. using the `numpy` package, is essential for the data scientist
+
+See my [python/numpy.html](python/numpy) article for a detailed list of `numpy` resources.
 
 ### Advanced
 

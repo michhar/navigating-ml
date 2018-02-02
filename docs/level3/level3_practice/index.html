@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -10,9 +13,22 @@
       
       
       
-        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.3">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.4.0">
     
     
       
@@ -20,32 +36,22 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.7fb6a6f0.css">
       
     
     
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-9011e2d3f8.css">
-    
     
   </head>
-  
-  
-  
   
     <body>
   
@@ -65,7 +71,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="../.." title="Navigating ML" class="md-header-nav__button md-logo">
           
-            <i class="md-icon md-icon--home"></i>
+            <i class="md-icon"></i>
           
         </a>
       </div>
@@ -73,39 +79,38 @@
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
-                <span class="md-header-nav__parent">
-                  Dealing with Images
-                </span>
-              
-                <span class="md-header-nav__parent">
-                  Level 3
-                </span>
-              
+              <span class="md-header-nav__topic">
+                Navigating ML
+              </span>
+              <span class="md-header-nav__topic">
+                Practice
+              </span>
             
-            Practice
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
-  <div class="md-search__inner">
+  <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -114,6 +119,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -123,6 +129,7 @@
     
     <div class="md-container">
       
+        
       
       
       <main class="md-main">
@@ -134,11 +141,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <div class="md-nav__button md-logo">
+    <span class="md-nav__button md-logo">
       
-        <i class="md-icon md-icon--home"></i>
+        <i class="md-icon"></i>
       
-    </div>
+    </span>
     Navigating ML
   </label>
   
@@ -183,6 +190,30 @@
   <li class="md-nav__item">
     <a href="../../python/" title="Python" class="md-nav__link">
       Python
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../python/numpy/" title="NumPy and Linear Algebra" class="md-nav__link">
+      NumPy and Linear Algebra
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../python/nlp/" title="Natural Language Processing Resources" class="md-nav__link">
+      Natural Language Processing Resources
     </a>
   </li>
 
@@ -285,7 +316,7 @@
     <label class="md-nav__link" for="nav-3-2">
       Level 2
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
         Level 2
       </label>
@@ -347,7 +378,7 @@
     <label class="md-nav__link" for="nav-3-3">
       Level 3
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
         Level 3
       </label>
@@ -602,7 +633,7 @@
 </ol>
 </li>
 <li>
-<p>Do the same exact exercise with CoCo: http://cocodataset.org/#home</p>
+<p>Do the same exact exercise with CoCo: <a href="http://cocodataset.org/#home">http://cocodataset.org/#home</a></p>
 <ol>
 <li>Why do you think you get bad results?</li>
 </ol>
@@ -614,7 +645,7 @@
 <h2 id="key-learnings">Key Learnings</h2>
 <p>Object detection v.s. Classification, Data Prep and pipelines.</p>
 <h2 id="places-to-go-for-help">Places to go for Help</h2>
-<p><strong>If you run into trouble, email CNTK Help cntkhelp@microsoft.com and also create a stack overflow with tag <code>cntk</code>, then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.</strong></p>
+<p><strong>If you run into trouble, email CNTK Help <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;">&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;</a> and also create a stack overflow with tag <code>cntk</code>, then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.</strong></p>
                 
                   
                 
@@ -656,13 +687,25 @@
       <div class="md-footer-copyright">
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
         
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/michhar/navigating-ml" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/rheartpython" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/micheleenharris" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
       
     </div>
   </div>
@@ -670,65 +713,16 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      <script src="../../assets/javascripts/application.ce2ab4bf.js"></script>
       
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
       
-      <script>app.initialize({url:{base:"../.."}})</script>
-      
-        <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
-      
-        <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.da.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.de.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.du.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.es.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.fi.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.fr.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.hu.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.it.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.multi.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.no.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.ro.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.ru.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.sv.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/lunr.tr.js"></script>
-      
-        <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
-      
-        <script src="../../mkdocs/js/lunr.min.js"></script>
-      
-        <script src="../../mkdocs/js/mustache.min.js"></script>
-      
-        <script src="../../mkdocs/js/require.js"></script>
-      
-        <script src="../../mkdocs/js/search.js"></script>
-      
-        <script src="../../mkdocs/js/text.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-86308542-1","https://michhar.github.io/navigating-ml/"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-86308542-1","https://michhar.github.io"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>
