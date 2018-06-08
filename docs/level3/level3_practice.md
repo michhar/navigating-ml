@@ -11,57 +11,34 @@ _Why do this task_:  Usually, beginner tutorials around ML and neural networks 
   * Learning this will hopefully help you understand the concept of “Data Packing”. 
   * This is not the simplest way, but it forces greater learning.
 
-## Working with CNTK Locally (DLVM is also OK)
+## Working with PyTorch Locally (VM in cloud ok)
 
-**Use the CNTK Manual as reference: [CNTK Manual on GitHub](https://github.com/Microsoft/CNTK/tree/master/Manual)**
+1. Understand Data Sets
 
-This is focusing for the Energy/Manufacturing Vertical.
-
-1. Understand Label Files & Mini Batch Sources:
-    1. CTF & Image: [http://dacrook.com/complex-neural-network-data-modelling-with-cntk/](http://dacrook.com/complex-neural-network-data-modelling-with-cntk/)
-    2. Sequence: [http://dacrook.com/deep-learning-match-making-with-recurrent-networks/](http://dacrook.com/deep-learning-match-making-with-recurrent-networks/)
 2. Image Classification:
-    1. Start w/ CIFAR 10 for image classification using a Jupyter Notebook (use [CNTK Manual on GitHub](https://github.com/Microsoft/CNTK/tree/master/Manual))
+    1. Start with a Cifar-10 Jupyter notebook
         2. Get Data from here: [CIFAR-10 data](https://www.kaggle.com/c/cifar-10/data)
-        1. Start w/ a CTF deserializer
-            1. Use Image library w/ numpy and CNTK's io libraries to write a ctf file containing the data in flattened arrays
         2. Use the Image deserializer next
-            1. Try out a few transforms.  You will have to read the CNTK docs pages for transforms. [CNTK transforms](https://cntk.ai/pythondocs/cntk.io.transforms.html)
+            1. Try out some data augmentation
         3. Make sure you also create an example for [inference](https://en.wikipedia.org/wiki/Statistical_inference).
         2. Use Scikit-learns’s confusion matrix and classification_report to generate metrics.
             1. [Scikit-learn's confusion matrix](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
             2. [Scikit-learn's classification report](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
 
-
-## Azure ML Workbench
-
-3.  Do the same thing w/ Azure ML Workbench
-    1. Set up
-        1. Create a workspace
-	    2. Create a git repo in VSTS
-	    3. Create a project linked to the repo
-        2. Re-write as a single training script and execute via docker locally.
-        1. Add in Azure ML Workbench’s logging apis.
-        1. Try out a Convolutional Network
-        2. Use the Azure ML Workbench Operationalization CLI to create a container.
-            1. Create a local container
-            2. Pull the local container and test locally
-            3. Deploy a real time container to Azure Container Services
-            4. Test against this.
-            5. TIP:  You will either send the image via the body as an array of float32 or as a byte64 encoded string.
+## Want More?
 
 4. Do the same exact exercise with CoCo: http://cocodataset.org/#home
     1. Why do you think you get bad results?
-5. Use the Out of Box Faster-RCNN solution w/ CNTK and CoCo
+5. Use the Out of Box Faster-RCNN solution
 
-## Taste of TensorFlow
+## TensorFlow
 
 Train a CNN on the CIFAR-10 dataset as in this [Tutorial](https://www.tensorflow.org/tutorials/deep_cnn).
 
 ## Key Learnings
 
-Object detection v.s. Classification, Data Prep and pipelines.
+## Additional Help
 
-## Places to go for Help
-
-**If you run into trouble, email CNTK Help cntkhelp@microsoft.com and also create a stack overflow with tag `cntk`, then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.**
+* PyTorch forums - [Ref](https://discuss.pytorch.org/)
+* StackOverflow with `pytorch` or `tensorflow` tag
+* If using CNTK, you may send your questions to cntkhelp@microsoft.com

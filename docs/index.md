@@ -8,20 +8,13 @@ That being said, do you feel like there's just too much to be aware of in the ML
 
 If you suspect you are a beginner in this field, do you need some Python knowledge and fast?  If so go to the Getting Started section to load up on resources and once you're comfortable with data manipulation move on to the Level 1 Challenge for Dealing with Images to start building up your traditional machine learning and neural network cred.
 
-Do you grok the basics of ML and perhaps what a fully-connected neural network is?  Have you had some exposure to TensorFlow or CNTK, but don't yet have deep working knowledge of Convolutional Neural Networks?  In that case, try jumping into the Level 2 section of Dealing with Images.  If it seems a little overwhelming, head back to the Level 1 area.  If it's not challenging enough, move on to the Level 3 section.
+Do you grok the basics of ML and perhaps what a fully-connected neural network is?  Have you had some exposure to TensorFlow or PyTorch, but don't yet have deep working knowledge of Convolutional Neural Networks?  In that case, try jumping into the Level 2 section of Dealing with Images.  If it seems a little overwhelming, head back to the Level 1 area.  If it's not challenging enough, move on to the Level 3 section.
 
-Maybe you're a total neural network geek and you've played with CNTK and TensorFlow a little bit now, gone through several tutorials and maybe built some custom models.  But you haven't set up your environment to include a GPU or two.  Or perhaps you haven't performed image augmentation for input readers in CNTK or created a live REST endpoint and app to call your model?  These are tasks you'll likely encounter once you start working with partners and customers for building custom ML models.  They will want something deployed.  But don't worry, by Level 3 you should be almost there and hopefully hungry for more machine learning knowledge.
+Maybe you're a total neural network geek and you've played with PyTorch and TensorFlow a little bit now, gone through several tutorials and maybe built some custom models.  But you haven't set up your environment to include a GPU or two.  Or perhaps you haven't performed image augmentation for data sets in PyTorch?  Don't worry, by Level 3 you should be almost there and hopefully hungry for more machine learning experience.
 
 Here, you'll get exposed to several types, qualities and sizes of datasets.  You'll also use many key Python libraries and general Data Science tools.  These paths can be walked separately or as one big, ML onboarding.  They are intended to help you get up and running for ML partner work quickly and thoroughly.
 
 That being said, feedback is always welcome especially at this early stage.  Please enjoy responsibly.
-
-## Quick Reference
-
-
-### Templates
-
-TDB
 
 ### Tools and Technologies
 
@@ -30,9 +23,9 @@ Included are:
 * Jupyter
 * CustomVision.ai
 * Scikit-learn
-* CNTK
+* PyTorch
 * TensorFlow
-* Deep Learning Virtual Machine
+* VMs and/or Docker
 
 ### Data
 

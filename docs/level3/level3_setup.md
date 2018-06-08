@@ -1,6 +1,6 @@
 # Setup
 
-You'll be doing most thing locally in this Advanced Challenge.
+You'll be doing most things locally in this Advanced Challenge.
 
 ## Getting your Environment Set Up
 
@@ -42,13 +42,6 @@ Raspberry Pi v3, Nvidia TX-1 or Nvidia TX-2.  If you are feeling adventurous ge
 	 3. Update your GPU drivers
 	 4. Install Cuda & Cudnn
   4. Install your packages
-    1. Open an admin cmd prompt
-      1. Pip install `plotly` (most other packages come with Anaconda)
-	  2. Pip install the latest 3.6 GPU-1bit-SGD (if you got a GPU otherwise install CPU version)
-	    1. [CNTK 2.2](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-python?tabs=cntkpy22)
-	      2. As of today this is: `pip install https://cntk.ai/PythonWheel/GPU-1bit-SGD/cntk-2.2-cp36-cp36m-win_amd64.whl`
-  5. Install [Azure ML Workbench](https://docs.microsoft.com/en-us/azure/machine-learning/preview/).
-
 
 Good Idea:
 

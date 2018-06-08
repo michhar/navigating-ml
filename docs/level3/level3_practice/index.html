@@ -442,22 +442,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#working-with-cntk-locally-dlvm-is-also-ok" title="Working with CNTK Locally (DLVM is also OK)" class="md-nav__link">
-    Working with CNTK Locally (DLVM is also OK)
+  <a href="#working-with-pytorch-locally-vm-in-cloud-ok" title="Working with PyTorch Locally (VM in cloud ok)" class="md-nav__link">
+    Working with PyTorch Locally (VM in cloud ok)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#azure-ml-workbench" title="Azure ML Workbench" class="md-nav__link">
-    Azure ML Workbench
+  <a href="#want-more" title="Want More?" class="md-nav__link">
+    Want More?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#taste-of-tensorflow" title="Taste of TensorFlow" class="md-nav__link">
-    Taste of TensorFlow
+  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
+    TensorFlow
   </a>
   
 </li>
@@ -470,8 +470,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#places-to-go-for-help" title="Places to go for Help" class="md-nav__link">
-    Places to go for Help
+  <a href="#additional-help" title="Additional Help" class="md-nav__link">
+    Additional Help
   </a>
   
 </li>
@@ -516,22 +516,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#working-with-cntk-locally-dlvm-is-also-ok" title="Working with CNTK Locally (DLVM is also OK)" class="md-nav__link">
-    Working with CNTK Locally (DLVM is also OK)
+  <a href="#working-with-pytorch-locally-vm-in-cloud-ok" title="Working with PyTorch Locally (VM in cloud ok)" class="md-nav__link">
+    Working with PyTorch Locally (VM in cloud ok)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#azure-ml-workbench" title="Azure ML Workbench" class="md-nav__link">
-    Azure ML Workbench
+  <a href="#want-more" title="Want More?" class="md-nav__link">
+    Want More?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#taste-of-tensorflow" title="Taste of TensorFlow" class="md-nav__link">
-    Taste of TensorFlow
+  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
+    TensorFlow
   </a>
   
 </li>
@@ -544,8 +544,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#places-to-go-for-help" title="Places to go for Help" class="md-nav__link">
-    Places to go for Help
+  <a href="#additional-help" title="Additional Help" class="md-nav__link">
+    Additional Help
   </a>
   
 </li>
@@ -577,24 +577,18 @@
 <li>Learning this will hopefully help you understand the concept of “Data Packing”. </li>
 <li>This is not the simplest way, but it forces greater learning.</li>
 </ul>
-<h2 id="working-with-cntk-locally-dlvm-is-also-ok">Working with CNTK Locally (DLVM is also OK)</h2>
-<p><strong>Use the CNTK Manual as reference: <a href="https://github.com/Microsoft/CNTK/tree/master/Manual">CNTK Manual on GitHub</a></strong></p>
-<p>This is focusing for the Energy/Manufacturing Vertical.</p>
+<h2 id="working-with-pytorch-locally-vm-in-cloud-ok">Working with PyTorch Locally (VM in cloud ok)</h2>
 <ol>
-<li>Understand Label Files &amp; Mini Batch Sources:<ol>
-<li>CTF &amp; Image: <a href="http://dacrook.com/complex-neural-network-data-modelling-with-cntk/">http://dacrook.com/complex-neural-network-data-modelling-with-cntk/</a></li>
-<li>Sequence: <a href="http://dacrook.com/deep-learning-match-making-with-recurrent-networks/">http://dacrook.com/deep-learning-match-making-with-recurrent-networks/</a></li>
-</ol>
+<li>
+<p>Understand Data Sets</p>
 </li>
-<li>Image Classification:<ol>
-<li>Start w/ CIFAR 10 for image classification using a Jupyter Notebook (use <a href="https://github.com/Microsoft/CNTK/tree/master/Manual">CNTK Manual on GitHub</a>)<ol>
+<li>
+<p>Image Classification:</p>
+<ol>
+<li>Start with a Cifar-10 Jupyter notebook<ol>
 <li>Get Data from here: <a href="https://www.kaggle.com/c/cifar-10/data">CIFAR-10 data</a></li>
-<li>Start w/ a CTF deserializer<ol>
-<li>Use Image library w/ numpy and CNTK's io libraries to write a ctf file containing the data in flattened arrays</li>
-</ol>
-</li>
 <li>Use the Image deserializer next<ol>
-<li>Try out a few transforms.  You will have to read the CNTK docs pages for transforms. <a href="https://cntk.ai/pythondocs/cntk.io.transforms.html">CNTK transforms</a></li>
+<li>Try out some data augmentation</li>
 </ol>
 </li>
 <li>Make sure you also create an example for <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference</a>.</li>
@@ -608,44 +602,23 @@
 </ol>
 </li>
 </ol>
-<h2 id="azure-ml-workbench">Azure ML Workbench</h2>
+<h2 id="want-more">Want More?</h2>
 <ol>
-<li>
-<p>Do the same thing w/ Azure ML Workbench</p>
-<ol>
-<li>Set up<ol>
-<li>Create a workspace</li>
-<li>Create a git repo in VSTS</li>
-<li>Create a project linked to the repo</li>
-<li>Re-write as a single training script and execute via docker locally.</li>
-<li>Add in Azure ML Workbench’s logging apis.</li>
-<li>Try out a Convolutional Network</li>
-<li>Use the Azure ML Workbench Operationalization CLI to create a container.<ol>
-<li>Create a local container</li>
-<li>Pull the local container and test locally</li>
-<li>Deploy a real time container to Azure Container Services</li>
-<li>Test against this.</li>
-<li>TIP:  You will either send the image via the body as an array of float32 or as a byte64 encoded string.</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>Do the same exact exercise with CoCo: <a href="http://cocodataset.org/#home">http://cocodataset.org/#home</a></p>
-<ol>
+<li>Do the same exact exercise with CoCo: <a href="http://cocodataset.org/#home">http://cocodataset.org/#home</a><ol>
 <li>Why do you think you get bad results?</li>
 </ol>
 </li>
-<li>Use the Out of Box Faster-RCNN solution w/ CNTK and CoCo</li>
+<li>Use the Out of Box Faster-RCNN solution</li>
 </ol>
-<h2 id="taste-of-tensorflow">Taste of TensorFlow</h2>
+<h2 id="tensorflow">TensorFlow</h2>
 <p>Train a CNN on the CIFAR-10 dataset as in this <a href="https://www.tensorflow.org/tutorials/deep_cnn">Tutorial</a>.</p>
 <h2 id="key-learnings">Key Learnings</h2>
-<p>Object detection v.s. Classification, Data Prep and pipelines.</p>
-<h2 id="places-to-go-for-help">Places to go for Help</h2>
-<p><strong>If you run into trouble, email CNTK Help <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;">&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;</a> and also create a stack overflow with tag <code>cntk</code>, then send the link to SO to CNTK Help.  Alternatively, create an Issue on the CNTK GitHub repo.</strong></p>
+<h2 id="additional-help">Additional Help</h2>
+<ul>
+<li>PyTorch forums - <a href="https://discuss.pytorch.org/">Ref</a></li>
+<li>StackOverflow with <code>pytorch</code> or <code>tensorflow</code> tag</li>
+<li>If using CNTK, you may send your questions to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;">&#99;&#110;&#116;&#107;&#104;&#101;&#108;&#112;&#64;&#109;&#105;&#99;&#114;&#111;&#115;&#111;&#102;&#116;&#46;&#99;&#111;&#109;</a></li>
+</ul>
                 
                   
                 
