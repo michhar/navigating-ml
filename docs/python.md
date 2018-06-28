@@ -1,27 +1,23 @@
-# Prerequisites
+# Learning Python for Data Science
 
-1.  Python 3 (Rocks!)
+## Just Starting Out
 
-(2. Algebra, calculus and some basic ML knowledge won't hurt)
+**Your First Python Video Course**
 
-## Python
+Intro to Python for Data Science from DataCamp (Time:  ~4 hours; Format - videos and exercises)
 
-### Just Starting Out
-
-**Your first Python course**
-
-[Intro to Python for Data Science from DataCamp](https://www.datacamp.com/courses/intro-to-python-for-data-science) (Time:  ~4 hours)
+[Course](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
   * Python basics
   * Lists
   * Functions and packages
   * Numpy
 
-**Your second Python course**
+**An Introductory Written Tutorial**
 
 A nice course from Software Carpentry on basics of Python programming with a data analysis twist.
 
-[Course](http://swcarpentry.github.io/python-novice-inflammation/) (Time:  ~8 hours)
+[Course](http://swcarpentry.github.io/python-novice-inflammation/) (Time:  ~8 hours; Format:  written tutorial and exercises)
 
 1. Analyzing Patient Data
 2. Repeating Actions with Loops
@@ -34,17 +30,26 @@ A nice course from Software Carpentry on basics of Python programming with a dat
 9. Debugging
 10. Command-Line Programs
 
-**Learn about Jupyter**
 
-[Nice, short video tour of Jupyter Notebooks](https://www.youtube.com/watch?v=jZ952vChhuI)
+**Your Second Python Video Course**
 
-  * Go to [Azure Notebooks](https://notebooks.azure.com) to check out Jupyter notebooks live and try to follow along with the video.
+An entertaining set of videos for the new Python dev with live coding with which to follow along (Time:  ~7hrs; Format - Video/live coding)
+
+[Videos](https://www.youtube.com/playlist?list=PLwyVx3OgslBW6nIh-g62ZxD5LwmAsG4e5) for Python Programming Tutorial for the Absolute Beginner (6 Videos)
+
+**All New Data Scientists Should Learn about Jupyter**
+
+Nice, short video tour of Jupyter Notebooks (Format:  Video)
+
+[Course](https://www.youtube.com/watch?v=jZ952vChhuI)
+
+  * EXERCISE: Go to [Azure Notebooks](https://notebooks.azure.com) to check out Jupyter notebooks live and try to follow along with the video.
 
 **Programming and Plotting with Python**
 
 Basics with plotting theme throughout and nice exercies from Software Carpentry.
 
-[Course](http://swcarpentry.github.io/python-novice-gapminder/) (Time: ~8 hours)
+[Course](http://swcarpentry.github.io/python-novice-gapminder/) (Time: ~8 hours; Format:  written tutorial and exercises)
 
 1. Running and Quitting
 2. Variables and Assignment
@@ -62,7 +67,7 @@ Basics with plotting theme throughout and nice exercies from Software Carpentry.
 17. Conditionals
 18. Programming Style
 
-### Intermediate
+## Intermediate
 
 **The Data Science Handbook**
 
@@ -72,7 +77,9 @@ By Jake VanderPlas, this handbook outlines everything you need to know with cool
 
 **Python intro and data sciencey tools - go through in order or skip around**
 
-[Python for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure](https://notebooks.azure.com/rheartpython/libraries/PythonDS101) - Note, solutions to exercises are in the last notebook. (Time: ~15 hours)
+Python for Data Science and Intro to Jupyter Notebooks and on Jupyter Notebooks on Azure (Time:  ~15 hrs; Format - written tutorial and exercises)
+
+[Jupyter Notebooks](https://notebooks.azure.com/rheartpython/libraries/PythonDS101) - Note, solutions to exercises are in the last notebook.
 
 * Basics
 * Data Structures
@@ -98,11 +105,11 @@ For a more in-depth Python course, this is a good one on edX out of UC San Diego
 * Basic statistical analysis and machine learning methods
 * How to effectively visualize results
 
-### Numerical Python, a.k.a. using the `numpy` package, is essential for the data scientist
+**Numerical Python, a.k.a. using the `numpy` package, is essential for the data scientist**
 
 See my [python/numpy.html](python/numpy) article for a detailed list of `numpy` resources.
 
-### Advanced
+## Advanced
 
 **Some books really worth checking out**
 
