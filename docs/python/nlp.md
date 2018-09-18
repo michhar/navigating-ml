@@ -1,6 +1,11 @@
-# Natural Language Processing Resources
+# Natural Language Processing (NLP) Resources
 
-This is a set of materials to learn and practice NLP.  Can also be used as general reference, such as the list of important libraries and links to course materials.  (Work In Progress)
+This is a set of materials to learn and practice NLP.  This list may also be used as general reference to go back to for a refresher.
+
+## Courses and Course Materials (Start Here)
+
+1.  Recurrent Neural Networks by Andrew Ng [Course Youtube Material](https://www.youtube.com/playlist?list=PLBAGcD3siRDittPwQDGIIAWkjz-RucAc7) -- **Highly recommended to start here if you've never done NLP**
+2.  Stanford Deep Learning for NLP (cs224n) [Course Material](http://web.stanford.edu/class/cs224n/syllabus.html)
 
 ## Tutorials
 
@@ -12,10 +17,6 @@ This is a set of materials to learn and practice NLP.  Can also be used as gener
 | Word2Vec | Vector Representations of Words from TensorFlow official Docs | [Tutorial](https://www.tensorflow.org/tutorials/word2vec) |
 | Text categorization | Analysing a collection of text documents from Scikit-Learn official Docs | [Tutorial](http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html) |
 | Sequence to Sequence | A tutorial on how to summarize text and generate features using deep learning with Keras and TensorFlow | [Tutorial](https://hackernoon.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8) |
-
-## Courses and Course Materials
-
-1.  Stanford Deep Learning for NLP (cs224n) [Course Material](http://web.stanford.edu/class/cs224n/syllabus.html)
 
 ## Examples - Try Me!
 
