@@ -1,6 +1,6 @@
 # Level 2 Challenge
 
-In this intermediate Challenge, you'll apply what you've learned in the edX Deep Learning Explained course, leveraging the Jupyter notebooks you became familiar with in the course.  You'll start exploring the CIFAR-10 dataset along with other datsets in PyTorch and TensorFlow.
+In this intermediate Challenge, you'll apply what you've learned in the Level 2 Preparation section, leveraging the Jupyter notebooks you became familiar with in the course.  You'll start exploring the CIFAR-10 dataset along with other datsets in PyTorch and TensorFlow as extra credit.
 
 ## Adapt Deep Learning Code
 
@@ -8,11 +8,9 @@ In this intermediate Challenge, you'll apply what you've learned in the edX Deep
 
 Instructions to practice image classification with PyTorch
 
-1. Get the CIFAR-10 dataset
-    - Run the download script: 
-2. Now let's begin working with some code.  Log into the Jupyter
-  - In a code cell `! git clone ___`
-  - Open this notebook:
+2. Let's dive into some code.  Log into the Jupyter (on your DSVM or locally)
+  - In a code cell `! git clone https://github.com/rasbt/deep-learning-book.git`
+  - Open this notebook:  `/code/model_zoo/pytorch_ipynb/multilayer-perceptron.ipynb`
   - Modify the notebook to work with the CIFAR-10
     * Remember you're working with RGB images instead of grayscale
   - What is the resulting average test error?  Why is this value so different from the MNIST result?  What hyperparameters can you modify to fix this?
@@ -26,10 +24,11 @@ Instructions to practice image classification with PyTorch
 
 Here, for ease of use and speed we'll use Transfer Learning as well.
 
-1. ___
+1. Take [this](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) tutorial to work with Inception v3 as the base model (model [choices](https://pytorch.org/docs/stable/torchvision/models.html)) - write code to load the model, count the features going in to a fully connected layer (last layer of the CNN) and reset it to a Linear layer to thus unfreeze the layer for transfer learning)
+2.  Using the CIFAR-10 dataset from PyTorch `datasets`, train an Inception v3 model to classify trucks and automobiles (just a two-class classifier from the 10 classes in CIFAR).
 
 
-## TensorFlow
+## TensorFlow (Extra Credit)
 
 Easy:  Run this TensorFlow script to classify a new image (this uses a pretrained Inception V3 model):
 
@@ -51,4 +50,3 @@ Check out Rodrigo Benenson's [blog](http://rodrigob.github.io/are_we_there_yet/b
 
 * PyTorch forums - [Ref](https://discuss.pytorch.org/)
 * StackOverflow with `pytorch` or `tensorflow` tag
-* If using CNTK, you may send your questions to cntkhelp@microsoft.com
