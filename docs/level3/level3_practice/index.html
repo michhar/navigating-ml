@@ -442,8 +442,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#working-with-pytorch-locally-vm-in-cloud-ok" title="Working with PyTorch Locally (VM in cloud ok)" class="md-nav__link">
-    Working with PyTorch Locally (VM in cloud ok)
+  <a href="#working-with-pytorch-locally-or-on-a-dsvmvm" title="Working with PyTorch (locally or on a DSVM/VM)" class="md-nav__link">
+    Working with PyTorch (locally or on a DSVM/VM)
   </a>
   
 </li>
@@ -516,8 +516,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#working-with-pytorch-locally-vm-in-cloud-ok" title="Working with PyTorch Locally (VM in cloud ok)" class="md-nav__link">
-    Working with PyTorch Locally (VM in cloud ok)
+  <a href="#working-with-pytorch-locally-or-on-a-dsvmvm" title="Working with PyTorch (locally or on a DSVM/VM)" class="md-nav__link">
+    Working with PyTorch (locally or on a DSVM/VM)
   </a>
   
 </li>
@@ -570,26 +570,23 @@
 <blockquote>
 <p>This problem set is adapted from a Custom ML Resources document written by a colleague.</p>
 </blockquote>
-<p><em>Why do this task</em>:  Usually, beginner tutorials around ML and neural networks begin with classifying hand-written digits from the MNIST dataset.  We are going to begin with something more challenging and much of it will be dealing with data and data formats.  This is to simulate how life will likely be in real life and it's hoped you will learn how to create machine learning models more effectively and quickly in the real world. The reason to work through the following is:</p>
+<p><em>Why do this task</em>:  Usually, beginner tutorials around ML and neural networks begin with classifying hand-written digits from the MNIST dataset or CIFAR-10.  We are going to begin with something more challenging and much of it will be dealing with data and data formats.  This is to simulate how life will likely be in real life and it's hoped you will learn how to create machine learning models more effectively and quickly in the real world. The reason to work through the following is:</p>
 <ul>
 <li>It will force you to read and learn from scratch.  You will learn the different label file formats, deserializers and how things compute. </li>
-<li>For energy/manufacturing you will get .png or .jpg or .tiff files and not stuff already in the perfect format. </li>
+<li>For for example, in energy/manufacturing you will get .png or .jpg or .tiff files and not stuff already in the perfect format. </li>
 <li>Learning this will hopefully help you understand the concept of “Data Packing”. </li>
 <li>This is not the simplest way, but it forces greater learning.</li>
 </ul>
-<h2 id="working-with-pytorch-locally-vm-in-cloud-ok">Working with PyTorch Locally (VM in cloud ok)</h2>
+<h2 id="working-with-pytorch-locally-or-on-a-dsvmvm">Working with PyTorch (locally or on a DSVM/VM)</h2>
 <ol>
 <li>
-<p>Understand Data Sets</p>
-</li>
-<li>
-<p>Image Classification:</p>
+<p>Image Classification</p>
 <ol>
-<li>Start with a Cifar-10 Jupyter notebook<ol>
-<li>Get Data from here: <a href="https://www.kaggle.com/c/cifar-10/data">CIFAR-10 data</a></li>
-<li>Use the Image deserializer next<ol>
-<li>Try out some data augmentation</li>
-</ol>
+<li>Start with the Hymenoptera insect raw data<ol>
+<li>Get Data from here: <a href="https://download.pytorch.org/tutorial/hymenoptera_data.zip">click to download</a></li>
+<li>Use transforms modules and other libraries to:<ul>
+<li>Try out some data augmentation - (random vertical flip and blur the images)</li>
+</ul>
 </li>
 <li>Make sure you also create an example for <a href="https://en.wikipedia.org/wiki/Statistical_inference">inference</a>.</li>
 <li>Use Scikit-learns’s confusion matrix and classification_report to generate metrics.<ol>
