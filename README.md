@@ -1,3 +1,5 @@
+Moved to:  https://rheartpython.github.io/navigating-ml
+
 ## Welcome to Navigating ML
 
 For the rendered site, go [here](https://michhar.github.io/navigating-ml).
